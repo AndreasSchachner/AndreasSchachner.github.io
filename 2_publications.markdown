@@ -4,4 +4,4 @@ title: Publications
 permalink: /publications/
 ---
 
-My publications can be found on [Inspirehep](https://inspirehep.net/authors/1635387?ui-citation-summary=true).
+My publications can be found on [iNSPIRE HEP](https://inspirehep.net/authors/1635387?ui-citation-summary=true).
