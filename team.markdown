@@ -15,6 +15,6 @@ I am very happy to be collaborating with:
 
 
 
-
+{% include note.html content="If you like to join our team or simply talk about physics, please do not hesitate to reach out!" %}
 
 
