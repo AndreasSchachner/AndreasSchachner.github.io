@@ -5,7 +5,7 @@ permalink: /bio/
 ---
 
 
-## **Education:**
+### Education
 
 - **Since 10/2019**: PhD student in Applied Mathematics and Theoretical Physics, DAMTP, University of Cambridge (Supervisor: Prof. Fernando Quevedo)
 - **01/2019-09/2019**: Research visits at the University of Wisconsin-Madison (Prof. Gary Shiu), Ruprecht Karl University in Heidelberg (Prof. Arthur Hebecker) and ICTP Trieste (Prof. Fernando Quevedo)
