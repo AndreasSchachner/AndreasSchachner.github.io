@@ -13,6 +13,7 @@ permalink: /bio/
 - **10/2016-07/2017**: Part III of the Mathematical Tripos (Master of Advanced Study in Mathematics) at the University of Cambridge
 - **10/2012-8/2015**: Bachelor's degree in Physics at the Ruprecht Karl University in Heidelberg (Thesis supervisor: Prof. Jürgen Berges)
 
+&nbsp;
 
 
 ### Prizes, awards and scholarships
@@ -30,3 +31,6 @@ permalink: /bio/
 - **10/2017**: E.M. Burnett Prize for excellent results in Part III of the Mathematical Tripos
 
 - **03/2013 - 12/2018**: General scholarship of the GASF supporting the education of exceptional academic talents who are expected to contribute outstandingly to society 
+
+&nbsp;
+
