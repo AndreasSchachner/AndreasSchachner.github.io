@@ -13,7 +13,7 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
     * e-Print: [1612.03038 [cond-mat.quant-gas]](https://arxiv.org/abs/1612.03038)
     * DOI: [10.1103/PhysRevA.95.053605](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.95.053605)
 
-&nbsp;
+    &nbsp;
 
 2. "**Large Field Ranges from Aligned and Misaligned Winding**" in collaboration with Arthur Hebecker and Daniel Junghans (U. Heidelberg, ITP)
 
@@ -21,7 +21,7 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
     * e-Print: [1812.05626 [hep-th]](https://arxiv.org/abs/1812.05626)
     * DOI: [10.1007/JHEP03(2019)192](https://link.springer.com/article/10.1007/JHEP03(2019)192)
 
-&nbsp;
+    &nbsp;
 
 2. "**Large Field Ranges from Aligned and Misaligned Winding**" in collaboration with Arthur Hebecker and Daniel Junghans (U. Heidelberg, ITP)
 

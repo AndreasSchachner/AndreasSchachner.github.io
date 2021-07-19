@@ -22,6 +22,8 @@ permalink: /bio/
 
 - **Since 10/2019**: STFC studentship awarded by DAMTP
 
+- **03/2021**: Smith-Knight and Rayleigh-Knight Prize for my essay on quantum corrections in string theory compactifications
+
 - **10/2019 - 02/2020**: Helen Stone scholarship awarded by the Cambridge Trust
 
 - **10/2019**: Otto-Haxel prize for ``an outstanding theoretical Master’s thesis'' awarded by the Department of Physics and Astronomy in Heidelberg once per year for the best theoretical and experimental work
