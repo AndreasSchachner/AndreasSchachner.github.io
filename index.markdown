@@ -7,8 +7,8 @@ layout: home
 
 <img style="float: right;" src="{{site.url}}images/profile01.JPG" width="30%" height="auto">
 
-I am a PhD in Theoretical Physics focussing on string theory and its compactifications. Currently, I am working on constructing local effective actions from string theory including higher derivative and string loop corrections in 10 dimensions. Further, I am interested in understanding the systematics of Calabi-Yau orientifold compactifications, in particular an SL(2,Z) invariant framework. This includes the derivation of novel N=1 quantum corrections to the 4-dimensional effective action. 
+I am a PhD in Theoretical Physics focussing on string theory and its compactifications. My research interests include in particular string phenomenology, quantum gravity, cosmology and non-perturbative aspects of QFT. I am also interested in applications of machine learning to fundamental physics.
 
-I am also interested in applications of machine learning to fundamental physics.
+On this webpage, you find more detailed information about my research projects, activities and interests.
 
 
