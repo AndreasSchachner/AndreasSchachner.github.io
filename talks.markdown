@@ -16,3 +16,7 @@ permalink: /talks/
 
 * Heidelberg 16.12.2019
 
+### Outreach
+
+* Blog post for the "Accelerate Programme for Scientific Discovery" which can be found under the following link: [acceleratescience](https://acceleratescience.github.io/blog/) 
+
