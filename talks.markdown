@@ -16,7 +16,16 @@ permalink: /talks/
 
 * Heidelberg 16.12.2019
 
+### Conferences
+
+| Date        | Title        | Type |   Location   |
+|:-------------|:------------------|:------|:------|
+| 02.07.2021       | Bla  | Seminar talk | Bologna |
+| out of stock | good and plenty   | nice  |    |
+| ok           | good `oreos`      | hmm   |     |
+| ok           | good `zoute` drop | yumm  |    |
+
 ### Outreach
 
-* Blog post for the "Accelerate Programme for Scientific Discovery" which can be found under the following link: [acceleratescience](https://acceleratescience.github.io/blog/) 
+* Blog post for the "Accelerate Programme for Scientific Discovery" which can be found under the following link: [acceleratescience](https://acceleratescience.github.io//2021/07/08/Andreas-Schachner-ML-for-string-theory) 
 
