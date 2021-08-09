@@ -21,9 +21,9 @@ permalink: /talks/
 | Date        | Title        | Type |   Location   |
 |:-------------|:------------------|:------|:------|
 | 02.07.2021       | Bla  | Seminar talk | Bologna |
-| out of stock | good and plenty   | nice  |    |
-| ok           | good `oreos`      | hmm   |     |
-| ok           | good `zoute` drop | yumm  |    |
+|  |    |   |    |
+|           |     |   |     |
+|           |  |   |    |
 
 ### Outreach
 
