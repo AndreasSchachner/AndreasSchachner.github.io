@@ -30,7 +30,7 @@ twitter_username: " "
 collections:
   research_avenues:
     output: true
-  talks:
+  talklist:
     output: true
 
 

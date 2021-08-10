@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Talkslist
-permalink: /talks/
-collection: talks
+permalink: /talklist/
 ---
 
 ### TEST:
