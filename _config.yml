@@ -54,12 +54,12 @@ defaults:
     values:
       mathjax: true
     defaults:
-- scope:
-    path: 'timeline'
-    type: steps
-  values:
-    title:
-    date: 2016-09-01 00:00:00 -0700
+  - scope:
+      path: 'timeline'
+      type: steps
+    values:
+      title:
+      date: 2016-09-01 00:00:00 -0700
   
 
 # Exclude from processing.
