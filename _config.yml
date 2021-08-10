@@ -30,6 +30,15 @@ twitter_username: " "
 collections:
   research_avenues:
     output: true
+  posts:
+    title: Posts
+    output: true
+  steps:
+    title: Steps
+    output: false
+  uploads:
+    title: Uploads
+    output: true
 
 # Build settings
 theme: minima
@@ -47,6 +56,13 @@ defaults:
       type: posts
     values:
       mathjax: true
+    defaults:
+- scope:
+    path: 'timeline.markdown'
+    type: steps
+  values:
+    title:
+    date: 2016-09-01 00:00:00 -0700
   
 
 # Exclude from processing.
