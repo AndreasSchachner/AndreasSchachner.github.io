@@ -58,7 +58,7 @@ defaults:
       mathjax: true
     defaults:
 - scope:
-    path: 'timeline.markdown'
+    path: 'timeline'
     type: steps
   values:
     title:
