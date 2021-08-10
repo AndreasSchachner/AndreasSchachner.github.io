@@ -32,7 +32,7 @@ collections:
     output: true
   posts:
     title: Posts
-    output: true
+    output: false
   steps:
     title: Steps
     output: false
