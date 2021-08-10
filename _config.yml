@@ -30,15 +30,7 @@ twitter_username: " "
 collections:
   research_avenues:
     output: true
-  posts:
-    title: Posts
-    output: false
-  steps:
-    title: Steps
-    output: false
-  uploads:
-    title: Uploads
-    output: true
+
 
 # Build settings
 theme: minima
@@ -54,17 +46,9 @@ defaults:
   -
     scope:
       path: ""
-      type: pages
+      type: posts
     values:
       mathjax: true
-      layout:
-  -
-    scope:
-     path: ""
-     type: steps
-    values:
-     title:
-     date: 2016-09-01 00:00:00 -0700
   
 
 # Exclude from processing.
