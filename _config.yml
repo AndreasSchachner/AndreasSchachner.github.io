@@ -57,7 +57,7 @@ defaults:
       mathjax: true
   -
     scope:
-      path: "timeline"
+      path: "timestamps"
       type: pages
     values:
         title:
