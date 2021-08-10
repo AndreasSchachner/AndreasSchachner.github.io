@@ -32,6 +32,9 @@ collections:
     output: true
   timestamps:
     output: false
+  uploads:
+    title: Uploads
+    output: true
 
 
 # Build settings
