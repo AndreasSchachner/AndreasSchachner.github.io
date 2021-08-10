@@ -4,7 +4,8 @@ title: Timeline
 permalink: /timeline/
 ---
 
-<!DOCTYPE html>
+### TEST:
+
 <html>
 <head>
     <title>Vertical Timeline</title>
