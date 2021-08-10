@@ -49,13 +49,6 @@ defaults:
       type: posts
     values:
       mathjax: true
-  -
-    scope:
-      path: "timestamps"
-      type: pages
-    values:
-        title:
-        date: 2016-09-01 00:00:00 -0700
   
 
 # Exclude from processing.
