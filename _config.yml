@@ -30,9 +30,15 @@ twitter_username: " "
 collections:
   research_avenues:
     output: true
+  posts:
+    title: Posts
+    output: true
   steps:
     title: Steps
     output: false
+  uploads:
+    title: Uploads
+    output: true
 
 # Build settings
 theme: minima
