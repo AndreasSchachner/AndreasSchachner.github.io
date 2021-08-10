@@ -49,6 +49,12 @@ defaults:
       type: posts
     values:
       mathjax: true
+  -
+    scope:
+      path: "timeline"
+      type: pages
+    values:
+      mathjax: false
   
 
 # Exclude from processing.
