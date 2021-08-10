@@ -30,6 +30,8 @@ twitter_username: " "
 collections:
   research_avenues:
     output: true
+  timestamps:
+    output: false
 
 
 # Build settings
