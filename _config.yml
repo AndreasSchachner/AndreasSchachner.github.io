@@ -51,15 +51,17 @@ kramdown:
 # Defaults
 defaults:
   # _posts
-  - scope:
+  -
+    scope:
       path: ""
       type: posts
     values:
       mathjax: true
-  - scope:
+  -
+    scope:
      path: "timeline"
      type: steps
-   values:
+    values:
      title:
      date: 2016-09-01 00:00:00 -0700
   
