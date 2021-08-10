@@ -31,7 +31,6 @@ collections:
   research_avenues:
     output: true
 
-
 # Build settings
 theme: minima
 plugins:
