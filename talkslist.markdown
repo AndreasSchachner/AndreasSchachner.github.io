@@ -6,7 +6,7 @@ permalink: /talklist/
 
 ### TEST:
 
-{% for post in site.posts %}
+{% for post in site.talklist %}
 <article>
         <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
         <time datetime="{{ post.date | date: "%Y-%m-%d" }}">
