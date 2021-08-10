@@ -21,9 +21,4 @@ permalink: /timeline/
     </div>
 </div>
 {% endfor %}
-<div class="last-item">
-    <i class="vertical-line"></i>
-    
-</div>
-</div>
 
