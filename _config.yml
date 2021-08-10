@@ -54,12 +54,13 @@ defaults:
   -
     scope:
       path: ""
-      type: posts
+      type: pages
     values:
       mathjax: true
+      layout:
   -
     scope:
-     path: "timeline"
+     path: ""
      type: steps
     values:
      title:
