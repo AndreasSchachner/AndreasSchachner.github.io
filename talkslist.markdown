@@ -7,12 +7,13 @@ collection: talks
 
 ### TEST:
 
-{% for post in site.talks %}
-  {% assign currentdate = post.date | date: "%Y" %}
-  {% if currentdate != date %}
-    <li id="y{{currentdate}}">{{ currentdate }}</li>
-    {% assign date = currentdate %} 
-  {% endif %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for post in site.posts %}
+<article>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">
+                {{ post.date | date_to_string }}
+        </time>
+        {{ post.content }}
+</article>
 {% endfor %}
 
