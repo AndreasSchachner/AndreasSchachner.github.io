@@ -12,8 +12,10 @@ permalink: /talklist/
      {% if currentdate != date %}
         <br>
         <br>
-        <hr size="5" noshade color="#3498DB">
         <br>
+        <div class='hr'>
+            <span class='hr-title'><h1><span>{{ post.date | date: '%Y' }}</span></h1></span>
+        </div>
         <h1><span>{{ post.date | date: '%Y' }}</span></h1>
         <hr>
         {% assign date = currentdate %} 
