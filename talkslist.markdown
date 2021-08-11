@@ -13,9 +13,6 @@ permalink: /talklist/
         <br>
         <br>
         <br>
-        <div class='hr'>
-            <span class='hr-title'><h1><span>{{ post.date | date: '%Y' }}</span></h1></span>
-        </div>
         <h1><span>{{ post.date | date: '%Y' }}</span></h1>
         <hr>
         {% assign date = currentdate %} 
@@ -27,7 +24,7 @@ permalink: /talklist/
           <a href="#">4 commetns</a>
         </span>-->
       </p>
-      <h4><a href="{{ post.url }}">{{ post.title }} </a></h4>
+      <h5><a href="{{ post.url }}">{{ post.title }} </a></h5>
       <span>{{post.date | date: "%B %d, %Y" }}</span>
       <span>
         at

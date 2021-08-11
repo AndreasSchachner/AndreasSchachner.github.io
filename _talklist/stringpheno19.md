@@ -5,6 +5,8 @@ type: post
 place: CERN
 description: 
 date: 2019-06-10
+excerpt:
+  In this talk ....
 ---
 
 

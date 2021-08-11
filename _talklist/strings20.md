@@ -5,6 +5,8 @@ type: post
 place: Somewhere else
 description: 
 date: 2020-06-15
+excerpt:
+  In this talk ....
 ---
 
 

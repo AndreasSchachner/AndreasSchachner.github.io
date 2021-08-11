@@ -5,6 +5,8 @@ type: post
 place: Northeastern
 description: 
 date: 2020-06-10
+excerpt:
+  In this talk ....
 ---
 
 
