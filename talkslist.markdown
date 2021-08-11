@@ -24,7 +24,7 @@ permalink: /talklist/
           <a href="#">4 commetns</a>
         </span>-->
       </p>
-      <h5><a href="{{ post.url }}">{{ post.title }} </a></h5>
+      <h4><a href="{{ post.url }}">{{ post.title }} </a></h4>
       <span>{{post.date | date: "%B %d, %Y" }}</span>
       <span>
         at
@@ -46,6 +46,7 @@ permalink: /talklist/
         </div>
       {% else %}
         <p>{{post.excerpt}}</p>
+        <a class="button small" href="{{post.paperurl}}">Based on</a>
       {% endif %}
       
       <div class='spacing'></div>

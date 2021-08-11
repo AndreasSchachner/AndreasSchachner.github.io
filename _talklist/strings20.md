@@ -5,6 +5,7 @@ type: post
 place: Somewhere else
 description: 
 date: 2020-06-15
+paperurl: https://inspirehep.net/literature/1869723
 excerpt:
   In this talk ....
 ---
