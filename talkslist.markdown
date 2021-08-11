@@ -33,7 +33,7 @@ permalink: /talklist/
   {% endfor %}
 </ul>
 
-{%  for post in site.talklist %}
+{%  for post in site.talklist reversed %}
   <h1><span>{{ post.date | date: '%Y' }}</span></h1>
   <div class='big mod modBlogPost no_bg'>
     <div class='content'>
