@@ -10,9 +10,9 @@ permalink: /talklist/
     
      {% assign currentdate = post.date | date: "%Y" %}
      {% if currentdate != date %}
+        <hr size="30" noshade>
+        <h1><span>{{ post.date | date: '%Y' }}</span></h1>
         <hr>
-        <hr>
-        <h3><span><a {{ post.date | date: '%Y' }}</a></span></h3>
         {% assign date = currentdate %} 
      {% endif %}
 
@@ -22,12 +22,12 @@ permalink: /talklist/
           <a href="#">4 commetns</a>
         </span>-->
       </p>
-      <h4><a href="{{ post.url }}">{{ post.title }} </a></h4>
+      <span><h4><a href="{{ post.url }}">{{ post.title }} </a></h4> {{post.date | date: "%B %d, %Y" }}</span>
       <span>{{post.date | date: "%B %d, %Y" }}</span>
       <span>
         at
         {% for cat in post.place %}
-          <a href="#">{{cat}}</a>
+          <span>{{cat}}</span>
           {% unless forloop.last %}
               ,
           {% endunless %}
