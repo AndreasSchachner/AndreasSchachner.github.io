@@ -46,7 +46,10 @@ permalink: /talklist/
         </div>
       {% else %}
         <p>{{post.excerpt}}</p>
-        <a class="button small" href="{{post.paperurl}}">Based on</a>
+        <span>
+        Based on:
+        <a class="button small" href="{{post.paperurl}}">iNSPIRE HEP</a>
+        </span>
       {% endif %}
       
       <div class='spacing'></div>
