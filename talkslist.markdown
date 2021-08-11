@@ -36,6 +36,9 @@ permalink: /talklist/
 {%  for post in site.talklist %}
   <div class='big mod modBlogPost no_bg'>
     <div class='content'>
+    {% unless post.next %}
+    <div class="line"><span>{{ post.date | date: '%Y' }}</span></div>
+    {% else %}
     
       <p class='info'>
        <!-- /
