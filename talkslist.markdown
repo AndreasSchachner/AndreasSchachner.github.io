@@ -22,7 +22,7 @@ permalink: /talklist/
           <a href="#">4 commetns</a>
         </span>-->
       </p>
-      <h1><a href="{{ post.url }}">{{ post.title }} </a></h1>
+      <h1>< href="{{ post.url }}">{{ post.title }} </></h1>
       <span>{{post.date | date: "%B %d, %Y" }}</span>
       <span>
         at
