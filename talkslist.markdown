@@ -39,15 +39,9 @@ permalink: /talklist/
     
       <p class='info'>
         <span>{{post.date | date: "%B %d, %Y" }}</span>
-        /
-        <span>
-          by
-          <a href="">{{post.author}}</a>
-        </span>
-        /
         <span>
           In
-          {% for cat in post.categories %}
+          {% for cat in post.place %}
             <a href="#">{{cat}}</a>
             {% unless forloop.last %}
                 ,

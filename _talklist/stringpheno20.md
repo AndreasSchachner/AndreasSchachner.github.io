@@ -1,7 +1,8 @@
 ---
 title: String Phenomenology 2020
-layout: posts
+layout: page
 type: post
+place: Northeastern
 description: 
 number: 2020
 ---

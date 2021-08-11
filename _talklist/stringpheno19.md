@@ -1,7 +1,8 @@
 ---
 title: String Phenomenology 2019
-layout: posts
+layout: page
 type: post
+place: CERN
 description: 
 year: 2019
 ---
