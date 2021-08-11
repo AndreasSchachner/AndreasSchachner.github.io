@@ -4,44 +4,16 @@ title: Talkslist
 permalink: /talklist/
 ---
 
-### TEST:
-
-{% for post in site.talklist %}
-<article>
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}
-        </time>
-        {{ post.content }}
-</article>
-{% endfor %}
-
-<ul class="posts">
-  <span>Articles</span>
-  {% for post in site.talklist %}
-   <h1><span>{{ post.date | date: '%Y' }}</span></h1>
-    {% unless post.next %}
-    <div class="line"><span>{{ post.date | date: '%Y' }}</span></div>
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
-        <div class="line"><span>{{ post.date | date: '%Y' }}</span></div>
-      {% endif %}
-    {% endunless %}
-
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
 {%  for post in site.talklist reversed %}
   <div class='big mod modBlogPost no_bg'>
     <div class='content'>
     
      {% assign currentdate = post.date | date: "%Y" %}
      {% if currentdate != date %}
-            <li id="y{{currentdate}}">{{ currentdate }}</li>
-            {% assign date = currentdate %} 
+        <hr>
+        <hr>
+        <h3><span>{{ post.date | date: '%Y' }}</span></h3>
+        {% assign date = currentdate %} 
      {% endif %}
 
       <p class='info'>
