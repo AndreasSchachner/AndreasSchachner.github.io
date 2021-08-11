@@ -19,6 +19,7 @@ permalink: /talklist/
 <ul class="posts">
   <span>Articles</span>
   {% for post in site.talklist %}
+   <h1><span>{{ post.date | date: '%Y' }}</span></h1>
     {% unless post.next %}
     <div class="line"><span>{{ post.date | date: '%Y' }}</span></div>
     {% else %}
@@ -34,9 +35,14 @@ permalink: /talklist/
 </ul>
 
 {%  for post in site.talklist reversed %}
-  <h1><span>{{ post.date | date: '%Y' }}</span></h1>
   <div class='big mod modBlogPost no_bg'>
     <div class='content'>
+    
+     {% assign currentdate = post.date | date: "%Y" %}
+     {% if currentdate != date %}
+            <li id="y{{currentdate}}">{{ currentdate }}</li>
+            {% assign date = currentdate %} 
+     {% endif %}
 
       <p class='info'>
        <!-- /
