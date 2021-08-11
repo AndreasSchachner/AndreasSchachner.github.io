@@ -43,10 +43,10 @@ permalink: /talklist/
           <a href="#">4 commetns</a>
         </span>-->
       </p>
-      <h2><a href="{{site.url}}{{site.baseurl}}/{{post.url}}">{{post.title}}</a></h2>
+      <h1><a href="{{ post.url }}">{{ post.title }} </a></h1>
       <span>{{post.date | date: "%B %d, %Y" }}</span>
       <span>
-        In
+        at
         {% for cat in post.place %}
           <a href="#">{{cat}}</a>
           {% unless forloop.last %}
