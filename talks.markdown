@@ -21,6 +21,12 @@ permalink: /talklist/
                 <td>Number</td>
             </tr>
             {% for category in site.categories %}
+                <tr>
+                  <td> {{category}} </td>
+                  <td> Hallo </td>
+                </tr>
+            {% endfor %}
+            {% for category in site.categories %}
               {% assign total = 0 %}
                 {% for post in site.talklist %}
                    {% if post.category == category %}
