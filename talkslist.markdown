@@ -35,9 +35,9 @@ permalink: /talklist/
           {% endunless %}
         {% endfor %}
       </span>
+      <br>
       <span>
-      Title:
-      <a {{post.talktitle}} </a>
+      Title: {{post.talktitle}}
       </span>
       <br>
       {% if post.preview %}
@@ -58,10 +58,10 @@ permalink: /talklist/
       </span>
       <br>
       <span>
-      Format:
-      <a {{post.format}} </a>
+      Format: {{post.format}}
       </span>
       <br>
+      <span>
       Event website:
       <a class="button small" href="{{post.eventurl}}">{{post.title}}</a>
       </span>
