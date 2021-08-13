@@ -11,11 +11,6 @@ permalink: /talklist/
     {%  for post in site.talklist reversed %}
         {% assign currentcat = post.categories %}
         {% if currentcat != date %}
-           <br>
-           <br>
-           <br>
-           <h1><span>{{ post.date | date: '%Y' }}</span></h1>
-           <hr>
            {% assign cat= currentcat %} 
         {% endif %}
         <span>
@@ -48,16 +43,20 @@ permalink: /talklist/
                   <td> Hallo </td>
                 </tr>
             {% endfor %}
-            {% for category in site.categories %}
-              {% assign total = 0 %}
-                {% for post in site.talklist %}
-                   {% if post.category == category %}
-                    {% assign total = total | plus: 1 %}
-                   {% endif %}
+            {%  for post in site.talklist reversed %}
+                {% assign currentcat = post.categories %}
+                {% if currentcat != date %}
+                   {% assign cat= currentcat %} 
+                {% endif %}
+                {% assign total = 0 %}
+                {%  for post in site.talklist reversed %}
+                    {% if post.categories == cat %}
+                        {% assign total = total | plus: 1 %}
+                    {% endif %}
                 {% endfor %}
                 <tr>
-                  <td> {{category}} </td>
-                  <td> <p>total</p> </td>
+                  <td> {{post.categories}} </td>
+                  <td> {{total}} </td>
                 </tr>
               {% endfor %}
         </table>
