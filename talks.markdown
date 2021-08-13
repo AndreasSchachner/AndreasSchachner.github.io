@@ -7,8 +7,7 @@ permalink: /talklist/
 
 
 <div>
-    <h4>Some statistics</h4>
-    <h4>Some statistics</h4>
+    <h4>Overview</h4>
         <table>
             <tr>
                 <td>Format</td>
