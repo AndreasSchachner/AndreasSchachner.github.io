@@ -25,16 +25,10 @@ permalink: /talklist/
         </span>-->
       </p>
       <h4><a href="{{ post.url }}">{{ post.title }} </a></h4>
-      <span>{{post.date | date: "%B %d, %Y" }}</span>
-      <span>
-        at
-        {% for cat in post.place %}
-          <span>{{cat}}</span>
-          {% unless forloop.last %}
-              ,
-          {% endunless %}
-        {% endfor %}
-      </span>
+      <br>
+      <span>Date: {{post.date | date: "%B %d, %Y" }}</span>
+      <br>
+      <span>Location: {{post.place}}</span>
       <br>
       <span>
       Title: {{post.talktitle}}
