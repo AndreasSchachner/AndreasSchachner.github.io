@@ -1,13 +1,14 @@
 ---
-title: Strings 2020
+title: Strings 2021
 layout: page
 type: post
-place: Somewhere else
+place: Brazil
 description: 
 date: 2020-06-15
 paperurl: https://inspirehep.net/literature/1869723
 excerpt:
   In this talk ....
+format: Poster session
 ---
 
 

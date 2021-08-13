@@ -14,8 +14,8 @@ permalink: /talklist/
             </tr>
                 {% for category in  site.talklist.post.format%}
                 <tr>
-                <td> category[0] <td>
-                <td> category[1]  <td>
+                <td> category <td>
+                <td> category  <td>
                 </tr>
                {% endfor %}
         </table>
@@ -48,6 +48,7 @@ permalink: /talklist/
       Title: {{post.talktitle}}
       </span>
       <br>
+      Abstract: 
       {% if post.preview %}
         <div class='row'>
           <div class='small-6 medium-4 large-4 columns'>
