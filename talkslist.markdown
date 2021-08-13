@@ -35,6 +35,10 @@ permalink: /talklist/
           {% endunless %}
         {% endfor %}
       </span>
+      <span>
+      Title:
+      <a href="{{post.talktitle}}" </a>
+      </span>
       {% if post.preview %}
         <div class='row'>
           <div class='small-6 medium-4 large-4 columns'>
@@ -46,12 +50,18 @@ permalink: /talklist/
         </div>
       {% else %}
         <p>{{post.excerpt}}</p>
-        <span>
-        Based on:
-        <a class="button small" href="{{post.paperurl}}">iNSPIRE HEP</a>
-        </span>
       {% endif %}
-      
+      <span>
+      Based on:
+      <a class="button small" href="{{post.paperurl}}">iNSPIRE HEP</a>
+      </span>
+      <span>
+      Format:
+      <a href="{{post.format}}" </a>
+      </span>
+      Event website:
+      <a class="button small" href="{{post.eventurl}}">{{post.title}}</a>
+      </span>
       <div class='spacing'></div>
       <a class="button small" href="{{site.url}}{{site.baseurl}}/{{post.url}}">Read more</a>
     </div>
