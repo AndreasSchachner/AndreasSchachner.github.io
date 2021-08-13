@@ -8,10 +8,31 @@ permalink: /talklist/
 
 <div>
     <h4>Some statistics</h4>
-    {% for category in site.categories %}
+    {%  for post in site.talklist reversed %}
+        {% assign currentcat = post.categories %}
+        {% if currentcat != date %}
+           <br>
+           <br>
+           <br>
+           <h1><span>{{ post.date | date: '%Y' }}</span></h1>
+           <hr>
+           {% assign cat= currentcat %} 
+        {% endif %}
         <span>
-         Category: {{category}}
+         Category: {{post.categories}}
         </span>
+        {% assign total = 0 %}
+        {%  for post in site.talklist reversed %}
+          {% if post.categories == cat %}
+           {% assign total = total | plus: 1 %}
+          {% endif %}
+      {% endfor %}
+      <span>
+       Size1: {{total}},
+       Size2: {total},
+       Size3: {% total %},
+       Size4: total
+      </span>
     {% endfor %}
         <table>
             <tr>
@@ -61,7 +82,7 @@ permalink: /talklist/
       <p class='info'>
        <!-- /
         <span>
-          <a href="#">4 commetns</a>
+          <a href="#">4 comments</a>
         </span>-->
       </p>
       <h4><a href="{{ post.url }}">{{ post.title }} </a></h4>
