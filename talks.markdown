@@ -12,10 +12,10 @@ permalink: /talklist/
                 <td>Format</td>
                 <td>Number</td>
             </tr>
-                {% for category in  site.talklist.format%}
+                {% for format in site.talklist.format%}
                    <tr>
-                        <td> category[0] <td>
-                        <td> category[1]  <td>
+                        <td> category[0] </td>
+                        <td> category[1].size  </td>
                    </tr>
                {% endfor %}
         </table>
