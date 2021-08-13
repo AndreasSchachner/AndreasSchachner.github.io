@@ -8,6 +8,7 @@ permalink: /talklist/
 
 <div>
     <h4>Some statistics</h4>
+    <h4>Some statistics</h4>
         <table>
             <tr>
                 <td>Format</td>
@@ -19,7 +20,7 @@ permalink: /talklist/
                 {% if currentcat != cat %}
                    {% assign cat= currentcat %} 
                 {% endif %}
-                {% if array contains %}
+                {% if array contains cat%}
                 {% else %}
                     {% assign array = array | push: cat %}
                     {% assign total = 0 %}
