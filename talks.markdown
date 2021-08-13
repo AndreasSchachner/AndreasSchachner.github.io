@@ -26,7 +26,7 @@ permalink: /talklist/
               {% endfor %}
             <tr>
               <td> format </td>
-              <td> {% total  %} </td>
+              <td> total </td>
             </tr>
         </table>
 </div>
