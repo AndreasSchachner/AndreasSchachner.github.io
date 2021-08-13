@@ -5,25 +5,23 @@ permalink: /talklist/
 ---
 
 
-{"postsPerCategory":[
+<h4>Some statistics</h4>
+    <table>
+        <tr>
+            <td>Format</td>
+            <td>Number</td>
+        </tr>
         {% for category in  site.talklist.post.format%}
             {% assign cat = category[0] %}
             {% unless forloop.first %},{% endunless %}
-            { "name": "{{cat}}", "size":{{post.format[cat].size}} }
+            <tr>
+            <td> cat <td>
+            <td> {{site.talklist.post.format[cat].size}} <td>
+            </tr>
         {% endfor %}
-]}
-
-<h3>Posts Per Category</h3>
-    <table>
-        <tr>
-            <td>Category</td>
-            <td>Number of Posts</td>
-        </tr>
-        <tr v-for="cat in sortedCats">
-            <td>{{cat.name}}</td>
-            <td>{{cat.size}}</td>
-        </tr>
     </table>
+        
+    
 
 {%  for post in site.talklist reversed %}
   <div class='big mod modBlogPost no_bg'>
