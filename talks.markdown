@@ -7,16 +7,15 @@ permalink: /talklist/
 
 <div>
     <h4>Some statistics</h4>
-    <h4>Some statistics</h4>
         <table>
             <tr>
                 <td>Format</td>
                 <td>Number</td>
             </tr>
-                {% for format in site.talklist.format%}
+                {% for post in site.talklist %}
                    <tr>
-                        <td> format[0] </td>
-                        <td> format[1].size  </td>
+                        <td> {{post.format}} </td>
+                        <td> {{post.format[1].size}}  </td>
                    </tr>
                {% endfor %}
         </table>
