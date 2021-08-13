@@ -37,8 +37,9 @@ permalink: /talklist/
       </span>
       <span>
       Title:
-      <a href="{{post.talktitle}}" </a>
+      <a {{post.talktitle}} </a>
       </span>
+      <br>
       {% if post.preview %}
         <div class='row'>
           <div class='small-6 medium-4 large-4 columns'>
@@ -55,13 +56,16 @@ permalink: /talklist/
       Based on:
       <a class="button small" href="{{post.paperurl}}">iNSPIRE HEP</a>
       </span>
+      <br>
       <span>
       Format:
-      <a href="{{post.format}}" </a>
+      <a {{post.format}} </a>
       </span>
+      <br>
       Event website:
       <a class="button small" href="{{post.eventurl}}">{{post.title}}</a>
       </span>
+      <br>
       <div class='spacing'></div>
       <a class="button small" href="{{site.url}}{{site.baseurl}}/{{post.url}}">Read more</a>
     </div>
