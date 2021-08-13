@@ -12,11 +12,11 @@ permalink: /talklist/
                 <td>Format</td>
                 <td>Number</td>
             </tr>
-                {% for category in  site.talklist.post.format%}
-                <tr>
-                <td> category <td>
-                <td> category  <td>
-                </tr>
+                {% for category in  site.talklist.format%}
+                   <tr>
+                        <td> category[0] <td>
+                        <td> category[1]  <td>
+                   </tr>
                {% endfor %}
         </table>
 </div>
@@ -48,18 +48,18 @@ permalink: /talklist/
       Title: {{post.talktitle}}
       </span>
       <br>
-      Abstract: 
+      <br>
       {% if post.preview %}
         <div class='row'>
           <div class='small-6 medium-4 large-4 columns'>
             <img alt="" src="{{site.url}}{{site.baseurl}}/{{post.preview}}" />
           </div>
           <div class='small-6 medium-8 large-8 columns'>
-            <p>{{post.excerpt}}</p>
+            <p>Abstract: {{post.excerpt}}</p>
           </div>
         </div>
       {% else %}
-        <p>{{post.excerpt}}</p>
+        <p>Abstract: {{post.excerpt}}</p>
       {% endif %}
       <span>
       Based on:
