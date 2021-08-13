@@ -7,6 +7,7 @@ permalink: /talklist/
 
 <div>
     <h4>Some statistics</h4>
+    <h4>Some statistics</h4>
         <table>
             <tr>
                 <td>Format</td>
@@ -14,8 +15,8 @@ permalink: /talklist/
             </tr>
                 {% for format in site.talklist.format%}
                    <tr>
-                        <td> category[0] </td>
-                        <td> category[1].size  </td>
+                        <td> format[0] </td>
+                        <td> format[1].size  </td>
                    </tr>
                {% endfor %}
         </table>
