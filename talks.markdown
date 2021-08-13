@@ -4,27 +4,30 @@ title: Talks
 permalink: /talklist/
 ---
 
+
+{"postsPerCategory":[
+        {% for category in  site.talklist.post.format%}
+            {% assign cat = category[0] %}
+            {% unless forloop.first %},{% endunless %}
+            { "name": "{{cat}}", "size":{{post.format[cat].size}} }
+        {% endfor %}
+]}
+
+<h3>Posts Per Category</h3>
+    <table>
+        <tr>
+            <td>Category</td>
+            <td>Number of Posts</td>
+        </tr>
+        <tr v-for="cat in sortedCats">
+            <td>{{cat.name}}</td>
+            <td>{{cat.size}}</td>
+        </tr>
+    </table>
+
 {%  for post in site.talklist reversed %}
   <div class='big mod modBlogPost no_bg'>
     <div class='content'>
-    {"postsPerCategory":[
-            {% for category in post.format%}
-                {% assign cat = category[0] %}
-                {% unless forloop.first %},{% endunless %}
-                { "name": "{{cat}}", "size":{{post.format[cat].size}} }
-            {% endfor %}
-        ]}
-        <h3>Posts Per Category</h3>
-            <table>
-                <tr>
-                    <td>Category</td>
-                    <td>Number of Posts</td>
-                </tr>
-                <tr v-for="cat in sortedCats">
-                    <td>{{cat.name}}</td>
-                    <td>{{cat.size}}</td>
-                </tr>
-            </table>
     
      {% assign currentdate = post.date | date: "%Y" %}
      {% if currentdate != date %}
