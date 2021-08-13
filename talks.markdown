@@ -4,20 +4,28 @@ title: Talks
 permalink: /talklist/
 ---
 
+formats= ["Parallel session", "Poster session", "Seminar talk"]
 
 <div>
+    <h4>Some statistics</h4>
     <h4>Some statistics</h4>
         <table>
             <tr>
                 <td>Format</td>
                 <td>Number</td>
             </tr>
-                {% for post in site.talklist %}
-                   <tr>
-                        <td> {{post.format}} </td>
-                        <td> {{post.format[1].size}}  </td>
-                   </tr>
-               {% endfor %}
+            {% for format in formats %}
+              {% assign total = 0 %}
+                {% for post in site.posts %}
+                   {% if post.format == format %}
+                    {% assign total = total | plus: 1 %}
+                   {% endif %}
+                {% endfor %}
+              {% endfor %}
+            <tr>
+              <td> format </td>
+              <td> total  </td>
+            </tr>
         </table>
 </div>
 
