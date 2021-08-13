@@ -32,6 +32,8 @@ collections:
     output: true
   talklist:
     output: true
+  category:
+    output: true
 
 # Build settings
 theme: minima
