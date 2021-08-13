@@ -30,7 +30,7 @@ permalink: /talklist/
       <span>
        Size1: {{total}},
        Size2: {total},
-       Size3: {% total %},
+       Size3: <p> total </p>,
        Size4: total
       </span>
     {% endfor %}
