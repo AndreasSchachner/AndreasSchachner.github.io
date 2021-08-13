@@ -7,6 +7,24 @@ permalink: /talklist/
 {%  for post in site.talklist reversed %}
   <div class='big mod modBlogPost no_bg'>
     <div class='content'>
+    {"postsPerCategory":[
+            {% for category in post.format%}
+                {% assign cat = category[0] %}
+                {% unless forloop.first %},{% endunless %}
+                { "name": "{{cat}}", "size":{{post.format[cat].size}} }
+            {% endfor %}
+        ]}
+        <h3>Posts Per Category</h3>
+            <table>
+                <tr>
+                    <td>Category</td>
+                    <td>Number of Posts</td>
+                </tr>
+                <tr v-for="cat in sortedCats">
+                    <td>{{cat.name}}</td>
+                    <td>{{cat.size}}</td>
+                </tr>
+            </table>
     
      {% assign currentdate = post.date | date: "%Y" %}
      {% if currentdate != date %}
@@ -25,11 +43,6 @@ permalink: /talklist/
         </span>-->
       </p>
       <h4><a href="{{ post.url }}">{{ post.title }} </a></h4>
-      <br>
-      <span>Date: {{post.date | date: "%B %d, %Y" }}</span>
-      <br>
-      <span>Location: {{post.place}}</span>
-      <br>
       <span>
       Title: {{post.talktitle}}
       </span>
@@ -59,6 +72,11 @@ permalink: /talklist/
       Event website:
       <a class="button small" href="{{post.eventurl}}">{{post.title}}</a>
       </span>
+      <br>
+      <span>Date: {{post.date | date: "%B %d, %Y" }}</span>
+      <br>
+      <span>Location: {{post.place}}</span>
+      <br>
       <br>
       <div class='spacing'></div>
       <a class="button small" href="{{site.url}}{{site.baseurl}}/{{post.url}}">Read more</a>
