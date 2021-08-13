@@ -8,6 +8,7 @@ permalink: /talklist/
 
 <div>
     <h4>Some statistics</h4>
+    <h4>Some statistics</h4>
     <span>
      Categories: {{site.talklist.categories}}
     </span>

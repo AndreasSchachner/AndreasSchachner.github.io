@@ -6,7 +6,8 @@ place: Northeastern
 description: 
 paperurl: https://inspirehep.net/literature/1869723
 date: 2020-06-10
-category: Parallel session
+category: 
+   - Parallel session
 excerpt:
   In this talk ....
 ---
