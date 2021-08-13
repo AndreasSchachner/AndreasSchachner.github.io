@@ -8,16 +8,9 @@ permalink: /talklist/
 
 <div>
     <h4>Some statistics</h4>
-    <h4>Some statistics</h4>
-    <span>
-     Categories: {site.talklist.categories}
-    </span>
-    <span>
-     Categories: {site.categories}
-    </span>
-    {% for category in site.talklist.categories %}
+    {% for category in site.categories %}
         <span>
-         Category: {category}
+         Category: {{category}}
         </span>
     {% endfor %}
         <table>
