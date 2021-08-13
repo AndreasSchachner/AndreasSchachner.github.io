@@ -9,6 +9,7 @@ permalink: /talklist/
 <div>
     <h4>Some statistics</h4>
     <h4>Some statistics</h4>
+    {{site.talklist.format}}
         <table>
             <tr>
                 <td>Format</td>
@@ -16,7 +17,7 @@ permalink: /talklist/
             </tr>
             {% for format in [Parallel session, Poster session, Seminar talk] %}
               {% assign total = 0 %}
-                {% for post in site.posts %}
+                {% for post in site.talklist %}
                    {% if post.format == format %}
                     {% assign total = total | plus: 1 %}
                    {% endif %}
