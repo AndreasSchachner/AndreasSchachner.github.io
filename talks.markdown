@@ -4,9 +4,11 @@ title: Talks
 permalink: /talklist/
 ---
 
-formats= ["Parallel session", "Poster session", "Seminar talk"]
+
 
 <div>
+    formats= ["Parallel session", "Poster session", "Seminar talk"];
+    <h4>Some statistics</h4>
     <h4>Some statistics</h4>
     <h4>Some statistics</h4>
         <table>
@@ -24,7 +26,7 @@ formats= ["Parallel session", "Poster session", "Seminar talk"]
               {% endfor %}
             <tr>
               <td> format </td>
-              <td> total  </td>
+              <td> {% total  %} </td>
             </tr>
         </table>
 </div>
