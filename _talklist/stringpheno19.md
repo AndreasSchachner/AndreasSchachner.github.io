@@ -3,7 +3,6 @@ title: String Phenomenology 2019
 layout: page
 type: post
 place: CERN, Meyrin, Switzerland
-description: 
 paperurl: https://inspirehep.net/literature/1709174
 date: 2019-06-27
 talktitle: Large Field Ranges from Aligned and Misaligned Winding
@@ -11,8 +10,7 @@ eventurl: https://indico.cern.ch/event/782251/
 length: 15min
 categories: 
   - Parallel session
-excerpt:
-I focus on the attempt to construct effective axions with parametrically large decay constants in type IIB string models. I argue that such axions can be realised as long winding trajectories in complex-structure moduli space by an appropriate flux choice...
+excerpt: I focus on the attempt to construct effective axions with parametrically large decay constants in type IIB string models. I argue that such axions can be realised as long winding trajectories in complex-structure moduli space by an appropriate flux choice...
 ---
 
 ### Title: Large Field Ranges from Aligned and Misaligned Winding
