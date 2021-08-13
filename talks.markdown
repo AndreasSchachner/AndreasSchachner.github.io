@@ -8,7 +8,6 @@ permalink: /talklist/
 
 <div>
     <h4>Some statistics</h4>
-    <h4>Some statistics</h4>
         <table>
             <tr>
                 <td>Format</td>
@@ -21,11 +20,11 @@ permalink: /talklist/
                     {% assign total = total | plus: 1 %}
                    {% endif %}
                 {% endfor %}
+                <tr>
+                  <td> {{format}} </td>
+                  <td> {{total}} </td>
+                </tr>
               {% endfor %}
-            <tr>
-              <td> format </td>
-              <td> {{total}} </td>
-            </tr>
         </table>
 </div>
 
