@@ -4,8 +4,8 @@ title: Talks
 permalink: /talklist/
 ---
 
-{% raw %}
-<div id="app" v-cloak="">
+
+<div>
     <h4>Some statistics</h4>
         <table>
             <tr>
@@ -22,7 +22,7 @@ permalink: /talklist/
             {% endfor %}
         </table>
 </div>
-{% endrawx %}
+
     
 
 {%  for post in site.talklist reversed %}
