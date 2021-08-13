@@ -8,7 +8,13 @@ permalink: /talklist/
 
 <div>
     <h4>Some statistics</h4>
-    <p> {{site.talklist.format}}</p>
+    <h4>Some statistics</h4>
+    <span>
+     Categories: {{site.talklist.categories}}
+    </span>
+    <span>
+     Categories: {{site.categories}}
+    </span>
         <table>
             <tr>
                 <td>Format</td>
@@ -75,7 +81,7 @@ permalink: /talklist/
       </span>
       <br>
       <span>
-      Format: {{post.format}}
+      Format: {{post.category}}
       </span>
       <br>
       <span>
