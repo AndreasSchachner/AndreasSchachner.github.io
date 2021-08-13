@@ -8,56 +8,31 @@ permalink: /talklist/
 
 <div>
     <h4>Some statistics</h4>
-    {%  for post in site.talklist reversed %}
-        {% assign currentcat = post.categories %}
-        {% if currentcat != date %}
-           {% assign cat= currentcat %} 
-        {% endif %}
-        <span>
-         Category: {{post.categories}}
-        </span>
-        {% assign total = 0 %}
-        {%  for post in site.talklist reversed %}
-          {% if post.categories == cat %}
-           {% assign total = total | plus: 1 %}
-          {% endif %}
-      {% endfor %}
-      <span>
-       Size1: {{total}},
-       Size2: {total},
-       Size3: <p> total </p>,
-       Size4: total
-      </span>
-    {% endfor %}
         <table>
             <tr>
                 <td>Format</td>
                 <td>Number</td>
             </tr>
-            {% for category in site.categories %}
-            <span>
-             Categories: {category}
-            </span>
-                <tr>
-                  <td> {category} </td>
-                  <td> Hallo </td>
-                </tr>
-            {% endfor %}
+            {% assign array = "" | split: ',' %}
             {%  for post in site.talklist reversed %}
                 {% assign currentcat = post.categories %}
-                {% if currentcat != date %}
+                {% if currentcat != cat %}
                    {% assign cat= currentcat %} 
                 {% endif %}
-                {% assign total = 0 %}
-                {%  for post in site.talklist reversed %}
-                    {% if post.categories == cat %}
-                        {% assign total = total | plus: 1 %}
-                    {% endif %}
-                {% endfor %}
-                <tr>
-                  <td> {{post.categories}} </td>
-                  <td> {{total}} </td>
-                </tr>
+                {% if array contains %}
+                {% else %}
+                    {% assign array = array | push: cat %}
+                    {% assign total = 0 %}
+                    {%  for post in site.talklist reversed %}
+                        {% if post.categories == cat %}
+                            {% assign total = total | plus: 1 %}
+                        {% endif %}
+                    {% endfor %}
+                    <tr>
+                      <td> {{post.categories}} </td>
+                      <td> {{total}} </td>
+                    </tr>
+                {% endif %}
               {% endfor %}
         </table>
 </div>
