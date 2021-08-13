@@ -8,12 +8,13 @@ permalink: /talklist/
 
 <div>
     <h4>Some statistics</h4>
+    <h4>Some statistics</h4>
         <table>
             <tr>
                 <td>Format</td>
                 <td>Number</td>
             </tr>
-            {% for format in ["Parallel session", "Poster session", "Seminar talk"] %}
+            {% for format in [Parallel session, Poster session, Seminar talk] %}
               {% assign total = 0 %}
                 {% for post in site.posts %}
                    {% if post.format == format %}
