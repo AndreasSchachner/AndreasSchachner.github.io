@@ -4,23 +4,25 @@ title: Talks
 permalink: /talklist/
 ---
 
-
-<h4>Some statistics</h4>
-    <table>
-        <tr>
-            <td>Format</td>
-            <td>Number</td>
-        </tr>
-        {% for category in  site.talklist.post.format%}
-            {% assign cat = category[0] %}
-            {% unless forloop.first %},{% endunless %}
+{% raw %}
+<div id="app" v-cloak="">
+    <h4>Some statistics</h4>
+        <table>
             <tr>
-            <td> cat <td>
-            <td> {{site.talklist.post.format[cat].size}} <td>
+                <td>Format</td>
+                <td>Number</td>
             </tr>
-        {% endfor %}
-    </table>
-        
+            {% for category in  site.talklist.post.format%}
+                {% assign cat = category[0] %}
+                {% unless forloop.first %},{% endunless %}
+                <tr>
+                <td> cat <td>
+                <td> {{site.talklist.post.format[cat].size}} <td>
+                </tr>
+            {% endfor %}
+        </table>
+</div>
+{% endrawx %}
     
 
 {%  for post in site.talklist reversed %}
