@@ -97,13 +97,11 @@ permalink: /talklist/
           <br>
       {% endif %}
       <br>
-      <div class='spacing'></div>
       <a class="button small" href="{{post.url}}">Read more</a>
     </div>
   </div>
   <hr>
   <div class='two spacing'></div>
-  <br>
   <br>
 {% endfor %}
 
