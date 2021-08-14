@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talks
+title: Talks and public engagement
 permalink: /talklist/
 ---
 
@@ -52,7 +52,7 @@ permalink: /talklist/
         <hr>
         {% assign date = currentdate %} 
      {% endif %}
-
+     
       <p class='info'>
        <!-- /
         <span>
@@ -64,6 +64,7 @@ permalink: /talklist/
       Title: {{post.talktitle}}
       </span>
       <br>
+      {% if post.categories != Blog post %}
       <span>
       Based on:
       <a class="button small" href="{{post.paperurl}}">iNSPIRE HEP</a>
@@ -73,15 +74,11 @@ permalink: /talklist/
       Format: {{post.categories}}
       </span>
       <br>
-      <span>
-      Event website:
-      <a class="button small" href="{{post.eventurl}}">{{post.title}}</a>
-      </span>
-      <br>
       <span>Date: {{post.date | date: "%B %d, %Y" }}</span>
       <br>
       <span>Location: {{post.place}}</span>
       <br>
+      {% endif %}
       <br>
       <div class='spacing'></div>
       <a class="button small" href="{{post.url}}">Read more</a>
@@ -95,8 +92,3 @@ permalink: /talklist/
 <div class='four spacing'></div>
 
 
-
-
-### Outreach
-
-* Blog post for the "Accelerate Programme for Scientific Discovery" which can be found under the following link: [acceleratescience](https://acceleratescience.github.io//2021/07/08/Andreas-Schachner-ML-for-string-theory) 
