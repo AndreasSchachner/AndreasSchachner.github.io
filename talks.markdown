@@ -101,7 +101,7 @@ permalink: /talklist/
           </span>
           <br>
           <span>Location: {{post.place}}
-          <p class="three">
+          <p class="right">
            <a class="button small" href="{{post.url}}">Read more</a>
           </p>
           </span>
