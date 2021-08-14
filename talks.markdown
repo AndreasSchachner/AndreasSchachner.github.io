@@ -38,17 +38,19 @@ permalink: /talklist/
 </div>
 
 <style>
-  .bottom-three {
-     margin-bottom: 3cm;
+  .bo {
+     margin-bottom: 0.5cm;
   }
 </style>
 
-<p class="bottom-three">
-   This is the first question?
-</p>
-<p class="bottom-three">
-   This is the second question?
-</p>
+<style>
+  .bt {
+     margin-bottom: 1.0cm;
+  }
+</style>
+
+
+
 
 {%  for post in site.talklist reversed %}
   <div class='big mod modBlogPost no_bg'>
@@ -65,17 +67,9 @@ permalink: /talklist/
         {% assign date = currentdate %} 
      {% endif %}
      
-      <p class='info'>
-       <!-- /
-        <span>
-          <a href="#">4 comments</a>
-        </span>-->
-      </p>
-      <span>
+      <p class="bo">
       <a href="{{post.eventurl}}">{{ post.title }} </a>
-      </span>
-      <br>
-      <br>
+      </p>
       <span>
       Title: {{post.talktitle}}
       </span>
@@ -108,12 +102,13 @@ permalink: /talklist/
           <br>
       {% endif %}
       <br>
+      <p class="bt">
       <a class="button small" href="{{post.url}}">Read more</a>
+      </p>
     </div>
   </div>
   <hr>
   <div class='two spacing'></div>
-  <br>
 {% endfor %}
 
 
