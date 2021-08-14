@@ -50,8 +50,9 @@ permalink: /talklist/
 </style>
 
 <style>
-  .right{
+  .rightbm{
        text-align: right;
+       margin-bottom: -0.25cm;
   }
 </style>
 
@@ -61,7 +62,8 @@ permalink: /talklist/
 {%  for post in site.talklist reversed %}
   <div class='big mod modBlogPost no_bg'>
     <div class='content'>
-      {% assign blog = 'Blog post' %}
+     {% assign blog = "" | split: ',' %}
+     {% assign blog = array | push: "Blog post" %}
     
      {% assign currentdate = post.date | date: "%Y" %}
      {% if currentdate != date %}
@@ -73,11 +75,11 @@ permalink: /talklist/
         {% assign date = currentdate %} 
      {% endif %}
      
+     <p class="rightbm">
+      {{post.date | date: "%B %d, %Y" }}
+     </p>
       <p class="bo">
        <a href="{{post.eventurl}}">{{ post.title }} </a>
-      <p class="right">
-       Date: {{post.date | date: "%B %d, %Y" }}
-      </p>
       </p>
       <span>
       Title: {{post.talktitle}}
