@@ -4,7 +4,7 @@ title: Team
 permalink: /team/
 ---
 
-I am very happy to current and previous collaborators:
+I am very grateful to current and previous collaborators:
 
 - Michele Cicoli
 - Alex Cole
