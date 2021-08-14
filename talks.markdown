@@ -60,6 +60,7 @@ permalink: /talklist/
   .right{
        text-align: right;
        margin-top: -0.6cm;
+       margin-bottom: -0.6cm;
   }
 </style>
 
@@ -98,7 +99,7 @@ permalink: /talklist/
       {% if blog contains post.categories%}
       {% else %}
           <span>
-          Format: {{post.categories}}
+          Format: {{post.categories}} ({{post.length}})
           </span>
           <br>
           <span>Location: {{post.place}}
@@ -107,7 +108,6 @@ permalink: /talklist/
           </p>
           </span>
       {% endif %}
-      <br>
     </div>
   </div>
   <hr>
