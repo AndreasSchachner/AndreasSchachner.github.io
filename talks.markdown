@@ -39,13 +39,19 @@ permalink: /talklist/
 
 <style>
   .bo {
-     margin-bottom: 0.5cm;
+     margin-bottom: 0.25cm;
   }
 </style>
 
 <style>
   .bt {
-     margin-bottom: 1.0cm;
+     margin-bottom: 0.5cm;
+  }
+</style>
+
+<style>
+  .right{
+       text-align: right;
   }
 </style>
 
@@ -68,7 +74,10 @@ permalink: /talklist/
      {% endif %}
      
       <p class="bo">
-      <a href="{{post.eventurl}}">{{ post.title }} </a>
+       <a href="{{post.eventurl}}">{{ post.title }} </a>
+      <p class="right">
+       Date: {{post.date | date: "%B %d, %Y" }}
+      </p>
       </p>
       <span>
       Title: {{post.talktitle}}
@@ -102,13 +111,12 @@ permalink: /talklist/
           <br>
       {% endif %}
       <br>
-      <p class="bt">
       <a class="button small" href="{{post.url}}">Read more</a>
-      </p>
     </div>
   </div>
   <hr>
-  <div class='two spacing'></div>
+  <p class="bt">
+  </p>
 {% endfor %}
 
 
