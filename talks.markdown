@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talks and public engagement
+title: Talks
 permalink: /talklist/
 ---
 
@@ -64,20 +64,20 @@ permalink: /talklist/
       Title: {{post.talktitle}}
       </span>
       <br>
-      {% if post.categories != Blog post %}
-      <span>
-      Based on:
-      <a class="button small" href="{{post.paperurl}}">iNSPIRE HEP</a>
-      </span>
-      <br>
-      <span>
-      Format: {{post.categories}}
-      </span>
-      <br>
-      <span>Date: {{post.date | date: "%B %d, %Y" }}</span>
-      <br>
-      <span>Location: {{post.place}}</span>
-      <br>
+      {% if post.categories != 'Blog post' %}
+          <span>
+          Based on:
+          <a class="button small" href="{{post.paperurl}}">iNSPIRE HEP</a>
+          </span>
+          <br>
+          <span>
+          Format: {{post.categories}}
+          </span>
+          <br>
+          <span>Date: {{post.date | date: "%B %d, %Y" }}</span>
+          <br>
+          <span>Location: {{post.place}}</span>
+          <br>
       {% endif %}
       <br>
       <div class='spacing'></div>
