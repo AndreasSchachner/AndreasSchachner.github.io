@@ -42,6 +42,7 @@ permalink: /talklist/
 {%  for post in site.talklist reversed %}
   <div class='big mod modBlogPost no_bg'>
     <div class='content'>
+      {% assign blog = "Blog post" | split: ',' %}
     
      {% assign currentdate = post.date | date: "%Y" %}
      {% if currentdate != date %}
@@ -59,7 +60,10 @@ permalink: /talklist/
           <a href="#">4 comments</a>
         </span>-->
       </p>
-      <h4><a href="{{post.eventurl}}">{{ post.title }} </a></h4>
+      <span>
+      <a href="{{post.eventurl}}">{{ post.title }} </a>
+      </span>
+      <br>
       <span>
       Title: {{post.talktitle}}
       </span>
@@ -71,6 +75,9 @@ permalink: /talklist/
         {{post.categories}}
       {% endif %}
       {% if post.categories == Blog post %}
+        {{post.categories}}
+      {% endif %}
+      {% if blog contains post.categories%}
         {{post.categories}}
       {% endif %}
       {% if post.categories != 'Blog post' %}
