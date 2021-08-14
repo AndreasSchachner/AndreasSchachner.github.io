@@ -2,14 +2,14 @@
 title: Accelerate Programme for Scientific Discovery
 layout: page
 type: post
-place: Institute of Theoretical Physics, CAS, Beijing, China (virtual)
+place: 
 description: 
 date: 2021-07-08
 eventurl: https://acceleratescience.github.io//2021/07/08/Andreas-Schachner-ML-for-string-theory
 categories: 
    - Blog post
 length: 
-talktitle: 
+talktitle: HOW CAN WE…USE DATA SCIENCE TO INFORM FUNDAMENTAL PHYSICS?
 excerpt: 
 ---
 

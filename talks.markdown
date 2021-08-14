@@ -64,6 +64,15 @@ permalink: /talklist/
       Title: {{post.talktitle}}
       </span>
       <br>
+      {% if post.categories == 'Blog post' %}
+        {{post.categories}}
+      {% endif %}
+      {% if post.categories == "Blog post" %}
+        {{post.categories}}
+      {% endif %}
+      {% if post.categories == Blog post %}
+        {{post.categories}}
+      {% endif %}
       {% if post.categories != 'Blog post' %}
           <span>
           Based on:
