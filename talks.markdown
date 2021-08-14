@@ -59,24 +59,11 @@ permalink: /talklist/
           <a href="#">4 comments</a>
         </span>-->
       </p>
-      <h4><a href="{{ post.url }}">{{ post.title }} </a></h4>
+      <h4><a href="{{post.eventurl}}">{{ post.title }} </a></h4>
       <span>
       Title: {{post.talktitle}}
       </span>
       <br>
-      <br>
-      {% if post.preview %}
-        <div class='row'>
-          <div class='small-6 medium-4 large-4 columns'>
-            <img alt="" src="{{site.url}}{{site.baseurl}}/{{post.preview}}" />
-          </div>
-          <div class='small-6 medium-8 large-8 columns'>
-            <p>Abstract: {{post.excerpt}}</p>
-          </div>
-        </div>
-      {% else %}
-        <p>Abstract: {{post.excerpt}}</p>
-      {% endif %}
       <span>
       Based on:
       <a class="button small" href="{{post.paperurl}}">iNSPIRE HEP</a>
@@ -97,7 +84,7 @@ permalink: /talklist/
       <br>
       <br>
       <div class='spacing'></div>
-      <a class="button small" href="{{site.url}}{{site.baseurl}}/{{post.url}}">Read more</a>
+      <a class="button small" href="{{post.url}}">Read more</a>
     </div>
   </div>
   <hr>
@@ -109,24 +96,6 @@ permalink: /talklist/
 
 
 
-### Conference/workshop talks
-
-* String Phenomenology 2019 (Parallel session):  27.06.2019
-
-### Invited seminar talks
-
-* Bologna 02.07.2021
-
-* Heidelberg 16.12.2019
-
-### Conferences
-
-| Date        | Title        | Type |   Location   |
-|:-------------|:------------------|:------|:------|
-| 02.07.2021       | Bla  | Seminar talk | Bologna |
-|  |    |   |    |
-|           |     |   |     |
-|           |  |   |    |
 
 ### Outreach
 
