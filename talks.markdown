@@ -59,6 +59,7 @@ permalink: /talklist/
 <style>
   .right{
        text-align: right;
+       margin-top: -0.6cm;
   }
 </style>
 
@@ -107,14 +108,8 @@ permalink: /talklist/
           </span>
       {% endif %}
       <br>
-      <p class="three">
-       <a class="button small" href="{{post.url}}">Read more</a>
-      </p>
     </div>
   </div>
-  <hr>
-  <p class="bt">
-  </p>
   <hr>
 {% endfor %}
 
