@@ -60,7 +60,6 @@ permalink: /talklist/
   .right{
        text-align: right;
        margin-top: -0.6cm;
-       margin-bottom: -0.6cm;
   }
 </style>
 
