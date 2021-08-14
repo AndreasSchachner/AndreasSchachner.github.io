@@ -52,7 +52,7 @@ permalink: /talklist/
 <style>
   .rightbm{
        text-align: right;
-       margin-bottom: -0.25cm;
+       margin-bottom: -0.5cm;
   }
 </style>
 
@@ -107,8 +107,6 @@ permalink: /talklist/
           Format: {{post.categories}}
           </span>
           <br>
-          <span>Date: {{post.date | date: "%B %d, %Y" }}</span>
-          <br>
           <span>Location: {{post.place}}</span>
           <br>
       {% endif %}
@@ -119,6 +117,7 @@ permalink: /talklist/
   <hr>
   <p class="bt">
   </p>
+  <hr>
 {% endfor %}
 
 
