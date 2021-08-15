@@ -66,8 +66,9 @@ permalink: /talklist/
 
 
 {% assign blog = "" | split: ',' %}
-{% assign blog = blog | push: {{Blog post}} %}
+{% assign blog = blog | push: Blog post %}
 
+<h4>List of talks</h4>
 {%  for post in site.talklist reversed %}
   <div class='big mod modBlogPost no_bg'>
     <div class='content'>
