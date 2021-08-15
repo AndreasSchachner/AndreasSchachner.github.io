@@ -29,7 +29,7 @@ permalink: /talklist/
                         {% endif %}
                     {% endfor %}
                     <tr>
-                      <td> {{post.categories}} </td>
+                      <td> {{post.categories}}s </td>
                       <td> {{total}} </td>
                     </tr>
                 {% endif %}
@@ -66,7 +66,7 @@ permalink: /talklist/
 
 
 {% assign blog = "" | split: ',' %}
-{% assign blog = blog | push: "Blog post" %}
+{% assign blog = blog | push: {{Blog post}} %}
 
 {%  for post in site.talklist reversed %}
   <div class='big mod modBlogPost no_bg'>
