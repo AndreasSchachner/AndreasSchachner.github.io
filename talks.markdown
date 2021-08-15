@@ -80,7 +80,6 @@ permalink: /talklist/
      {% if currentdate != date %}
         {% if total!=0 %}
             <br>
-            <br>
         {% endif %}
         <br>
         <h1><span>{{ post.date | date: '%Y' }}</span></h1>
@@ -102,6 +101,7 @@ permalink: /talklist/
       <span>
         Format: {{post.categories}} ({{post.length}})
       </span>
+      <br>
     </div>
   </div>
   <hr>
