@@ -7,7 +7,7 @@ permalink: /talklist/
 
 
 <div>
-    <h4>Overview</h4>
+    <h3>Overview</h3>
         <table>
             <tr>
                 <td>Format</td>
@@ -68,11 +68,10 @@ permalink: /talklist/
 {% assign blog = "" | split: ',' %}
 {% assign blog = blog | push: Blog post %}
 
-<h4>List of talks</h4>
+{% assign blog = "Blog post"%}
+
+<h3>List of talks</h3>
 {%  for post in site.talklist reversed %}
-  <div class='big mod modBlogPost no_bg'>
-    <div class='content'>
-    
      {% assign currentdate = post.date | date: "%Y" %}
      {% if currentdate != date %}
         <br>
@@ -108,8 +107,6 @@ permalink: /talklist/
           </p>
           </span>
       {% endif %}
-    </div>
-  </div>
   <hr>
 {% endfor %}
 
