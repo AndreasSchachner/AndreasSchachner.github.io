@@ -96,21 +96,12 @@ permalink: /talklist/
        <a href="{{post.eventurl}}">{{ post.title }} </a>
       </p>
       <span>
-      Title: <a class="button small" href="{{post.paperurl}}">{{post.talktitle}}</a>
+        Title: <a class="button small" href="{{post.url}}">{{post.talktitle}}</a>
       </span>
       <br>
-      {% if blog contains post.categories%}
-        {{post.categories}}
-      {% endif %}
-      {% if blog contains post.categories%}
-      {% else %}
-          <span>
-           Format: {{post.categories}} ({{post.length}})
-           <p class="right">
-           <a class="button small" href="{{post.url}}">Read more</a>
-           </p>
-          </span>
-      {% endif %}
+      <span>
+        Format: {{post.categories}} ({{post.length}})
+      </span>
     </div>
   </div>
   <hr>
