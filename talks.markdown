@@ -78,11 +78,11 @@ permalink: /talklist/
     
      {% assign currentdate = post.date | date: "%Y" %}
      {% if currentdate != date %}
-        {% if post.categories >0 %}
-            <br>
+        {% if total!=0 %}
             <br>
             <br>
         {% endif %}
+        <br>
         <h1><span>{{ post.date | date: '%Y' }}</span></h1>
         <hr>
         {% assign date = currentdate %} 
