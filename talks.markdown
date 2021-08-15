@@ -105,13 +105,10 @@ permalink: /talklist/
       {% if blog contains post.categories%}
       {% else %}
           <span>
-          Format: {{post.categories}} ({{post.length}})
-          </span>
-          <br>
-          <span>Location: {{post.place}}
-          <p class="right">
+           Format: {{post.categories}} ({{post.length}})
+           <p class="right">
            <a class="button small" href="{{post.url}}">Read more</a>
-          </p>
+           </p>
           </span>
       {% endif %}
     </div>
