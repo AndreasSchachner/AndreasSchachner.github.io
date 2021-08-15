@@ -102,6 +102,7 @@ permalink: /talklist/
         Format: {{post.categories}} ({{post.length}})
       </span>
       <br>
+      <br>
     </div>
   </div>
   <hr>
