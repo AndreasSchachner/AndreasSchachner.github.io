@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Team
-permalink: /team/
+title: Collaborators
+permalink: /collaborators/
 ---
 
 I am very grateful to current and previous collaborators:
