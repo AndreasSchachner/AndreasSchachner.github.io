@@ -5,15 +5,17 @@
 layout: home
 ---
 
-<img style="float: right;" src="{{site.url}}images/profile01.JPG" width="40%" height="auto">
+<img style="float: right;" src="{{site.url}}images/profile01.JPG" width="35%" height="auto">
 
-<div style="width: 400px;">
+<div style="width: 420px;">
    <p align="justify"> I am a PhD in Theoretical Physics focussing on string theory and its compactifications. My research interests include in particular string phenomenology, quantum gravity, cosmology and non-perturbative aspects of QFT. I am also interested in applications of machine learning to fundamental physics. </p>
 </div>
 <br>
-<p align="justify" >
-On this webpage, you find more detailed information about my research projects, activities and interests.
-</p> 
+<div style="width: 420px;">
+    <p align="justify" >
+    On this webpage, you find more detailed information about my research projects, activities and interests.
+    </p> 
+</div>
 
 
 
