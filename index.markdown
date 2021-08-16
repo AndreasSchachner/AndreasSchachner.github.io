@@ -11,8 +11,8 @@ layout: home
 I am a PhD in Theoretical Physics focussing on string theory and its compactifications. My research interests include in particular string phenomenology, quantum gravity, cosmology and non-perturbative aspects of QFT. I am also interested in applications of machine learning to fundamental physics.
 </p> 
 <br>
-<div style="width: 50px; height: 60px;">
-   <p> I am a PhD in Theoretical Physics focussing on string theory and its compactifications. My research interests include in particular string phenomenology, quantum gravity, cosmology and non-perturbative aspects of QFT. I am also interested in applications of machine learning to fundamental physics. </p>
+<div style="width: 150px;">
+   <p align="justify"> I am a PhD in Theoretical Physics focussing on string theory and its compactifications. My research interests include in particular string phenomenology, quantum gravity, cosmology and non-perturbative aspects of QFT. I am also interested in applications of machine learning to fundamental physics. </p>
 </div>
 <br>
 <p align="justify" >
