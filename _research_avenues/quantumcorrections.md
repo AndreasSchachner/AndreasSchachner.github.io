@@ -17,11 +17,14 @@ My interests concern an alternative, more traditional, top-down approach by perf
 
 Hereby, I'm following several strategies: 
 
-#### Multi-dimensional investigations of perturbative quantum corrections
+#### Multi-dimensional investigations of higher derivative corrections
 
-<img style="float: right;" src="{{site.baseurl}}images/dualities.png" width="35%" height="auto">
+<img style="float: right;" src="images/dualities.png" width="35%" height="auto">
 
 
 
+
+
+#### Calabi-Yau compactifications and perturbative corrections
 
 
