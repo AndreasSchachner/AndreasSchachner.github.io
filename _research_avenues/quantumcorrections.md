@@ -1,5 +1,5 @@
 ---
-title: Quantum corrections in string theory and its compactifications
+title: Quantum corrections in string theory
 layout: page
 description: 
 ---
@@ -19,9 +19,13 @@ Hereby, I'm following several strategies:
 
 #### Multi-dimensional investigations of higher derivative corrections
 
-<img style="float: right;" src="images/dualities.png" width="50%" height="auto">
+<img style="float: right;" src="images/dualities.png" width="100%" height="auto">
+
+<p align="justify"> 
 
 Specifically, we consider Schwinger type calculations using a string-inspired formalism of the 11d superparticle. A famous example is the Brink-Schwarz superparticle as a zero-mode approximation of the Green-Schwarz superstring. Rather than using covariant quantisation in the pure spinor formulation, we consider amplitudes in the light-cone quantisation. This framework of a Brink-Schwarz-like superparticle was shown to be equivalent to the 11d pure spinor formalism. A direct comparison to string amplitudes in led to the observation that such 1-loop amplitudes in 11d supergravity contain information about all orders of the string loop expansion. 
+
+</p>
 
 
 #### Calabi-Yau compactifications and perturbative corrections
