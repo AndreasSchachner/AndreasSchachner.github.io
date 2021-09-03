@@ -20,12 +20,7 @@ layout: home
 </div>
 
 
-<HTML>
-<HEAD> <TITLE>Activity - Insert animated GIF to HTML</TITLE> </HEAD>
-<BODY>
-  <IMG SRC="GA_tsne.gif">
-</BODY>
-</HTML>
+
 
 
 
