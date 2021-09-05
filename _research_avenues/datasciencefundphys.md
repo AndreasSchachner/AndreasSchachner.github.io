@@ -17,15 +17,17 @@ To circumvent the computational complexity of the landscape, stochastic optimisa
 Further, 
 boundaries
 
-Building upon that, such analyses are effective in revealing non-trivial correlations in and determining boundaries of physical parameter spaces which is particularly attractive in the context of the landscape-swampland program. My vision is that this paradigm shift will set new impulses for continuing progress in advancing our understanding of UV properties of EFTs.
+Building upon that, such analyses are effective in revealing non-trivial correlations in and determining boundaries of physical parameter spaces which is particularly attractive in the context of the landscape-swampland program. 
+
+My vision is that this paradigm shift will set new impulses for continuing progress in advancing our understanding of UV properties of EFTs.
 
 
 <HTML>
 <BODY>
-    <p align="justify"> 
-    Visualisation of GA searches for flux vacua via dimensional reduction using t-SNE
-    </p>
-    <IMG SRC="images/GA_tsne.gif">
+    <figure>
+        <IMG SRC="images/GA_tsne.gif">
+        <figcaption>Visualisation of GA searches for flux vacua via dimensional reduction using t-SNE</figcaption>
+    </figure>
 </BODY>
 </HTML>
 
