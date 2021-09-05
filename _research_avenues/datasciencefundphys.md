@@ -22,10 +22,15 @@ Building upon that, such analyses are effective in revealing non-trivial correla
 My vision is that this paradigm shift will set new impulses for continuing progress in advancing our understanding of UV properties of EFTs.
 
 
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+
 <HTML>
 <BODY>
     <figure>
-        <IMG SRC="images/GA_tsne.gif">
+        <IMG SRC="images/GA_tsne.gif" width="50%" height="auto">
         <figcaption>Visualisation of GA searches for flux vacua via dimensional reduction using t-SNE</figcaption>
     </figure>
 </BODY>

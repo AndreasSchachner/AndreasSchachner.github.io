@@ -18,7 +18,7 @@ My interests concern an alternative, more traditional, top-down approach by perf
 
 Hereby, I'm following several strategies: 
 
-## Multi-dimensional investigations of higher derivative corrections
+#### <b> Multi-dimensional investigations of higher derivative corrections </b>
 <br>
 <br>
 <img style="float: right;" src="images/dualities.png" width="100%" height="auto">
@@ -31,7 +31,7 @@ Using the powerful machinery of string dualities and symmetries, I have made pro
 
 </p>
 
-## Calabi-Yau compactifications and perturbative corrections
+#### Calabi-Yau compactifications and perturbative corrections
 
 <p align="justify"> 
 
