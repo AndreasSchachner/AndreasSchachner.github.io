@@ -5,7 +5,7 @@ permalink: /talklist/
 ---
 
 
-## Overview
+### <b> Summary </b>
 
 <div>
         <table>
@@ -71,7 +71,7 @@ permalink: /talklist/
 {% assign blog = "Blog post" %}
 {% assign total = 0 %}
 
-## List of talks
+### <b> List of talks, posters and seminars </b>
 
 {%  for post in site.talklist reversed %}
   <div class='big mod modBlogPost no_bg'>
