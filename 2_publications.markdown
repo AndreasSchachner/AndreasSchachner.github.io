@@ -9,17 +9,17 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
 
 1. "**The Standard Model Quiver in de Sitter String Compactifications**" in collaboration with Michele Cicoli (Bologna U. and INFN, Bologna), Iñaki García Etxebarria (Durham U., Dept. of Math.), Fernando Quevedo (Cambridge U., DAMTP), Pramod Shukla (ICTP, Trieste) and Roberto Valandro (Trieste U. and INFN, Trieste)
 
-    * Published in: [accepted for publication in JHEP]()
+    * Published in: [JHEP 08 (2021) 109](https://link.springer.com/article/10.1007%2FJHEP08%282021%29109)
     * e-Print: [2106.11964 [hep-th]](https://arxiv.org/abs/2106.11964)
-    * DOI: []()
+    * DOI: [10.1007/JHEP08(2021)109](https://link.springer.com/article/10.1007%2FJHEP08%282021%29109)
 
     &nbsp;
     
 2. "**Systematics of the α′ Expansion in F-Theory**" in collaboration with Michele Cicoli (Bologna U. and INFN, Bologna and U. Bologna, DIFA), Fernando Quevedo (Cambridge U., DAMTP), Raffaele Savelli (INFN, Rome3 and Rome U., Tor Vergata) and Roberto Valandro (Trieste U. and INFN, Trieste)
 
-    * Published in: [accepted for publication in JHEP]()
+    * Published in: [JHEP 08 (2021) 99](https://link.springer.com/article/10.1007/JHEP08(2021)099)
     * e-Print: [2106.04592 [hep-th]](https://arxiv.org/abs/2106.04592)
-    * DOI: []()
+    * DOI: [10.1007/JHEP08(2021)99](https://link.springer.com/article/10.1007/JHEP08(2021)099)
 
     &nbsp;
     

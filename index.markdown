@@ -15,7 +15,7 @@ layout: home
 <br>
 <div style="width: 450px;">
     <p align="justify" >
-    On this webpage, you find more detailed information about my research projects, activities and interests.
+    This webpage contains more detailed information about my research projects, interests and activities.
     </p> 
 </div>
 

@@ -10,6 +10,8 @@ permalink: /research/
 </div>
 <br>
 
+
+
 The list below gives a more detailed account of my research interests:
 
 {% for themes in site.research_avenues %}
