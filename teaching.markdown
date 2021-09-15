@@ -4,9 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-
-
-#### Unversity of Cambridge
+### <b> Unversity of Cambridge </b>
 
 * Lent term 2021: Standard Model example classes (Lecturer: Prof. F. Quevedo)
 
@@ -19,13 +17,13 @@ permalink: /teaching/
 * Lent term 2020: Standard Model example classes (Lecturer: Prof. F. Quevedo)
 
 
-#### Ruprecht Karl University in Heidelberg
+### <b> Ruprecht Karl University in Heidelberg </b>
 
 * Summer term 2018: Quantum Mechanics (Lecturer: Prof. A. Hebecker)
 
 * Winter term 2017/18: Electrodynamics (Lecturer: Prof. B. M. Schäfer)
 
-* Summer term 2016: Mathematical Methods in Physics 1 (Lecturer: Prof. M. Salmhofer)
+* Summer term 2016: Mathematical Methods in Physics (Lecturer: Prof. M. Salmhofer)
 
 * Winter term 2015/16: Classical Mechanics (Lecturer: Prof. M. Bartelmann)
 
