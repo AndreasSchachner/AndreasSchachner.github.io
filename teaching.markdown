@@ -30,7 +30,6 @@ permalink: /teaching/
 * Summer term 2016: Mathematical Methods in Physics (Lecturer: Prof. M. Salmhofer)
 
     - Topics: functional analysis, distribution theory, Fourier analysis
-    - Co-author of lecture notes
     
     <br>
 
