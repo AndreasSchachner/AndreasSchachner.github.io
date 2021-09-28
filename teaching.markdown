@@ -10,7 +10,7 @@ permalink: /teaching/
 
     - Co-author of lecture notes, click [here](https://www.dropbox.com/sh/3uozafi6x9wtsey/AAADDdtIjLpukH0mQr1vNL6pa?dl=0&preview=StandardModel_2021.pdf) (to be published in 2022)
     
-    &nbsp;
+    <br>
     
 * Lent term 2021: Advanced Quantum Field Theory example classes (Lecturer: Prof. M. Wingate)
 
@@ -31,8 +31,8 @@ permalink: /teaching/
 
     - Topics: functional analysis, distribution theory, Fourier analysis
     - Co-author of lecture notes
-
-    &nbsp;
+    
+    <br>
 
 * Winter term 2015/16: Classical Mechanics (Lecturer: Prof. M. Bartelmann)
 
