@@ -21,7 +21,7 @@ permalink: /teaching/
 * Lent term 2020: Standard Model example classes (Lecturer: Prof. F. Quevedo)
 
 
-### <b> Ruprecht Karl University in Heidelberg </b>
+### <b> Ruprecht Karl University of Heidelberg </b>
 
 * Summer term 2018: Quantum Mechanics (Lecturer: Prof. A. Hebecker)
 
