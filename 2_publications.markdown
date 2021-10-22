@@ -11,15 +11,15 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
 
     * Published in: [submitted for publication in JHEP]()
     * e-Print: [2109.14624 [hep-th]](https://arxiv.org/abs/2109.14624)
-    * DOI: [unknown]()
+    * DOI: [to appear]()
 
     &nbsp;
 
 2. "**Probing the Structure of String Theory Vacua with Genetic Algorithms and Reinforcement Learning**" in collaboration with Alex Cole (Amsterdam U., Zeeman Lab.), Sven Krippendorf (Munich U., ASC) and Gary Shiu (Wisconsin U., Madison)
 
-    * Published in: [submitted to NeuRIPS 2021]()
-    * e-Print: [ ]()
-    * DOI: [unknown]()
+    * Published in: [accepted at NeuRIPS 2021](https://ml4physicalsciences.github.io/2021/)
+    * e-Print: [to appear]()
+    * DOI: [to appear]()
 
     &nbsp;
 
