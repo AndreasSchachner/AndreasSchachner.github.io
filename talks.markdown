@@ -7,7 +7,7 @@ permalink: /talklist/
 
 ### <b> Summary </b>
 
-<div>
+<div class="datatable-begin"></div>
         <table>
             <tr>
                 <td>Format</td>
@@ -35,7 +35,7 @@ permalink: /talklist/
                 {% endif %}
               {% endfor %}
         </table>
-</div>
+<div class="datatable-end"></div>
 
 <style>
   .bo {
