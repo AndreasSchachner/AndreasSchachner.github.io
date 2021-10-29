@@ -2,6 +2,7 @@
 layout: page
 title: Talks
 permalink: /talklist/
+datatable: true
 ---
 
 
