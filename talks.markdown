@@ -8,9 +8,9 @@ datatable: true
 
 ### <b> Summary </b>
 
-<div class="datatable-begin"></div>
+
 <div>
-        <table>
+        <table class="display">
             <tr>
                 <td>Format</td>
                 <td>Number</td>
@@ -38,7 +38,6 @@ datatable: true
               {% endfor %}
         </table>
 </div>
-<div class="datatable-end"></div>
 
 <style>
   .bo {
