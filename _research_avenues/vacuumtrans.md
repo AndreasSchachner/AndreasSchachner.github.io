@@ -14,7 +14,7 @@ description:
     A key target of my efforts concerns <i>cosmological inflation</i> which is a phase of exponential acceleration of the early Universe shortly after the Big Bang.
     It is a widely accepted scenario to explain the causal structure and the homogeneity observed in the Cosmic Microwave Background.
     Despite previous efforts, the necessary initial conditions and detailed processes driving inflation remain mysterious. Therefore, my aim is to discover innovative inflationary mechanisms from systematic investigations of EFTs from string compactifications.
-    This has indeed become tangible through [recent analytic advances](https://arxiv.org/pdf/2109.14624.pdf) in exploring type IIB orientifold compactifications with odd 2-form axions which allows for an efficient construction of explicit models with fully stabilised moduli. These investigations will also allow to address the post-inflationary dynamics such as reheating, dark matter or dark radiation.
+    This has indeed become tangible through <a href="https://arxiv.org/pdf/2109.14624.pdf" target="_blank">recent analytic advances</a> in exploring type IIB orientifold compactifications with odd 2-form axions which allows for an efficient construction of explicit models with fully stabilised moduli. These investigations will also allow to address the post-inflationary dynamics such as reheating, dark matter or dark radiation.
     </p>
 </div>
 <br>
@@ -23,9 +23,10 @@ description:
    <p align="justify">
     In a similar context, one of the most important scientific debates today concerns explaining the current accelerated expansion of our Universe in a theory of quantum gravity. The source of this acceleration has been named <i>Dark Energy</i> (DE) whose precise nature remains largely vague, though String Theory is capable of explaining its origin from first principles.
     The simplest way of modelling DE is a constant source of energy distributed throughout the Universe through a positive cosmological constant in a <i>de Sitter vacuum</i>.
-    However, the status of de Sitter vacua in String Theory remains critical due to concerns over controllability in many explicit constructions such as [<i>KKLT</i>](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.68.046005) or [<i>LVS</i>](https://iopscience.iop.org/article/10.1088/1126-6708/2005/03/007). For this reason, I take great interest in performing exhaustive examinations of both established and novel mechanisms for generating de Sitter vacua in String Theory.
+    However, the status of de Sitter vacua in String Theory remains critical due to concerns over controllability in many explicit constructions such as <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.68.046005" target="_blank"><i>KKLT</i></a> or 
+        <a href="https://iopscience.iop.org/article/10.1088/1126-6708/2005/03/007" target="_blank"><i>LVS</i></a>. For this reason, I take great interest in performing exhaustive examinations of both established and novel mechanisms for generating de Sitter vacua in String Theory.
     Here, my objective is twofold: firstly, discovering new approaches towards constructing de Sitter spaces in quantum gravity;
-    secondly, combining de Sitter vacua with [realistic particle phenomenology](https://link.springer.com/article/10.1007%2FJHEP08%282021%29109).
+    secondly, combining de Sitter vacua with <a href="https://link.springer.com/article/10.1007%2FJHEP08%282021%29109" target="_blank">realistic particle phenomenology</a>.
     The latter is imperative since at the end of the day determining an accelerating universe without the experimentally verified Standard Model physics would merely be a mathematical curiosity.
 
     </p>
