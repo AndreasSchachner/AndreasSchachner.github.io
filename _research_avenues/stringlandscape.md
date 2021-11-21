@@ -5,7 +5,7 @@ description:
 ---
 <div style="width: 750px;">
    <p align="justify">
-Over the past decades, string theory has emerged as a viable candidate for a ultra-violet (UV) complete theory of quantum gravity. In essence, by assuming that the fundamental objects of nature are 1-dimensional vibrating objects, it unifies an infinite number of fields in abstract spaces of dimension 10. In the process of relating string theory to our observed 4-dimensional Universe, the theory becomes inherently entangled with compact geometries, i.e., higher dimensional generalisations of spheres in the context of so-called <i>string compactifications</i>. That is, the theory needs to be reduced on a compact 6-dimensional manifold <i>X</i> by expanding fields into Fourier modes and keeping only the lightest degrees of freedom. Although challenging, the requirement for reducing the theory on a compact space gives a brilliant way of thinking about the unification of forces. 
+Over the past decades, string theory has emerged as a viable candidate for a ultra-violet (UV) complete theory of quantum gravity. In essence, by assuming that the fundamental objects of nature are 1-dimensional vibrating objects, it unifies an infinite number of fields in abstract spaces of dimension 10. In the process of relating string theory to our observed 4-dimensional Universe, the theory becomes inherently entangled with compact geometries, i.e., higher dimensional generalisations of spheres in the context of so-called <a href="https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.79.733" target="_blank"><i>string compactifications</i></a>. That is, the theory needs to be reduced on a compact 6-dimensional manifold <i>X</i> by expanding fields into Fourier modes and keeping only the lightest degrees of freedom. Although challenging, the requirement for reducing the theory on a compact space gives a brilliant way of thinking about the unification of forces. 
     </p>
 </div>
 <br>
@@ -21,8 +21,10 @@ Over the past decades, string theory has emerged as a viable candidate for a ult
 <div style="width: 750px;">
    <p align="justify">
 
-Having proper control over quantum effects in string theory is typically a requisite for tackling issues related to moduli stabilisation. Because the physics in 4-dimensional spacetime is highly affected by procedure’s outcome, these challenges are of utmost importance for addressing phenomenological questions in string theory.
-
+Having proper control over quantum effects in string theory is typically a requisite for tackling issues related to moduli stabilisation. Because the physics in 4-dimensional spacetime is highly affected by procedure’s outcome, these challenges are of utmost importance for addressing phenomenological questions in string theory. In recent years, three procedures to generating de Sitter vacua in string theory with fully stabilised moduli have been established going by the names of
+    <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.68.046005" target="_blank"><i>KKLT</i></a>, 
+    <a href="https://iopscience.iop.org/article/10.1088/1126-6708/2005/03/007" target="_blank"><i>LVS</i></a> and <a href="https://iopscience.iop.org/article/10.1088/1126-6708/2007/03/102" target="_blank"><i>Kähler uplift</i></a>.
+    
     </p>
 </div>
 <br>
