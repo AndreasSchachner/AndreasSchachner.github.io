@@ -53,6 +53,7 @@ figure img {
 }
 figure figcaption {
   text-align: center;
+    align: justify;
 }
 
 </style>
