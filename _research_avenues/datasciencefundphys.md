@@ -59,10 +59,13 @@ description:
 figure {
   display: inline-block;
   text-align: center;
-  margin: 5px; 
+  margin: 20px; 
 }
 figure img {
   vertical-align: top;
+}
+figure figcaption {
+  text-align: center;
 }
 
 </style>
