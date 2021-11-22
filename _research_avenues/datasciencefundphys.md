@@ -41,7 +41,6 @@ description:
    Given a background geometry together with an O-plane/D-brane configuration with vanishing tadpoles (i.e. satisfying generalised Gauß' law constraints), a fully-consistent EFT requires the specification of further UV parameters such as fluxes. More generally, the dynamics of the low energy theory needs to be analysed to find vacua with fully stabilised moduli. It remains a top challenge to design efficient optimization methods to search for realistic vacua that may at the same time reveal hidden structure in the landscape. Regarding this latter point, string theorists are interested not only in the construction of realistic vacua but also the statistical distribution surrounding such vacua, which has implications for <a href="https://iopscience.iop.org/article/10.1088/1126-6708/2004/05/072" target="_blank"><i>various dynamics-based proposals for the measure problem</i></a>. In recent years, stochastic optimisation with <a href="https://link.springer.com/article/10.1007%2FJHEP11%282019%29045" target="_blank"><i>Genetic Algorithms</i></a> (GAs) and <a href="https://arxiv.org/pdf/2107.04039.pdf" target="_blank"><i>Reinforcement Learning</i></a> (RL) have been utilised to search for viable string vacua, outperforming searches based on <a href="https://en.wikipedia.org/wiki/Metropolis–Hastings_algorithm" target="_blank"><i>Metropolis-Hastings</i></a>.
     </p>
 </div>
-<br>
 
 <style>
 figure {
@@ -62,7 +61,7 @@ figure figcaption {
 <BODY>
     <figure>
         <IMG SRC="images/GA_tsne.gif" width="120%" height="auto">
-        <figcaption class="figure-caption text-center">Visualisation of GA searches for flux vacua via dimensional reduction using t-SNE</figcaption>
+        <figcaption class="figure-caption text-center">Visualisation of GA searches for flux vacua via dimensional reduction using <a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding" target="_blank"><i>t-SNE</i></a>. Starting from a random sample of vacua, the GA detects solutions satisfying special search criteria such as small string coupling g<sub>s</sub>. This is highlighted by the color coding characterising the distance to the optimal solution with blue (red) indicating vacua small (large) distances. Initially, the search leads to many intermediate clusters corresponding to local minima of the fitness function before the population settles to an optimal locus in moduli space. This is visualised by the formation of large clusters of dark blue color in t-SNE.</figcaption>
     </figure>
 </BODY>
 </HTML>
