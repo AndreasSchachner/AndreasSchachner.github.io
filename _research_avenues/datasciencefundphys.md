@@ -60,6 +60,7 @@ description:
 </div>
 <br>
 
+<style>
 figure {
   display: inline-block;
   text-align: center;
@@ -72,6 +73,7 @@ figure img {
 figure figcaption {
   border: 1px dotted blue;
 }
+</style>
 
 <HTML>
 <BODY>
