@@ -64,21 +64,18 @@ description:
 figure {
   display: inline-block;
   text-align: center;
-  border: 1px dotted gray;
   margin: 5px; 
 }
 figure img {
   vertical-align: top;
 }
-figure figcaption {
-  border: 1px dotted blue;
-}
+
 </style>
 
 <HTML>
 <BODY>
     <figure>
-        <IMG SRC="images/GA_tsne.gif" width="80%" height="auto">
+        <IMG SRC="images/GA_tsne.gif" width="90%" height="auto">
         <figcaption class="figure-caption text-center">Visualisation of GA searches for flux vacua via dimensional reduction using t-SNE</figcaption>
     </figure>
 </BODY>
