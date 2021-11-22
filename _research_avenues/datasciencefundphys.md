@@ -26,15 +26,13 @@ description:
     A key objective of my future work is to develop a systematic framework to constructing string vacua utilising the impressive machinary of <i>Artificial Intelligene</i> (AI) and <i>Data Science</i> (DS) techniques.
     
     
-    We identify two disconnected clusters in the neighborhood of the optimality condition, which are suggestive of a previously unknown symmetry in the distribution of vacua.
-    We argue that comparing the results of qualitatively different search algorithms is crucial to ensuring the robustness of this structure, effectively reducing sampling bias.
-    
-    
     Building upon that, I explore the effectiveness of such strategies in revealing universal correlations among UV parameters characterising the local structure in the landscape. Recall that, since in String Theory the value of couplings is set by vacuum expectation values of fields, these are highly non-trivial and much sought-after insights. Moreover, combinations of supervised and unsupervised <i>Machine Learning</i> (ML) methods are prerequisites to determine boundaries of physical parameter spaces which is particularly attractive in the context of the landscape-swampland program.
 
     </p>
 </div>
 <br>
+
+### Search for suitable Calabi-Yau orentifolds
 
 <div style="width: 750px;">
    <p align="justify">
@@ -48,25 +46,27 @@ description:
 </div>
 <br>
 
+### Search for fully-stabilised string vacua
 
 <div style="width: 750px;">
    <p align="justify">
-    FLUX VACUA
+   Given a background geometry together with an O-plane/D-brane configuration with vanishing tadpoles (i.e. satisfying generalised Gauß' law constraints), a fully-consitent EFT requires the specification of further UV parameters such as fluxes. More generally, the study of 
+   
+    
+        We identify two disconnected clusters in the neighborhood of the optimality condition, which are suggestive of a previously unknown symmetry in the distribution of vacua.
+    We argue that comparing the results of qualitatively different search algorithms is crucial to ensuring the robustness of this structure, effectively reducing sampling bias.
    
     </p>
 </div>
 <br>
 
 
-figure figcaption {
-    border: 1px dotted blue;
-    text-align: center;
-}
+
 
 <HTML>
 <BODY>
     <figure>
-        <IMG SRC="images/GA_tsne.gif" width="50%" height="auto">
+        <IMG SRC="images/GA_tsne.gif" width="80%" height="auto">
         <figcaption>Visualisation of GA searches for flux vacua via dimensional reduction using t-SNE</figcaption>
     </figure>
 </BODY>
