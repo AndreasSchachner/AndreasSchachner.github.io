@@ -36,12 +36,7 @@ description:
 
 <div style="width: 750px;">
    <p align="justify">
-
-    Among others, I will extensively explore the set of Calabi-Yau hypersurfaces in the Kreuzer-Skarke database \cite{Kreuzer:2000xy} using the \texttt{CYTools} software package \cite{Demirtas:2020dbm}.
-    For instance, we favor compact geometries that are capable of hosting realistic particle phenomenologies \cite{Cicoli:2021dhg} and whose string spectra satisfy bounds from black hole superradiance \cite{Mehta:2021pwf}.
-    However, the issue of efficiently finding geometries and backgrounds for viable string vacua remains largely unexplored.
-    Here, I will develop innovative strategies to obtaining orientifold and D-brane configurations with vanishing tadpoles as well as suitable divisor structures with sufficiently many invariant rigid divisors supporting non-perturbative effects for moduli stabilization.
-
+    Among others, I explore the set of Calabi-Yau hypersurfaces in the <a href="http://hep.itp.tuwien.ac.at/~kreuzer/CY/" target="_blank"><i>Kreuzer-Skarke database</i></a> using the <a href="https://cytools.liammcallistergroup.com" target="_blank"><i>CYTools</i></a> software package. For instance, we favor compact geometries that are capable of hosting realistic particle phenomenologies and whose string spectra satisfy bounds from black hole superradiance. However, the issue of efficiently finding background geometries for viable N=1 string compactifications remains largely unexplored. Here, I am interested in developing innovative strategies to obtaining orientifold and D-brane configurations of maximal D3-charge as well as suitable divisor structures with sufficiently many invariant rigid divisors supporting non-perturbative effects for moduli stabilisation.
     </p>
 </div>
 <br>
