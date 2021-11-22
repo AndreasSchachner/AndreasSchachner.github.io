@@ -1,21 +1,21 @@
 ---
-title: Fundamental Physics UK First Virtual Meeting 
+title: Fundamental Physics UK Semi-In-Person Meeting 
 layout: page
 type: post
 place: Fundamental Physics UK Virtual Centre (virtual)
 description: 
-date: 2021-01-07
-paperurl: https://inspirehep.net/literature/1867946
-eventurl: https://nms.kcl.ac.uk/neil.lambert/fpuk/events/5/5.html
+date: 2021-11-14
+paperurl: https://inspirehep.net/literature/1869723
+eventurl: https://nms.kcl.ac.uk/neil.lambert/fpuk/events/8/8.html
 categories: 
    - Poster session
    - Gong show
-length: 2min talk with 1hr poster session
-talktitle: The Large Scale Structure of α′ Effects in String Theory
+length: 2min talk with 3hr poster session
+talktitle: The Standard Model Quiver in de Sitter String Compactifications
 excerpt: With the advent of the string landscape, the realisation of the Standard Model in general string theory compactifications to 4D has become a primary focus. This talk concerns novel constructions of the Standard Model in global set-ups of type IIB Calabi-Yau compactifications. We argue that...
 ---
 
-### Title: The Large Scale Structure of α′ Effects in String Theory
+### Title: The Standard Model Quiver in de Sitter String Compactifications
 
 ### Abstract:
 

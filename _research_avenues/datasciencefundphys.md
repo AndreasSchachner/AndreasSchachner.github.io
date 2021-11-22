@@ -13,13 +13,6 @@ description:
 </div>
 <br>
 
-<div style="width: 750px;">
-   <p align="justify">
-    It remains a top challenge to design efficient optimization methods to search for realistic vacua that may at the same time reveal hidden structure in the landscape. Regarding this latter point, string theorists are interested not only in the construction of realistic vacua but also the statistical distribution surrounding such vacua, which has implications for <a href="https://iopscience.iop.org/article/10.1088/1126-6708/2004/05/072" target="_blank"><i>various dynamics-based proposals for the measure problem</i></a>. In recent years, stochastic optimisation with <a href="https://link.springer.com/article/10.1007%2FJHEP11%282019%29045" target="_blank"><i>Genetic Algorithms</i></a> (GAs) and <a href="https://arxiv.org/pdf/2107.04039.pdf" target="_blank"><i>Reinforcement Learning</i></a> (RL) have been utilised to search for viable string vacua, outperforming searches based on <a href="https://en.wikipedia.org/wiki/Metropolis–Hastings_algorithm" target="_blank"><i>Metropolis-Hastings</i></a>.
-
-    </p>
-</div>
-<br>
 
 <div style="width: 750px;">
    <p align="justify">
@@ -36,7 +29,7 @@ description:
 
 <div style="width: 750px;">
    <p align="justify">
-    Among others, I explore the set of Calabi-Yau hypersurfaces in the <a href="http://hep.itp.tuwien.ac.at/~kreuzer/CY/" target="_blank"><i>Kreuzer-Skarke database</i></a> using the <a href="https://cytools.liammcallistergroup.com" target="_blank"><i>CYTools</i></a> software package. For instance, we favor compact geometries that are capable of hosting realistic particle phenomenologies and whose string spectra satisfy bounds from black hole superradiance. However, the issue of efficiently finding background geometries for viable N=1 string compactifications remains largely unexplored. Here, I am interested in developing innovative strategies to obtaining orientifold and D-brane configurations of maximal D3-charge as well as suitable divisor structures with sufficiently many invariant rigid divisors supporting non-perturbative effects for moduli stabilisation.
+    Among others, I explore the set of Calabi-Yau hypersurfaces in the <a href="http://hep.itp.tuwien.ac.at/~kreuzer/CY/" target="_blank"><i>Kreuzer-Skarke database</i></a> using the <a href="https://cytools.liammcallistergroup.com" target="_blank"><i>CYTools</i></a> software package. For instance, we favour compact geometries that are capable of hosting realistic particle phenomenologies and whose string spectra satisfy bounds from black hole superradiance. However, the issue of efficiently finding background geometries for viable N=1 string compactifications remains largely unexplored. Here, I am interested in developing innovative strategies to obtaining orientifold and D-brane configurations of maximal D3-charge as well as suitable divisor structures with sufficiently many invariant rigid divisors supporting non-perturbative effects for moduli stabilisation. We have merely scratched the surface 
     </p>
 </div>
 <br>
@@ -45,12 +38,7 @@ description:
 
 <div style="width: 750px;">
    <p align="justify">
-   Given a background geometry together with an O-plane/D-brane configuration with vanishing tadpoles (i.e. satisfying generalised Gauß' law constraints), a fully-consitent EFT requires the specification of further UV parameters such as fluxes. More generally, the study of 
-   
-    
-        We identify two disconnected clusters in the neighborhood of the optimality condition, which are suggestive of a previously unknown symmetry in the distribution of vacua.
-    We argue that comparing the results of qualitatively different search algorithms is crucial to ensuring the robustness of this structure, effectively reducing sampling bias.
-   
+   Given a background geometry together with an O-plane/D-brane configuration with vanishing tadpoles (i.e. satisfying generalised Gauß' law constraints), a fully-consistent EFT requires the specification of further UV parameters such as fluxes. More generally, the dynamics of the low energy theory needs to be analysed to find vacua with fully stabilised moduli. It remains a top challenge to design efficient optimization methods to search for realistic vacua that may at the same time reveal hidden structure in the landscape. Regarding this latter point, string theorists are interested not only in the construction of realistic vacua but also the statistical distribution surrounding such vacua, which has implications for <a href="https://iopscience.iop.org/article/10.1088/1126-6708/2004/05/072" target="_blank"><i>various dynamics-based proposals for the measure problem</i></a>. In recent years, stochastic optimisation with <a href="https://link.springer.com/article/10.1007%2FJHEP11%282019%29045" target="_blank"><i>Genetic Algorithms</i></a> (GAs) and <a href="https://arxiv.org/pdf/2107.04039.pdf" target="_blank"><i>Reinforcement Learning</i></a> (RL) have been utilised to search for viable string vacua, outperforming searches based on <a href="https://en.wikipedia.org/wiki/Metropolis–Hastings_algorithm" target="_blank"><i>Metropolis-Hastings</i></a>.
     </p>
 </div>
 <br>
@@ -73,7 +61,7 @@ figure figcaption {
 <HTML>
 <BODY>
     <figure>
-        <IMG SRC="images/GA_tsne.gif" width="90%" height="auto">
+        <IMG SRC="images/GA_tsne.gif" width="120%" height="auto">
         <figcaption class="figure-caption text-center">Visualisation of GA searches for flux vacua via dimensional reduction using t-SNE</figcaption>
     </figure>
 </BODY>
