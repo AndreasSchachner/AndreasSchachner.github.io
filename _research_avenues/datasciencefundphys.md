@@ -16,10 +16,7 @@ description:
 
 <div style="width: 750px;">
    <p align="justify">
-    A key objective of my future work is to develop a systematic framework to constructing string vacua utilising the impressive machinary of <i>Artificial Intelligene</i> (AI) and <i>Data Science</i> (DS) techniques.
-    
-    
-    Building upon that, I explore the effectiveness of such strategies in revealing universal correlations among UV parameters characterising the local structure in the landscape. Recall that, since in String Theory the value of couplings is set by vacuum expectation values of fields, these are highly non-trivial and much sought-after insights. Moreover, combinations of supervised and unsupervised <i>Machine Learning</i> (ML) methods are prerequisites to determine boundaries of physical parameter spaces which is particularly attractive in the context of the landscape-swampland program.
+    A key objective of my future work is to develop a systematic framework to constructing string vacua utilising the impressive machinary of <i>Artificial Intelligene</i> (AI) and <i>Data Science</i> (DS) techniques. In particular, I explore the effectiveness of multiple search strategies in revealing universal correlations among UV parameters characterising the local structure in the landscape. Recall that, since in String Theory the value of couplings is set by vacuum expectation values of fields, these are highly non-trivial and much sought-after insights. Moreover, combinations of supervised and unsupervised <i>Machine Learning</i> (ML) methods are prerequisites to determine boundaries of physical parameter spaces which is particularly attractive in the context of the landscape-swampland program.
 
     </p>
 </div>
@@ -61,7 +58,7 @@ figure figcaption {
 <HTML>
 <BODY>
     <figure>
-        <IMG SRC="images/GA_tsne.gif" width="120%" height="auto">
+        <IMG SRC="images/GA_tsne.gif" width="150%" height="auto">
         <figcaption class="figure-caption text-center">Visualisation of GA searches for flux vacua via dimensional reduction using <a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding" target="_blank"><i>t-SNE</i></a>. Starting from a random sample of vacua, the GA detects solutions satisfying special search criteria such as small string coupling g<sub>s</sub>. This is highlighted by the color coding characterising the distance to the optimal solution with blue (red) indicating vacua small (large) distances. Initially, the search leads to many intermediate clusters corresponding to local minima of the fitness function before the population settles to an optimal locus in moduli space. This is visualised by the formation of large clusters of dark blue color in t-SNE.</figcaption>
     </figure>
 </BODY>
