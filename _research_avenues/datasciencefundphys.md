@@ -59,7 +59,7 @@ description:
 figure {
   display: inline-block;
   text-align: center;
-  margin: 20px; 
+  margin: 100px; 
 }
 figure img {
   vertical-align: top;
