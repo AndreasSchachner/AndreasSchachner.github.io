@@ -5,9 +5,13 @@ permalink: /bio/
 ---
 
 
+### Professional Career
+
+- **Since 09/2022**: Research Associate at the Department of Physics, Cornell University, Ithaca, USA, and the Arnold Sommerfeld Center for Theoretical Physics, Ludwig-Maximilians-University, Munich, Germany
+
 ### Education
 
-- **Since 10/2019**: PhD student in Applied Mathematics and Theoretical Physics, DAMTP, University of Cambridge (Supervisor: Prof. Fernando Quevedo)
+- **10/2019-08/2022**: PhD student in Applied Mathematics and Theoretical Physics, DAMTP, University of Cambridge (Supervisor: Prof. Fernando Quevedo)
 
 - **01/2019-09/2019**: Research visits at the University of Wisconsin-Madison (Prof. Gary Shiu), Ruprecht Karl University in Heidelberg (Prof. Arthur Hebecker) and ICTP Trieste (Prof. Fernando Quevedo)
 
@@ -22,9 +26,9 @@ permalink: /bio/
 
 ### Prizes, awards and scholarships
 
-- **Since 03/2020**: PhD scholarship of the German Academic Scholarship Foundation (GASF)
+- **03/2020-08/2022**: PhD scholarship of the German Academic Scholarship Foundation (GASF)
 
-- **Since 10/2019**: STFC studentship awarded by DAMTP
+- **10/2019-08/2022**: STFC studentship awarded by DAMTP
 
 - **03/2021**: Smith-Knight and Rayleigh-Knight Prize for my essay on quantum corrections in string theory compactifications
 
