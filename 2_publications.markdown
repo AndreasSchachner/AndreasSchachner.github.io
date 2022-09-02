@@ -9,17 +9,17 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
 
 1. "**Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles**" in collaboration with James T. Liu (Michigan U., MCTP), Ruben Minasian (IPhT, Saclay) and Raffaele Savelli (Rome U., Tor Vergata)
 
-    * Published in: [submitted to JHEP]()
+    * Published in: [JHEP 08 (2022) 267](https://link.springer.com/article/10.1007/JHEP08(2022)267)
     * e-Print: [2205.11530 [hep-th]](https://arxiv.org/abs/2205.11530)
-    * DOI: [to appear]()
+    * DOI: [10.1007/JHEP08(2022)267](https://link.springer.com/article/10.1007/JHEP08(2022)267)
 
     &nbsp;
     
 2. "**A Database of Calabi-Yau Orientifolds and the Size of D3-Tadpoles**" in collaboration with Chiara Crinò (Trieste U. and INFN, Trieste), Fernando Quevedo (Cambridge U., DAMTP) and Roberto Valandro(Trieste U. and INFN, Trieste)
 
-    * Published in: [accepted for publication in JHEP]()
+    * Published in: [JHEP 08 (2022) 050](https://link.springer.com/article/10.1007/JHEP08(2022)050)
     * e-Print: [2204.13115 [hep-th]](https://arxiv.org/abs/2204.13115)
-    * DOI: [to appear]()
+    * DOI: [10.1007/JHEP08(2022)050](https://link.springer.com/article/10.1007/JHEP08(2022)050)
 
     &nbsp;
     
