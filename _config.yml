@@ -19,12 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Andreas Schachner
-email: as2673@cam.ac.uk
+email: as3475@cornell.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Research Associate in Theoretical Physics - working at Cornell University and Ludwig-Maximilians-University Munich.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: "@Andi1707"
+twitter_username: "Andi1707"
 github_username:  "AndreasSchachner"
 
 collections:
