@@ -11,7 +11,7 @@ permalink: /bio/
 
 ### Education
 
-- **10/2019-08/2022**: PhD student in Applied Mathematics and Theoretical Physics, DAMTP, University of Cambridge (Supervisor: Prof. Fernando Quevedo)
+- **10/2019-08/2022**: PhD student in Applied Mathematics and Theoretical Physics, DAMTP, University of Cambridge (Supervisor: Prof. Fernando Quevedo, Thesis title: [On Vacuum Structures and Quantum Corrections in String Theory](https://www.repository.cam.ac.uk/handle/1810/342316))
 
 - **01/2019-09/2019**: Research visits at the University of Wisconsin-Madison (Prof. Gary Shiu), Ruprecht Karl University in Heidelberg (Prof. Arthur Hebecker) and ICTP Trieste (Prof. Fernando Quevedo)
 
