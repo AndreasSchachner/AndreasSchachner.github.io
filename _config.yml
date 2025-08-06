@@ -36,8 +36,7 @@ collections:
     output: true
 
 # Build settings
-#theme: minima
-theme: cayman
+theme: minima
 plugins:
   - jekyll-feed
 markdown: kramdown
