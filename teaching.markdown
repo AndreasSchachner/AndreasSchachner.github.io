@@ -16,7 +16,7 @@ permalink: /teaching/
 
 ### <b> Unversity of Cambridge </b>
 
-* Lent term 2020/21/22: Standard Model example classes (Lecturer: Prof. F. Quevedo, co-author of lecture notes, click [here](https://www.dropbox.com/sh/3uozafi6x9wtsey/AAADDdtIjLpukH0mQr1vNL6pa?dl=0&preview=StandardModel_2021.pdf) (to be published in 2022))
+* Lent term 2020/21/22: Standard Model example classes (Lecturer: Prof. F. Quevedo, co-author of lecture notes, click [https://arxiv.org/abs/2409.09211](https://arxiv.org/abs/2409.09211) (to be published as book with Cambridge University Press in 2026/27))
 
 * Lent term 2021/22: Advanced Quantum Field Theory example classes (Lecturer: Prof. M. Wingate)
 
