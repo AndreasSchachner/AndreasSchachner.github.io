@@ -6,19 +6,39 @@ permalink: /collaborators/
 
 I am very grateful to current and previous collaborators:
 
+- Federico Carta
+- Aman Chauhan
 - Michele Cicoli
 - Alex Cole
+- Abhishek Dubey
+- Julian Ebelt
 - Iñaki Garcia Etxebarria
+- Naomi Gendler
 - Arthur Hebecker
+- Chris Hughes
+- Mudit Jain
 - Daniel Junghans
 - Sven Krippendorf
 - James Liu
+- Nate MacFadden
+- Anshuman Maharana
+- Doddy Marsh
+- Liam McAllister
 - Ruben Minasian
+- Jakob Moritz
+- Francesco Muia
+- Richard Nally
+- Pellegrino Piantadosi
 - Fernando Quevedo 
+- Nicole Righi
+- Keir K. Rogers
 - Raffaele Savelli
+- Elijah Sheridan
 - Gary Shiu
 - Pramod Shukla
+- Mike Stillman
 - Roberto Valandro
+- Gonzalo Villa
 
 <br>
 
