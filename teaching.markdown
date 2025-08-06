@@ -4,6 +4,16 @@ title: Teaching
 permalink: /teaching/
 ---
 
+### <b> Ludwig Maximilian University of Munich </b>
+
+* Summer term 2025: AI lab.
+
+* Winter term 2024/25: String Theory I tutorials (Lecturer: PD Dr. R. Blumenhagen)
+
+* Summer term 2024: AI lab.
+
+* Winter term 2023/24: String Theory I tutorials (Lecturer: Dr. R. Helling) and Lunch Seminar series (Group: Prof. Dr. Lüst).
+
 ### <b> Unversity of Cambridge </b>
 
 * Lent term 2020/21/22: Standard Model example classes (Lecturer: Prof. F. Quevedo, co-author of lecture notes, click [here](https://www.dropbox.com/sh/3uozafi6x9wtsey/AAADDdtIjLpukH0mQr1vNL6pa?dl=0&preview=StandardModel_2021.pdf) (to be published in 2022))
