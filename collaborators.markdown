@@ -47,6 +47,12 @@ For references, please contact:
 * Fernando Quevedo: 
     - email: <a href= "mailto:fq201@maths.cam.ac.uk">fq201@maths.cam.ac.uk</a>
     - webpage: [http://www.damtp.cam.ac.uk/person/fq201](http://www.damtp.cam.ac.uk/person/fq201)
+* Liam McAllister:
+    - email: <a href= "mailto:mcallister@cornell.edu">mcallister@cornell.edu</a>
+    - webpage: [https://physics.cornell.edu/liam-mcallister](https://physics.cornell.edu/liam-mcallister)
+* Dieter Lüst:
+    - email: <a href= "mailto:luest@mpp.mpg.de">luest@mpp.mpg.de</a>
+    - webpage: [https://www.mpp.mpg.de/dieter-luest](hhttps://www.mpp.mpg.de/ueber-uns/organisation/direktoren/prof-dr-dieter-luest)
 * Gary Shiu: 
     - email: <a href= "mailto:shiu@physics.wisc.edu">shiu@physics.wisc.edu</a>
     - webpage: [https://shiu.physics.wisc.edu](https://shiu.physics.wisc.edu)
