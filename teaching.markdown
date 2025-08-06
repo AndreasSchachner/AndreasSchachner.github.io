@@ -6,11 +6,11 @@ permalink: /teaching/
 
 ### <b> Ludwig Maximilian University of Munich </b>
 
-* Summer term 2025: AI lab.
+* Summer term 2025: Supervisor of an experiment in the AI Lab Course, guiding students in applying neural networks to solve partial differential equations in physics.
 
 * Winter term 2024/25: String Theory I tutorials (Lecturer: PD Dr. R. Blumenhagen)
 
-* Summer term 2024: AI lab.
+* Summer term 2024: Supervisor of an experiment in the AI Lab Course, guiding students in applying neural networks to solve partial differential equations in physics.
 
 * Winter term 2023/24: String Theory I tutorials (Lecturer: Dr. R. Helling) and Lunch Seminar series (Group: Prof. Dr. Lüst).
 
