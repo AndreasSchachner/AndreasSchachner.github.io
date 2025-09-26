@@ -11,17 +11,16 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
 
 1. "**Type IIB at eight derivatives: five-point axio-dilaton couplings**" in collaboration with James T. Liu (Michigan U., MCTP), Ruben Minasian (IPhT, Saclay) and Raffaele Savelli (Rome U., Tor Vergata)
 
-    * Published in: [JHEP 09 (2025) 158]()
+    * Published in: [JHEP 09 (2025) 158](https://link.springer.com/article/10.1007/JHEP09(2025)158)
     * e-Print: [2507.07934 [hep-th]](https://arxiv.org/abs/2507.07934)
-    * DOI: []()
+    * DOI: [10.1007/JHEP09(2025)158](https://link.springer.com/article/10.1007/JHEP09(2025)158)
 
     &nbsp;
 
-2. "**Coexisting Flux String Vacua from Numerical Kähler Moduli Stabilisation**" in collaboration with 
+2. "**Coexisting Flux String Vacua from Numerical Kähler Moduli Stabilisation**" in collaboration with Shehu AbdusSalam (Shahid Beheshti U.), Christopher Hughes (Cambridge U., DAMTP), and Fernando Quevedo (Cambridge U., DAMTP and New York U., Abu Dhabi)
 
     * Published in: [submitted for publication in JHEP]()
     * e-Print: [2507.00615 [hep-th]](https://arxiv.org/abs/2507.00615)
-    * DOI: []()
 
     &nbsp;
 
