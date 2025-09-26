@@ -25,19 +25,19 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
 
     &nbsp;
 
-3. "**Deep observations of the Type IIB flux landscape**" in collaboration with 
+3. "**Deep observations of the Type IIB flux landscape**" in collaboration with Aman Chauhan (Harish-Chandra Res. Inst.), Michele Cicoli (U. Bologn and INFN, Bologna), Sven Krippendorf (Cambridge U., DAMTP), Anshuman Maharana (Harish-Chandra Res. Inst.), Pellegrino Piantadosi (U. Bologna and INFN, Bologna),
 
-    * Published in: [JHEP 07 (2025) 271]()
+    * Published in: [JHEP 07 (2025) 271](https://link.springer.com/article/10.1007/JHEP07(2025)271)
     * e-Print: [2501.03984 [hep-th]](https://arxiv.org/abs/2501.03984)
-    * DOI: []()
+    * DOI: [10.1007/JHEP07(2025)271](https://link.springer.com/article/10.1007/JHEP07(2025)271)
 
     &nbsp;
 
-4. "**Fuzzy axions and associated relics**" in collaboration with 
+4. "**Fuzzy axions and associated relics**" in collaboration with Elijah Sheridan (Cornell U.), Federico Carta (King's Coll. London and LIMS, London), Naomi Gendler (Harvard U.), Mudit Jain (King's Coll. London), David J.E. Marsh (King's Coll. London), Liam McAllister (Cornell U.), Nicole Righi (King's Coll. London), and Keir K. Rogers (U. Toronto)
 
-    * Published in: [JHEP 09 (2025) 016]()
+    * Published in: [JHEP 09 (2025) 016](https://link.springer.com/article/10.1007/JHEP09(2025)016)
     * e-Print: [2412.12012 [hep-th]](https://arxiv.org/abs/2412.12012)
-    * DOI: []()
+    * DOI: [10.1007/JHEP09(2025)016](https://link.springer.com/article/10.1007/JHEP09(2025)016)
 
     &nbsp;
 
