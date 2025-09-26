@@ -41,28 +41,28 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
 
     &nbsp;
 
-5. "**Candidate de Sitter vacua**" in collaboration with 
+5. "**Candidate de Sitter vacua**" in collaboration with Liam McAllister (Cornell U., Phys. Dept.), Jakob Moritz (CERN), and Richard Nally (Cornell U., Phys. Dept.)
 
-    * Published in: [Phys.Rev.D 111 (2025) 8, 086015]()
+    * Published in: [Phys.Rev.D 111 (2025) 8, 086015](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.086015)
     * e-Print: [2406.13751 [hep-th]](https://arxiv.org/abs/2406.13751)
-    * DOI: []()
+    * DOI: [10.1103/PhysRevD.111.086015](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.086015)
 
     &nbsp;
 
-6. "**The DNA of Calabi-Yau Hypersurfaces**" in collaboration with 
+6. "**The DNA of Calabi-Yau Hypersurfaces**" in collaboration with Nate MacFadden (Cornell U., Phys. Dept.), and Elijah Sheridan (Cornell U., Phys. Dept.)
 
     * Published in: [submitted for publication in JHEP]()
     * e-Print: [2405.08871 [hep-th]](https://arxiv.org/abs/2405.08871)
 
     &nbsp;
 
-7. "**Counting Calabi-Yau Threefolds**" in collaboration with 
+7. "**Counting Calabi-Yau Threefolds**" in collaboration with Naomi Gendler (Harvard U., Phys. Dept. and Cornell U.), Nate MacFadden (Cornell U.), Liam McAllister (Cornell U.), Jakob Moritz (Cornell U. and CERN), Richard Nally (Cornell U.),and Mike Stillman (Cornell U., LNS)
 
     * e-Print: [2310.06820 [hep-th]](https://arxiv.org/abs/2310.06820)
 
     &nbsp;
 
-8. "**New non-supersymmetric flux vacua in string theory**" in collaboration with Sven Krippendorf(Munich U., ASC and Munich U.)
+8. "**New non-supersymmetric flux vacua in string theory**" in collaboration with Sven Krippendorf (Munich U., ASC and Munich U.)
 
     * Published in: [JHEP 12 (2023) 145](https://link.springer.com/article/10.1007/JHEP12(2023)145)
     * e-Print: [2308.15525 [hep-th]](https://arxiv.org/abs/2308.15525)
@@ -70,7 +70,7 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
 
     &nbsp;
 
-9. "**W0_sample = np.random.normal(0,1)?**" in collaboration with Julian Ebelt(Munich U., ASC), and Sven Krippendorf(Munich U., ASC and Munich U.)
+9. "**W0_sample = np.random.normal(0,1)?**" in collaboration with Julian Ebelt (Munich U., ASC), and Sven Krippendorf (Munich U., ASC and Munich U.)
 
     * Published in: [Phys.Lett.B 855 (2024) 138786](https://www.sciencedirect.com/science/article/pii/S0370269324003447?via%3Dihub)
     * e-Print: [2307.15749 [hep-th]](https://arxiv.org/abs/2307.15749)
@@ -78,7 +78,7 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
 
     &nbsp;
 
-10. "**JAXVacua --- a framework for sampling string vacua**" in collaboration with Abhishek Dubey(Munich U., ASC), and Sven Krippendorf(Munich U., ASC and Munich U.)
+10. "**JAXVacua --- a framework for sampling string vacua**" in collaboration with Abhishek Dubey (Munich U., ASC), and Sven Krippendorf (Munich U., ASC and Munich U.)
 
     * Published in: [JHEP 12 (2023) 146](https://link.springer.com/article/10.1007/JHEP12(2023)146)
     * e-Print: [2306.06160 [hep-th]](https://arxiv.org/abs/2306.06160)
@@ -86,7 +86,7 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
 
     &nbsp;
 
-11. "**Testing BSM physics with gravitational waves**" in collaboration with Francesco Muia(Cambridge U., DAMTP), Fernando Quevedo(Cambridge U., DAMTP), and Gonzalo Villa(Cambridge U., DAMTP)
+11. "**Testing BSM physics with gravitational waves**" in collaboration with Francesco Muia (Cambridge U., DAMTP), Fernando Quevedo (Cambridge U., DAMTP), and Gonzalo Villa (Cambridge U., DAMTP)
 
     * Published in: [JCAP 09 (2023)](https://inspirehep.net/files/6483a329a0d91b1daf5ac3d1a2ed6a00)
     * e-Print: [2303.01548 [hep-th]](https://arxiv.org/abs/2303.01548)
