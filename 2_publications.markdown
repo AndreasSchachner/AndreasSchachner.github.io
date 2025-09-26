@@ -7,6 +7,9 @@ permalink: /publications/
 Detailed information about my publications can be found on [iNSPIRE HEP](https://inspirehep.net/authors/1635387?ui-citation-summary=true).
 
 
+### Journal Articles
+
+
 1. "**Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles**" in collaboration with James T. Liu (Michigan U., MCTP), Ruben Minasian (IPhT, Saclay) and Raffaele Savelli (Rome U., Tor Vergata)
 
     * Published in: [JHEP 08 (2022) 267](https://link.springer.com/article/10.1007/JHEP08(2022)267)
@@ -79,6 +82,51 @@ Detailed information about my publications can be found on [iNSPIRE HEP](https:/
     * DOI: [10.1103/PhysRevA.95.053605](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.95.053605)
 
     &nbsp;
+
+
+### Lecture Notes and Reviews:
+
+1. "**TASI Lectures on de Sitter Vacua**" in collaboration with Liam McAllister (Cornell University)
+
+    * Lectures held by Liam McAllister at TASI 2025. Preliminary version can be found on official TASI 2025 website: [link](https://drive.google.com/drive/folders/1xZ1ScNzdE4i8hqASsCcZpk31A8FFy3UQ)
+    * e-Print: [to appear](https://arxiv.org/abs/)
+
+    &nbsp;
+
+2. "**Cambridge Lectures on The Standard Model**" in collaboration with Fernando Quevedo (Cambridge University)
+
+    * Part III lectures on the Standard Model of particle physics held 2020 to 2022
+    * Publisher: under contract with Cambridge University Press for publication as book in early 2027
+    * e-Print: [2409.09211 [hep-th]](https://arxiv.org/abs/2409.09211)
+
+    &nbsp;
+
+
+### Conference Articles and Proceedings
+
+1. "**Brief overview of Candidate de Sitter Vacua**" 
+
+    * Conference: [24th Hellenic School and Workshops on Elementary Particle Physics and Gravity (CORFU2024)](https://physics.ntua.gr/corfu2024/st.html#speakers)
+    * e-Print: [2505.00149 [hep-th]](https://arxiv.org/abs/2505.00149)
+
+    &nbsp;
+
+2. "**A Fuzzy Axiverse from String Theory**" 
+
+    * Conference: [PoS COSMICWISPers2024 (2025) 009, 2nd General Meeting of COST Action COSMIC WISPers (CA21106)](https://agenda.infn.it/event/39939/)
+    * e-Print: [2502.02256 [hep-th]](https://arxiv.org/abs/2502.02256)
+
+    &nbsp;
+
+3. "**Probing the Structure of String Theory Vacua with Genetic Algorithms and Reinforcement Learning**" 
+
+    * Conference: [35th Conference on Neural Information Processing Systems (NeurIPS 2021)](https://neurips.cc/Conferences/2021)
+    * e-Print: [2111.11466 [hep-th]](https://arxiv.org/abs/2111.11466)
+
+    &nbsp;
+
+
+
 
 
 

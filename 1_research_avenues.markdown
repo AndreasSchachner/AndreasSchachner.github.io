@@ -5,7 +5,7 @@ permalink: /research/
 ---
 <div style="width: 750px;">
    <p align="justify">
-    My research interests include in particular string phenomenology, quantum gravity, cosmology and non-perturbative aspects of QFT. The main argument for the study of string theory remains its potential to explain all natural phenomena, including gravity, within a consistent quantum framework. A central tenet of my research is uncovering novel mechanisms in string theory and its compactifications from methodical analyses of symmetries, dualities and geometries. 
+    My research interests lie primarily in string phenomenology, quantum gravity, cosmology, and the non-perturbative aspects of quantum field theory. The enduring motivation for studying string theory is its unique potential to provide a consistent quantum framework that unifies all fundamental interactions, including gravity. A central focus of my work is to uncover novel mechanisms within string theory and its compactifications, achieved through systematic analyses of symmetries, dualities, and underlying geometrical structures.
     
     </p>
 </div>
