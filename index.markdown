@@ -10,7 +10,7 @@ layout: home
 <img style="float: right;" src="{{site.url}}images/profile01.JPG" width="35%" height="auto">
 
 <div style="width: 450px;">
-   <p align="justify"> I am a Postdoc in Theoretical Physics focussing on high energy theory and applications of Machine Learning. My research interests include in particular string theory, quantum gravity, cosmology and non-perturbative aspects of QFT. </p>
+   <p align="justify"> I am a Postdoc in Theoretical Physics focussing on high energy theory and applications of Machine Learning. My research interests include string theory, quantum gravity, cosmology and non-perturbative aspects of QFT. </p>
 </div>
 <br>
 <div style="width: 450px;">
