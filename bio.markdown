@@ -11,15 +11,15 @@ permalink: /bio/
 
 ### Education
 
-- **10/2019-08/2022**: PhD student in Applied Mathematics and Theoretical Physics, DAMTP, University of Cambridge (Supervisor: Prof. Fernando Quevedo, Thesis title: [On Vacuum Structures and Quantum Corrections in String Theory](https://www.repository.cam.ac.uk/handle/1810/342316))
+- **10/2019-08/2022**: PhD student in Applied Mathematics and Theoretical Physics, DAMTP, University of Cambridge (Supervisor: Prof. Fernando Quevedo, Thesis: [On Vacuum Structures and Quantum Corrections in String Theory](https://www.repository.cam.ac.uk/handle/1810/342316))
 
 - **01/2019-09/2019**: Research visitor funded by Exposé scholarship of the German Academic Scholarship Foundation (GASF) at the University of Wisconsin-Madison (Prof. Gary Shiu), Ruprecht Karl University in Heidelberg (Prof. Arthur Hebecker) and ICTP Trieste (Prof. Fernando Quevedo)
 
-- **09/2015 - 12/2018**: Master's degree in Physics at the Ruprecht Karl University in Heidelberg (Thesis supervisor: Prof. Arthur Hebecker)
+- **09/2015 - 12/2018**: Master's degree in Physics at the Ruprecht Karl University in Heidelberg (Thesis supervisor: Prof. Arthur Hebecker, Thesis: [1812.05626](https://arxiv.org/pdf/1812.05626))
 
 - **10/2016-07/2017**: Part III of the Mathematical Tripos (Master of Advanced Study in Mathematics) at the University of Cambridge
 
-- **10/2012-8/2015**: Bachelor's degree in Physics at the Ruprecht Karl University in Heidelberg (Thesis supervisor: Prof. Jürgen Berges)
+- **10/2012-8/2015**: Bachelor's degree in Physics at the Ruprecht Karl University in Heidelberg (Thesis supervisor: Prof. Jürgen Berges, Thesis: [1612.03038](https://arxiv.org/pdf/1612.03038))
 
 &nbsp;
 
