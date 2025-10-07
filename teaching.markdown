@@ -7,7 +7,7 @@ permalink: /teaching/
 
 ### <b> Schools and workshops </b>
 
-* Lectures on *Machine Learning Techniques in the String Landscape* at [https://agenda.infn.it/event/42186/](XX AVOGADRO MEETING on Strings, Supergravity and Gauge Theories), see the corresponding [https://github.com/AndreasSchachner/ml-string-landscape](GitHub repository)
+* Lectures on *Machine Learning Techniques in the String Landscape* at [XX AVOGADRO MEETING on Strings, Supergravity and Gauge Theories](https://agenda.infn.it/event/42186/), see the corresponding [GitHub repository](https://github.com/AndreasSchachner/ml-string-landscape)
 
 ### <b> Ludwig Maximilian University of Munich </b>
 
