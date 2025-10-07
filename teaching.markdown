@@ -4,13 +4,16 @@ title: Teaching
 permalink: /teaching/
 ---
 
+
+### <b> Schools and workshops </b>
+
+* Lectures on *Machine Learning Techniques in the String Landscape* at [https://agenda.infn.it/event/42186/](XX AVOGADRO MEETING on Strings, Supergravity and Gauge Theories), see the corresponding [https://github.com/AndreasSchachner/ml-string-landscape](GitHub repository)
+
 ### <b> Ludwig Maximilian University of Munich </b>
 
-* Summer term 2025: Supervisor of an experiment in the AI Lab Course, guiding students in applying neural networks to solve partial differential equations in physics.
+* Summer term 2024/25: Supervisor of an experiment in the AI Lab Course, guiding students in applying neural networks to solve partial differential equations in physics.
 
 * Winter term 2024/25: String Theory I tutorials (Lecturer: PD Dr. R. Blumenhagen)
-
-* Summer term 2024: Supervisor of an experiment in the AI Lab Course, guiding students in applying neural networks to solve partial differential equations in physics.
 
 * Winter term 2023/24: String Theory I tutorials (Lecturer: Dr. R. Helling) and Lunch Seminar series (Group: Prof. Dr. Lüst).
 
