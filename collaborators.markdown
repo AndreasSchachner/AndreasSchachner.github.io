@@ -20,6 +20,7 @@ I am very grateful to current and previous collaborators:
 - Daniel Junghans
 - Sven Krippendorf
 - James Liu
+- Severin Lüst
 - Nate MacFadden
 - Anshuman Maharana
 - Doddy Marsh
@@ -33,6 +34,7 @@ I am very grateful to current and previous collaborators:
 - Nicole Righi
 - Keir K. Rogers
 - Raffaele Savelli
+- Simon Schreyer
 - Elijah Sheridan
 - Gary Shiu
 - Pramod Shukla
