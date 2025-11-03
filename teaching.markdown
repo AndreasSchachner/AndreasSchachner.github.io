@@ -5,9 +5,27 @@ permalink: /teaching/
 ---
 
 
-### <b> Schools and workshops </b>
+### <b> Lectures at schools and workshops </b>
 
 * Lectures on *Machine Learning Techniques in the String Landscape* at [XX AVOGADRO MEETING on Strings, Supergravity and Gauge Theories](https://agenda.infn.it/event/42186/), see the corresponding [GitHub repository](https://github.com/AndreasSchachner/ml-string-landscape)
+
+### Lecture Notes and Reviews:
+
+1. "**TASI Lectures on de Sitter Vacua**" in collaboration with Liam McAllister (Cornell University)
+
+    * Lectures held by Liam McAllister at TASI 2025. 
+    * Preliminary version can be found on official TASI 2025 website: [link](https://drive.google.com/drive/folders/1xZ1ScNzdE4i8hqASsCcZpk31A8FFy3UQ)
+    * e-Print: [to appear](https://arxiv.org/abs/)
+
+    &nbsp;
+
+2. "**Cambridge Lectures on The Standard Model**" in collaboration with Fernando Quevedo (Cambridge University)
+
+    * Part III lectures on the Standard Model of particle physics held 2020 to 2022
+    * Publisher: under contract with Cambridge University Press for publication in early 2027
+    * e-Print: [2409.09211 [hep-th]](https://arxiv.org/abs/2409.09211)
+
+    &nbsp;
 
 ### <b> Ludwig Maximilian University of Munich </b>
 
