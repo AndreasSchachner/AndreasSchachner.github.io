@@ -54,7 +54,7 @@ For references, please contact:
     - webpage: [https://physics.cornell.edu/liam-mcallister](https://physics.cornell.edu/liam-mcallister)
 * Dieter Lüst:
     - email: <a href= "mailto:luest@mpp.mpg.de">luest@mpp.mpg.de</a>
-    - webpage: [https://www.mpp.mpg.de/dieter-luest](hhttps://www.mpp.mpg.de/ueber-uns/organisation/direktoren/prof-dr-dieter-luest)
+    - webpage: [https://www.mpp.mpg.de/ueber-uns/organisation/direktoren/prof-dr-dieter-luest](https://www.mpp.mpg.de/ueber-uns/organisation/direktoren/prof-dr-dieter-luest)
 * Gary Shiu: 
     - email: <a href= "mailto:shiu@physics.wisc.edu">shiu@physics.wisc.edu</a>
     - webpage: [https://shiu.physics.wisc.edu](https://shiu.physics.wisc.edu)
