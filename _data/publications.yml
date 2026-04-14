@@ -1,0 +1,599 @@
+# Publications data, generated from inspirehep/schachner_papers.json.
+# Regenerate: python3 inspirehep/scripts/to_publications_yml.py
+# Hand-curate `cluster`, `also`, and `doi` after regeneration.
+#
+# Cluster keys (primary, one per entry):
+#   flux-moduli        — flux vacua and moduli stabilisation
+#   de-sitter          — de Sitter vacua in string theory
+#   higher-derivative  — alpha-prime and g_s corrections
+#   cy-geometry        — Calabi-Yau geometry and counting
+#   axions-axiverse    — axions, the axiverse, and WISPs
+#   ml-computational   — machine learning and computational methods
+#   gw-bsm             — gravitational waves and BSM physics
+#   lectures-reviews   — lecture notes and reviews
+#   proceedings        — conference proceedings
+#   thesis             — PhD/MSc thesis
+#   early-qft          — pre-string-theory / early QFT work
+
+- arxiv: 2603.04941
+  title: Parameter compression in the flux landscape
+  authors:
+    - A. Chauhan
+    - M. Cicoli
+    - S. Krippendorf
+    - A. Maharana
+    - P. Piantadosi
+    - A. Schachner
+  year: 2026
+  published: null
+  doi: ""
+  type: article
+  cluster: ml-computational
+  also: []
+  citations_inspire: 0
+  earliest_date: 2026-03-05
+
+- arxiv: 2603.03433
+  title: "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles"
+  authors:
+    - A. Arza
+    - D. Aybas
+    - S. Balaji
+    - R. Balkin
+    - K. Bartnick
+    - C. F. A. Baynham
+    - I. M. Bloch
+    - C. Bonati
+    - D. Budker
+    - C. Burrage
+    - M. Buschmann
+    - F. Calore
+    - F. R. Candón
+    - P. Carenza
+    - S. A. Cetin
+    - F. Chadha-Day
+    - S. Chakraborti
+    - K. Choi
+    - M. Cicoli
+    - L. Cong
+    - J. P. Conlon
+    - F. L. Constantin
+    - J. Correia
+    - C. De Dominicis
+    - A. de Giorgi
+    - P. De la Torre Luque
+    - J. De Miguel
+    - "F. D'Eramo"
+    - A. Díaz-Morcillo
+    - P. Diego-Palazuelos
+    - D. Díez-Ibáñez
+    - L. Di Luzio
+    - A. Drew
+    - B. Döbrich
+    - C. Eckner
+    - A. Ejlli
+    - S. A. R. Ellis
+    - A. Esposito
+    - E. Ferreira
+    - N. Ferreiro Iachellini
+    - D. F. G. Fiorillo
+    - M. Galaverni
+    - M. Gallinaro
+    - C. García-Cely
+    - S. Gasparotto
+    - C. Gatti
+    - D. Gavilan-Martin
+    - M. Giannotti
+    - B. Gimeno
+    - M. Gorghetto
+    - G. G. di Cortona
+    - J. Gué
+    - G. Higgins
+    - D. Horns
+    - M. Kaltschmidt
+    - M. Karuza
+    - V. Kozhuharov
+    - S. Kunc
+    - F. Lecce
+    - A. Lella
+    - A. Lindner
+    - M. P. Lombardo
+    - G. Lucente
+    - O. Maliaka
+    - C. Margalejo
+    - M. Maroudas
+    - L. Marsicano
+    - L. Merlo
+    - A. Mirizzi
+    - V. A. Mitsou
+    - G. Mueller
+    - K. Murai
+    - T. Namikawa
+    - F. Naokawa
+    - L. H. Nguyen
+    - "C. O'Hare"
+    - "T. O'Shea"
+    - I. Obata
+    - A. Övgün
+    - F. G. Pedro
+    - G. Pierobon
+    - T. K. Poddar
+    - J. Pradler
+    - P. Pugnat
+    - B. Puliçe
+    - R. Quishpe
+    - G. G. Raffelt
+    - M. Ramos
+    - W. Ratzinger
+    - M. Regis
+    - M. Reig
+    - S. Renner
+    - A. Rettaroli
+    - N. Righi
+    - A. Ringwald
+    - L. R. Roberts
+    - K. K. Rogers
+    - Q. Rokn
+    - O. M. Ruimi
+    - J. Ruz
+    - K. Saikawa
+    - M. Scalisi
+    - A. Schachner
+    - J. Schaffran
+    - K. Schmieden
+    - M. Schott
+    - J. Serra
+    - A. Sokolov
+    - P. Spagnolo
+    - K. Springmann
+    - M. Staelens
+    - S. Stelzl
+    - O. Straniero
+    - M. Taoso
+    - E. Todarello
+    - C. Toni
+    - L. Ubaldi
+    - F. R. Urban
+    - R. Vicente
+    - L. Visinelli
+    - E. Vitagliano
+    - J. K. Vogel
+    - A. Weiler
+    - S. J. Witte
+    - M. Wurm
+    - W. Yin
+    - K. Zioutas
+  year: 2026
+  published: null
+  doi: ""
+  type: article
+  cluster: axions-axiverse
+  also: []
+  citations_inspire: 9
+  earliest_date: 2026-03-03
+
+- arxiv: 2512.17995
+  title: Effective potentials, warping, and implications for F-term uplifting
+  authors:
+    - A. Hebecker
+    - S. Lüst
+    - A. Schachner
+    - S. Schreyer
+  year: 2025
+  published: null
+  doi: ""
+  type: article
+  cluster: de-sitter
+  also: []
+  citations_inspire: 0
+  earliest_date: 2025-12-19
+
+- arxiv: 2512.17095
+  title: TASI Lectures on de Sitter Vacua
+  authors:
+    - L. McAllister
+    - A. Schachner
+  year: 2025
+  published: null
+  doi: ""
+  type: conference paper
+  cluster: de-sitter
+  also: []
+  citations_inspire: 9
+  earliest_date: 2025-12-18
+
+- arxiv: 2512.00144
+  title: "Bayesian inference on Calabi--Yau moduli spaces and the axiverse: experimental data meets string theory"
+  authors:
+    - M. Jain
+    - E. Sheridan
+    - D. J. E. Marsh
+    - E. Heyes
+    - K. K. Rogers
+    - A. Schachner
+  year: 2025
+  published: null
+  doi: ""
+  type: article
+  cluster: axions-axiverse
+  also: []
+  citations_inspire: 4
+  earliest_date: 2025-11-28
+
+- arxiv: 2507.07934
+  title: "Type IIB at eight derivatives: five-point axio-dilaton couplings"
+  authors:
+    - J. T. Liu
+    - R. Minasian
+    - R. Savelli
+    - A. Schachner
+  year: 2025
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: higher-derivative
+  also: []
+  citations_inspire: 10
+  earliest_date: 2025-07-10
+
+- arxiv: 2507.00615
+  title: Coexisting flux string vacua from numerical Kähler moduli stabilisation
+  authors:
+    - S. AbdusSalam
+    - C. Hughes
+    - F. Quevedo
+    - A. Schachner
+  year: 2026
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: flux-moduli
+  also: []
+  citations_inspire: 7
+  earliest_date: 2025-07-01
+
+- arxiv: 2505.00149
+  title: Brief overview of Candidate de Sitter Vacua
+  authors:
+    - A. Schachner
+  year: 2025
+  published: PoS
+  doi: ""
+  type: conference paper
+  cluster: de-sitter
+  also: []
+  citations_inspire: 4
+  earliest_date: 2025-04-30
+
+- arxiv: 2502.02256
+  title: A Fuzzy Axiverse from String Theory
+  authors:
+    - A. Schachner
+  year: 2025
+  published: PoS
+  doi: ""
+  type: conference paper
+  cluster: axions-axiverse
+  also: []
+  citations_inspire: 0
+  earliest_date: 2025-02-04
+
+- arxiv: 2501.03984
+  title: Deep observations of the Type IIB flux landscape
+  authors:
+    - A. Chauhan
+    - M. Cicoli
+    - S. Krippendorf
+    - A. Maharana
+    - P. Piantadosi
+    - A. Schachner
+  year: 2025
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: ml-computational
+  also: []
+  citations_inspire: 17
+  earliest_date: 2025-01-07
+
+- arxiv: 2412.12012
+  title: Fuzzy axions and associated relics
+  authors:
+    - E. Sheridan
+    - F. Carta
+    - N. Gendler
+    - M. Jain
+    - D. J. E. Marsh
+    - L. McAllister
+    - N. Righi
+    - K. K. Rogers
+    - A. Schachner
+  year: 2025
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: axions-axiverse
+  also: []
+  citations_inspire: 30
+  earliest_date: 2024-12-16
+
+- arxiv: 2409.09211
+  title: Cambridge Lectures on The Standard Model
+  authors:
+    - F. Quevedo
+    - A. Schachner
+  year: 2024
+  published: "Cambridge University Press (in preparation, early 2027)"
+  doi: ""
+  type: lectures
+  cluster: lectures-reviews
+  also: []
+  citations_inspire: 12
+  earliest_date: 2024-09-13
+
+- arxiv: 2406.13751
+  title: Candidate de Sitter vacua
+  authors:
+    - L. McAllister
+    - J. Moritz
+    - R. Nally
+    - A. Schachner
+  year: 2025
+  published: Phys.Rev.D
+  doi: ""
+  type: article
+  cluster: de-sitter
+  also: []
+  citations_inspire: 59
+  earliest_date: 2024-06-19
+
+- arxiv: 2405.08871
+  title: The DNA of Calabi-Yau Hypersurfaces
+  authors:
+    - N. MacFadden
+    - A. Schachner
+    - E. Sheridan
+  year: 2024
+  published: null
+  doi: ""
+  type: article
+  cluster: ml-computational
+  also: []
+  citations_inspire: 12
+  earliest_date: 2024-05-14
+
+- arxiv: 2310.06820
+  title: Counting Calabi-Yau Threefolds
+  authors:
+    - N. Gendler
+    - N. MacFadden
+    - L. McAllister
+    - J. Moritz
+    - R. Nally
+    - A. Schachner
+    - M. Stillman
+  year: 2023
+  published: null
+  doi: ""
+  type: article
+  cluster: ml-computational
+  also: []
+  citations_inspire: 24
+  earliest_date: 2023-10-10
+
+- arxiv: 2308.15525
+  title: New non-supersymmetric flux vacua in string theory
+  authors:
+    - S. Krippendorf
+    - A. Schachner
+  year: 2023
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: flux-moduli
+  also: []
+  citations_inspire: 22
+  earliest_date: 2023-08-29
+
+- arxiv: 2307.15749
+  title: W0_sample = np.random.normal(0,1)?
+  authors:
+    - J. Ebelt
+    - S. Krippendorf
+    - A. Schachner
+  year: 2024
+  published: Phys.Lett.B
+  doi: ""
+  type: article
+  cluster: ml-computational
+  also: []
+  citations_inspire: 16
+  earliest_date: 2023-07-28
+
+- arxiv: 2306.06160
+  title: JAXVacua — a framework for sampling string vacua
+  authors:
+    - A. Dubey
+    - S. Krippendorf
+    - A. Schachner
+  year: 2023
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: ml-computational
+  also: []
+  citations_inspire: 31
+  earliest_date: 2023-06-09
+
+- arxiv: 2303.01548
+  title: Testing BSM physics with gravitational waves
+  authors:
+    - F. Muia
+    - F. Quevedo
+    - A. Schachner
+    - G. Villa
+  year: 2023
+  published: JCAP
+  doi: ""
+  type: article
+  cluster: gw-bsm
+  also: []
+  citations_inspire: 28
+  earliest_date: 2023-03-02
+
+- arxiv: 
+  title: On Vacuum Structures and Quantum Corrections in String Theory
+  authors:
+    - A. Schachner
+  year: 2022
+  published: "PhD thesis, University of Cambridge (DAMTP)"
+  doi: "10.17863/CAM.98090"
+  type: thesis
+  cluster: thesis
+  also: []
+  citations_inspire: 1
+  earliest_date: 2022-10-21
+
+- arxiv: 2205.11530
+  title: "Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles"
+  authors:
+    - J. T. Liu
+    - R. Minasian
+    - R. Savelli
+    - A. Schachner
+  year: 2022
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: higher-derivative
+  also: []
+  citations_inspire: 28
+  earliest_date: 2022-05-23
+
+- arxiv: 2204.13115
+  title: A database of Calabi-Yau orientifolds and the size of D3-tadpoles
+  authors:
+    - C. Crinò
+    - F. Quevedo
+    - A. Schachner
+    - R. Valandro
+  year: 2022
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: flux-moduli
+  also: []
+  citations_inspire: 40
+  earliest_date: 2022-04-27
+
+- arxiv: 2111.11466
+  title: Probing the Structure of String Theory Vacua with Genetic Algorithms and Reinforcement Learning
+  authors:
+    - A. Cole
+    - S. Krippendorf
+    - A. Schachner
+    - G. Shiu
+  year: 2021
+  published: null
+  doi: ""
+  type: conference paper
+  cluster: ml-computational
+  also: []
+  citations_inspire: 47
+  earliest_date: 2021-11-22
+
+- arxiv: 2109.14624
+  title: Systematics of type IIB moduli stabilisation with odd axions
+  authors:
+    - M. Cicoli
+    - A. Schachner
+    - P. Shukla
+  year: 2022
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: flux-moduli
+  also: [axions-axiverse]
+  citations_inspire: 48
+  earliest_date: 2021-09-29
+
+- arxiv: 2106.11964
+  title: The Standard Model quiver in de Sitter string compactifications
+  authors:
+    - M. Cicoli
+    - I. G. Etxebarria
+    - F. Quevedo
+    - A. Schachner
+    - P. Shukla
+    - R. Valandro
+  year: 2021
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: de-sitter
+  also: []
+  citations_inspire: 66
+  earliest_date: 2021-06-22
+
+- arxiv: 2106.04592
+  title: Systematics of the α′ expansion in F-theory
+  authors:
+    - M. Cicoli
+    - F. Quevedo
+    - R. Savelli
+    - A. Schachner
+    - R. Valandro
+  year: 2021
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: higher-derivative
+  also: []
+  citations_inspire: 44
+  earliest_date: 2021-06-08
+
+- arxiv: 1907.10072
+  title: Searching the Landscape of Flux Vacua with Genetic Algorithms
+  authors:
+    - A. Cole
+    - A. Schachner
+    - G. Shiu
+  year: 2019
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: ml-computational
+  also: []
+  citations_inspire: 82
+  earliest_date: 2019-07-23
+
+- arxiv: 1812.05626
+  title: Large Field Ranges from Aligned and Misaligned Winding
+  authors:
+    - A. Hebecker
+    - D. Junghans
+    - A. Schachner
+  year: 2019
+  published: JHEP
+  doi: ""
+  type: article
+  cluster: early-qft
+  also: []
+  citations_inspire: 36
+  earliest_date: 2018-12-13
+
+- arxiv: 1612.03038
+  title: Universal scaling of unequal-time correlation functions in ultracold Bose gases far from equilibrium
+  authors:
+    - A. Schachner
+    - A. Piñeiro Orioli
+    - J. Berges
+  year: 2017
+  published: Phys.Rev.A
+  doi: ""
+  type: article
+  cluster: early-qft
+  also: []
+  citations_inspire: 27
+  earliest_date: 2016-12-09
+
