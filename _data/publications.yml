@@ -31,8 +31,7 @@
   cluster: ml-computational
   also: []
   citations_inspire: 0
-  earliest_date: 2026-03-05
-
+  earliest_date: "2026-03-05"
 - arxiv: 2603.03433
   title: "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles"
   authors:
@@ -170,8 +169,7 @@
   cluster: axions-axiverse
   also: []
   citations_inspire: 9
-  earliest_date: 2026-03-03
-
+  earliest_date: "2026-03-03"
 - arxiv: 2512.17995
   title: Effective potentials, warping, and implications for F-term uplifting
   authors:
@@ -186,8 +184,7 @@
   cluster: de-sitter
   also: []
   citations_inspire: 0
-  earliest_date: 2025-12-19
-
+  earliest_date: "2025-12-19"
 - arxiv: 2512.17095
   title: TASI Lectures on de Sitter Vacua
   authors:
@@ -200,8 +197,7 @@
   cluster: de-sitter
   also: []
   citations_inspire: 9
-  earliest_date: 2025-12-18
-
+  earliest_date: "2025-12-18"
 - arxiv: 2512.00144
   title: "Bayesian inference on Calabi--Yau moduli spaces and the axiverse: experimental data meets string theory"
   authors:
@@ -218,8 +214,7 @@
   cluster: axions-axiverse
   also: []
   citations_inspire: 4
-  earliest_date: 2025-11-28
-
+  earliest_date: "2025-11-28"
 - arxiv: 2507.07934
   title: "Type IIB at eight derivatives: five-point axio-dilaton couplings"
   authors:
@@ -234,8 +229,7 @@
   cluster: higher-derivative
   also: []
   citations_inspire: 10
-  earliest_date: 2025-07-10
-
+  earliest_date: "2025-07-10"
 - arxiv: 2507.00615
   title: Coexisting flux string vacua from numerical Kähler moduli stabilisation
   authors:
@@ -250,8 +244,7 @@
   cluster: flux-moduli
   also: []
   citations_inspire: 7
-  earliest_date: 2025-07-01
-
+  earliest_date: "2025-07-01"
 - arxiv: 2505.00149
   title: Brief overview of Candidate de Sitter Vacua
   authors:
@@ -263,8 +256,7 @@
   cluster: de-sitter
   also: []
   citations_inspire: 4
-  earliest_date: 2025-04-30
-
+  earliest_date: "2025-04-30"
 - arxiv: 2502.02256
   title: A Fuzzy Axiverse from String Theory
   authors:
@@ -276,8 +268,7 @@
   cluster: axions-axiverse
   also: []
   citations_inspire: 0
-  earliest_date: 2025-02-04
-
+  earliest_date: "2025-02-04"
 - arxiv: 2501.03984
   title: Deep observations of the Type IIB flux landscape
   authors:
@@ -294,8 +285,7 @@
   cluster: ml-computational
   also: []
   citations_inspire: 17
-  earliest_date: 2025-01-07
-
+  earliest_date: "2025-01-07"
 - arxiv: 2412.12012
   title: Fuzzy axions and associated relics
   authors:
@@ -315,8 +305,7 @@
   cluster: axions-axiverse
   also: []
   citations_inspire: 30
-  earliest_date: 2024-12-16
-
+  earliest_date: "2024-12-16"
 - arxiv: 2409.09211
   title: Cambridge Lectures on The Standard Model
   authors:
@@ -329,8 +318,7 @@
   cluster: lectures-reviews
   also: []
   citations_inspire: 12
-  earliest_date: 2024-09-13
-
+  earliest_date: "2024-09-13"
 - arxiv: 2406.13751
   title: Candidate de Sitter vacua
   authors:
@@ -345,8 +333,7 @@
   cluster: de-sitter
   also: []
   citations_inspire: 59
-  earliest_date: 2024-06-19
-
+  earliest_date: "2024-06-19"
 - arxiv: 2405.08871
   title: The DNA of Calabi-Yau Hypersurfaces
   authors:
@@ -360,8 +347,7 @@
   cluster: ml-computational
   also: []
   citations_inspire: 12
-  earliest_date: 2024-05-14
-
+  earliest_date: "2024-05-14"
 - arxiv: 2310.06820
   title: Counting Calabi-Yau Threefolds
   authors:
@@ -379,8 +365,7 @@
   cluster: ml-computational
   also: []
   citations_inspire: 24
-  earliest_date: 2023-10-10
-
+  earliest_date: "2023-10-10"
 - arxiv: 2308.15525
   title: New non-supersymmetric flux vacua in string theory
   authors:
@@ -393,8 +378,7 @@
   cluster: flux-moduli
   also: []
   citations_inspire: 22
-  earliest_date: 2023-08-29
-
+  earliest_date: "2023-08-29"
 - arxiv: 2307.15749
   title: W0_sample = np.random.normal(0,1)?
   authors:
@@ -408,8 +392,7 @@
   cluster: ml-computational
   also: []
   citations_inspire: 16
-  earliest_date: 2023-07-28
-
+  earliest_date: "2023-07-28"
 - arxiv: 2306.06160
   title: JAXVacua — a framework for sampling string vacua
   authors:
@@ -423,8 +406,7 @@
   cluster: ml-computational
   also: []
   citations_inspire: 31
-  earliest_date: 2023-06-09
-
+  earliest_date: "2023-06-09"
 - arxiv: 2303.01548
   title: Testing BSM physics with gravitational waves
   authors:
@@ -439,8 +421,7 @@
   cluster: gw-bsm
   also: []
   citations_inspire: 28
-  earliest_date: 2023-03-02
-
+  earliest_date: "2023-03-02"
 - arxiv: 
   title: On Vacuum Structures and Quantum Corrections in String Theory
   authors:
@@ -452,8 +433,7 @@
   cluster: thesis
   also: []
   citations_inspire: 1
-  earliest_date: 2022-10-21
-
+  earliest_date: "2022-10-21"
 - arxiv: 2205.11530
   title: "Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles"
   authors:
@@ -468,8 +448,7 @@
   cluster: higher-derivative
   also: []
   citations_inspire: 28
-  earliest_date: 2022-05-23
-
+  earliest_date: "2022-05-23"
 - arxiv: 2204.13115
   title: A database of Calabi-Yau orientifolds and the size of D3-tadpoles
   authors:
@@ -484,8 +463,7 @@
   cluster: flux-moduli
   also: []
   citations_inspire: 40
-  earliest_date: 2022-04-27
-
+  earliest_date: "2022-04-27"
 - arxiv: 2111.11466
   title: Probing the Structure of String Theory Vacua with Genetic Algorithms and Reinforcement Learning
   authors:
@@ -500,8 +478,7 @@
   cluster: ml-computational
   also: []
   citations_inspire: 47
-  earliest_date: 2021-11-22
-
+  earliest_date: "2021-11-22"
 - arxiv: 2109.14624
   title: Systematics of type IIB moduli stabilisation with odd axions
   authors:
@@ -515,8 +492,7 @@
   cluster: flux-moduli
   also: [axions-axiverse]
   citations_inspire: 48
-  earliest_date: 2021-09-29
-
+  earliest_date: "2021-09-29"
 - arxiv: 2106.11964
   title: The Standard Model quiver in de Sitter string compactifications
   authors:
@@ -533,8 +509,7 @@
   cluster: de-sitter
   also: []
   citations_inspire: 66
-  earliest_date: 2021-06-22
-
+  earliest_date: "2021-06-22"
 - arxiv: 2106.04592
   title: Systematics of the α′ expansion in F-theory
   authors:
@@ -550,8 +525,7 @@
   cluster: higher-derivative
   also: []
   citations_inspire: 44
-  earliest_date: 2021-06-08
-
+  earliest_date: "2021-06-08"
 - arxiv: 1907.10072
   title: Searching the Landscape of Flux Vacua with Genetic Algorithms
   authors:
@@ -565,8 +539,7 @@
   cluster: ml-computational
   also: []
   citations_inspire: 82
-  earliest_date: 2019-07-23
-
+  earliest_date: "2019-07-23"
 - arxiv: 1812.05626
   title: Large Field Ranges from Aligned and Misaligned Winding
   authors:
@@ -580,8 +553,7 @@
   cluster: early-qft
   also: []
   citations_inspire: 36
-  earliest_date: 2018-12-13
-
+  earliest_date: "2018-12-13"
 - arxiv: 1612.03038
   title: Universal scaling of unequal-time correlation functions in ultracold Bose gases far from equilibrium
   authors:
@@ -595,5 +567,4 @@
   cluster: early-qft
   also: []
   citations_inspire: 27
-  earliest_date: 2016-12-09
-
+  earliest_date: "2016-12-09"
