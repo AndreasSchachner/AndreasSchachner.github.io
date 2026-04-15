@@ -77,7 +77,14 @@ analytic approximations.
 
 ## de Sitter vacua in string theory {#de-sitter-vacua}
 
-<!-- figure: Fig. 1 from arXiv:2406.13751 -->
+<figure class="avenue-figure">
+  <img src="{{ '/images/research/de-sitter-fig1.png' | relative_url }}"
+       alt="Candidate de Sitter vacuum: anti-D3-brane uplift from a supersymmetric AdS vacuum (KKLT scenario), and the scalar potentials of the resulting de Sitter and anti-de Sitter vacua in an explicit Calabi–Yau orientifold flux compactification">
+  <figcaption>
+    Fig. 1 from <a href="https://arxiv.org/abs/2406.13751"
+    target="_blank" rel="noopener">arXiv:2406.13751</a>. <em>Top:</em> outcomes of anti-D3-brane uplift from a supersymmetric AdS vacuum in the KKLT scenario. <em>Bottom:</em> scalar potentials of the AdS (black) and dS (pink) vacua in the Calabi&ndash;Yau flux compactification.
+  </figcaption>
+</figure>
 
 Explaining the observed accelerated expansion of the Universe within a
 UV-complete theory of quantum gravity is one of the central open problems
@@ -127,7 +134,15 @@ Type&nbsp;IIB compactifications.
 
 ## Higher-derivative corrections {#higher-derivative}
 
-<!-- figure: Fig. 3 from arXiv:2507.07934 -->
+<figure class="avenue-figure">
+  <img src="{{ '/images/research/higher-derivative-fig3.png' | relative_url }}"
+       alt="h^3 phi^2 amplitude: diagrams contributing to the five-point closed-string amplitude at eight derivatives, with intermediate exchange channels (in blue) to be subtracted to isolate the contact term">
+  <figcaption>
+    Fig. 3 from <a href="https://arxiv.org/abs/2507.07934"
+    target="_blank" rel="noopener">arXiv:2507.07934</a>. The
+    <em>h</em><sup>3</sup><em>&phi;</em><sup>2</sup> amplitude; diagrams in blue indicate poles to be subtracted.
+  </figcaption>
+</figure>
 
 Extracting reliable low-energy information from string compactifications
 requires a detailed understanding of the UV sensitivity of the resulting
@@ -170,7 +185,16 @@ superspace methods anticipate.
 
 ## Axions, the axiverse, and fundamental cosmology {#axiverse}
 
-<!-- figure: Fig. 19 from arXiv:2512.00144 -->
+<figure class="avenue-figure avenue-figure--pair">
+  <img src="{{ '/images/research/axiverse-fig19-left.png' | relative_url }}"
+       alt="Marginalized posterior distribution of axion mass m_a and axion dark-matter fraction Omega_a / Omega_DM, with 68% and 95% credible regions shown">
+  <img src="{{ '/images/research/axiverse-fig19-right.png' | relative_url }}"
+       alt="Marginalized posterior distribution of the axion decay constant f_a, comparing a Calabi–Yau sampling analysis to an EFT analysis with a single ultralight axion">
+  <figcaption>
+    Fig. 19 from <a href="https://arxiv.org/abs/2512.00144"
+    target="_blank" rel="noopener">arXiv:2512.00144</a>. <em>Left:</em> joint posterior for the axion mass and DM fraction. <em>Right:</em> posterior for the decay constant <em>f<sub>a</sub></em>. Dark/light contours indicate 68% and 95% credible regions.
+  </figcaption>
+</figure>
 
 String compactifications generically predict a rich spectrum of axion-like
 particles spanning many orders of magnitude in mass and coupling &mdash;
@@ -221,7 +245,14 @@ be used to test BSM scenarios motivated by string compactifications.
 
 ## Computational string theory and AI for HEP-TH {#computational-ai}
 
-<!-- figure: Fig. 3 from arXiv:2405.08871 -->
+<figure class="avenue-figure">
+  <img src="{{ '/images/research/computational-fig3.png' | relative_url }}"
+       alt="DNA of Calabi–Yau hypersurfaces: structural invariants extracted from a large ensemble of Calabi–Yau threefolds that can be exploited by machine-learning methods for fast classification and navigation of the landscape">
+  <figcaption>
+    Fig. 3 from <a href="https://arxiv.org/abs/2405.08871"
+    target="_blank" rel="noopener">arXiv:2405.08871</a> (<em>The DNA of Calabi&ndash;Yau hypersurfaces</em>).
+  </figcaption>
+</figure>
 
 The string landscape is a combinatorially vast and computationally hard
 object: estimates of its size range from
@@ -317,4 +348,40 @@ interested in collaborating on the software stack behind them, please
 .research-toc a { color: #0969da; }
 
 h2[id] { scroll-margin-top: 1rem; }
+
+.avenue-figure {
+  margin: 1.25rem 0 1.5rem;
+  padding: 0.5rem;
+  border: 1px solid #eaeef2;
+  border-radius: 6px;
+  background: #fff;
+  text-align: center;
+}
+.avenue-figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.avenue-figure--pair {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.avenue-figure--pair img {
+  flex: 1 1 260px;
+  min-width: 0;
+}
+.avenue-figure--pair figcaption {
+  flex-basis: 100%;
+}
+.avenue-figure figcaption {
+  color: #57606a;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  padding: 0 0.25rem;
+  text-align: left;
+}
 </style>
