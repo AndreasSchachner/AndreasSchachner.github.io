@@ -184,6 +184,49 @@ istanbul:
   lat: 41.0136
   lon: 28.9550
 
+simons_center:
+  name: Simons Center for Geometry and Physics (String Data 2020)
+  city: Stony Brook, NY
+  country: USA
+  lat: 40.9161
+  lon: -73.1244
+
+toronto_u:
+  name: University of Toronto — HEP seminar
+  city: Toronto
+  country: Canada
+  lat: 43.6629
+  lon: -79.3957
+
+cmi_chennai:
+  name: Chennai Mathematical Institute (BIRS–CMI Workshop)
+  city: Chennai
+  country: India
+  lat: 12.9912
+  lon: 80.2565
+
+mit_cambridge:
+  name: Massachusetts Institute of Technology
+  city: Cambridge, MA
+  country: USA
+  lat: 42.3601
+  lon: -71.0942
+
+ihp_paris:
+  name: Institut Henri Poincaré (Rencontres Théoriciennes)
+  city: Paris
+  country: France
+  lat: 48.8453
+  lon: 2.3438
+
+kyoto_u:
+  name: Kyoto University
+  city: Kyoto
+  country: Japan
+  lat: 35.0262
+  lon: 135.7808
+  needs-verify: true
+
 # ---- Entries to confirm before switching on the map -----------------
 # If you can tell me the host city for each, I'll fill the coords and
 # drop the needs-verify flag.

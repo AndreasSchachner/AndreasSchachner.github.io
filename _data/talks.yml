@@ -14,6 +14,46 @@
 # Entries below migrated from talks.pdf (MM/DD/YYYY) and CV (DD/MM/YYYY),
 # normalised to ISO dates. One ambiguity flagged inline.
 
+- date: 2026-05-06
+  event: MIT seminar
+  title: "One integral to compute them all: α'-corrected D-brane actions from Schwinger time in M-theory"
+  venue: MIT, Cambridge, MA, USA
+  type: invited-seminar
+  venue_key: mit_cambridge
+  url: ""
+  slides: ""
+  papers: ["2205.11530", "2507.07934"]
+
+- date: 2026-04-09
+  event: Rencontres Théoriciennes
+  title: "One integral to compute them all: α'-corrected D-brane actions from Schwinger time in M-theory"
+  venue: Institut Henri Poincaré, Paris, France
+  type: invited-seminar
+  venue_key: ihp_paris
+  url: ""
+  slides: ""
+  papers: ["2205.11530", "2507.07934"]
+
+- date: 2026-03-30
+  event: HEP seminar
+  title: "From Strings to the Universe — Bridging Geometry and Cosmology"
+  venue: University of Toronto, Canada
+  type: invited-seminar
+  venue_key: toronto_u
+  url: ""
+  slides: ""
+  papers: ["2406.13751"]
+
+- date: 2026-01-30
+  event: BIRS–CMI Workshop on Recent Progress in Computational String Geometry
+  title: "Learning the Landscape: Differentiable Frameworks for String Theory"
+  venue: CMI, Chennai, India
+  type: invited-plenary
+  venue_key: cmi_chennai
+  url: ""
+  slides: ""
+  papers: ["2512.14817"]
+
 - date: 2025-12-08
   event: String Data 2025
   venue: London, UK
@@ -64,11 +104,13 @@
 
 - date: 2025-01-17
   event: Prospects for the String Axiverse
+  title: "Towards fully automated pipelines for exploring the String Axiverse"
   venue: Banff, Canada
   type: invited-plenary
   venue_key: banff_birs
   url: ""
   slides: ""
+  papers: ["2405.08871", "2306.06160", "2501.03984"]
 
 - date: 2024-12-18
   event: Avogadro Meeting 2024 — Lectures on Machine Learning Techniques in the String Landscape
