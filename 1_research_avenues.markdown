@@ -77,7 +77,7 @@ analytic approximations.
 
 ## de Sitter vacua in string theory {#de-sitter-vacua}
 
-<figure class="avenue-figure">
+<figure class="avenue-figure avenue-figure--narrow">
   <img src="{{ '/images/research/de-sitter-fig1.png' | relative_url }}"
        alt="Candidate de Sitter vacuum: anti-D3-brane uplift from a supersymmetric AdS vacuum (KKLT scenario), and the scalar potentials of the resulting de Sitter and anti-de Sitter vacua in an explicit Calabi–Yau orientifold flux compactification">
   <figcaption>
@@ -353,6 +353,10 @@ h2[id] { scroll-margin-top: 1rem; }
   height: auto;
   display: block;
   margin: 0 auto;
+}
+.avenue-figure--narrow img { max-width: 460px; }
+@media (max-width: 600px) {
+  .avenue-figure--narrow img { max-width: 100%; }
 }
 .avenue-figure--pair {
   display: flex;
