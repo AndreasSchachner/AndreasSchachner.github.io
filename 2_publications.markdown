@@ -6,11 +6,6 @@ permalink: /publications/
 
 Detailed information about my publications can also be found on
 [InspireHEP](https://inspirehep.net/authors/1635387?ui-citation-summary=true).
-The list below is generated from the
-[`_data/publications.yml`](https://github.com/AndreasSchachner/AndreasSchachner.github.io/blob/master/_data/publications.yml)
-data file in this repository; see `inspirehep/scripts/to_publications_yml.py`
-in the [`workflows`](https://github.com/AndreasSchachner) repository for the
-InspireHEP → YAML migration.
 
 {% include coauthor_graph.html %}
 
