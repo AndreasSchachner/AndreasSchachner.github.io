@@ -1,0 +1,1649 @@
+{
+  "generated_at": "2026-04-15T08:15:23.483665+00:00",
+  "focal_author": "A. Schachner",
+  "max_collab_authors": 15,
+  "n_papers_considered": 29,
+  "nodes": [
+    {
+      "id": "A. Schachner",
+      "papers": 29,
+      "papers_in_edges": 28,
+      "is_focal": true
+    },
+    {
+      "id": "F. Quevedo",
+      "papers": 6,
+      "papers_in_edges": 6,
+      "is_focal": false
+    },
+    {
+      "id": "M. Cicoli",
+      "papers": 6,
+      "papers_in_edges": 5,
+      "is_focal": false
+    },
+    {
+      "id": "S. Krippendorf",
+      "papers": 6,
+      "papers_in_edges": 6,
+      "is_focal": false
+    },
+    {
+      "id": "L. McAllister",
+      "papers": 4,
+      "papers_in_edges": 4,
+      "is_focal": false
+    },
+    {
+      "id": "E. Sheridan",
+      "papers": 3,
+      "papers_in_edges": 3,
+      "is_focal": false
+    },
+    {
+      "id": "K. K. Rogers",
+      "papers": 3,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "R. Savelli",
+      "papers": 3,
+      "papers_in_edges": 3,
+      "is_focal": false
+    },
+    {
+      "id": "R. Valandro",
+      "papers": 3,
+      "papers_in_edges": 3,
+      "is_focal": false
+    },
+    {
+      "id": "A. Chauhan",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "A. Cole",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "A. Hebecker",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "A. Maharana",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "D. J. E. Marsh",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "G. Shiu",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "J. Moritz",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "J. T. Liu",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "M. Jain",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "N. Gendler",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "N. MacFadden",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "N. Righi",
+      "papers": 2,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "P. Piantadosi",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "P. Shukla",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "R. Minasian",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "R. Nally",
+      "papers": 2,
+      "papers_in_edges": 2,
+      "is_focal": false
+    },
+    {
+      "id": "A. Arza",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. Drew",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. Dubey",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "A. D\u00edaz-Morcillo",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. Ejlli",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. Esposito",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. Lella",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. Lindner",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. Mirizzi",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. Pi\u00f1eiro Orioli",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "A. Rettaroli",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. Ringwald",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. Sokolov",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. Weiler",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. de Giorgi",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "A. \u00d6vg\u00fcn",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "B. D\u00f6brich",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "B. Gimeno",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "B. Puli\u00e7e",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "C. Bonati",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "C. Burrage",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "C. Crin\u00f2",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "C. De Dominicis",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "C. Eckner",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "C. F. A. Baynham",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "C. Garc\u00eda-Cely",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "C. Gatti",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "C. Hughes",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "C. Margalejo",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "C. O'Hare",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "C. Toni",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "D. Aybas",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "D. Budker",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "D. D\u00edez-Ib\u00e1\u00f1ez",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "D. F. G. Fiorillo",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "D. Gavilan-Martin",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "D. Horns",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "D. Junghans",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "E. Ferreira",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "E. Heyes",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "E. Todarello",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "E. Vitagliano",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "F. Calore",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "F. Carta",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "F. Chadha-Day",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "F. D'Eramo",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "F. G. Pedro",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "F. L. Constantin",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "F. Lecce",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "F. Muia",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "F. Naokawa",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "F. R. Cand\u00f3n",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "F. R. Urban",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "G. G. Raffelt",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "G. G. di Cortona",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "G. Higgins",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "G. Lucente",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "G. Mueller",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "G. Pierobon",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "G. Villa",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "I. G. Etxebarria",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "I. M. Bloch",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "I. Obata",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "J. Berges",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "J. Correia",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "J. De Miguel",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "J. Ebelt",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "J. Gu\u00e9",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "J. K. Vogel",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "J. P. Conlon",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "J. Pradler",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "J. Ruz",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "J. Schaffran",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "J. Serra",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "K. Bartnick",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "K. Choi",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "K. Murai",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "K. Saikawa",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "K. Schmieden",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "K. Springmann",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "K. Zioutas",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "L. Cong",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "L. Di Luzio",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "L. H. Nguyen",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "L. Marsicano",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "L. Merlo",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "L. R. Roberts",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "L. Ubaldi",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "L. Visinelli",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Buschmann",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Galaverni",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Gallinaro",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Giannotti",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Gorghetto",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Kaltschmidt",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Karuza",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Maroudas",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. P. Lombardo",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Ramos",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Regis",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Reig",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Scalisi",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Schott",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Staelens",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Stillman",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "M. Taoso",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "M. Wurm",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "N. Ferreiro Iachellini",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "O. M. Ruimi",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "O. Maliaka",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "O. Straniero",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "P. Carenza",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "P. De la Torre Luque",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "P. Diego-Palazuelos",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "P. Pugnat",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "P. Spagnolo",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "Q. Rokn",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "R. Balkin",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "R. Quishpe",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "R. Vicente",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "S. A. Cetin",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "S. A. R. Ellis",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "S. AbdusSalam",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "S. Balaji",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "S. Chakraborti",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "S. Gasparotto",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "S. J. Witte",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "S. Kunc",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "S. L\u00fcst",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "S. Renner",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "S. Schreyer",
+      "papers": 1,
+      "papers_in_edges": 1,
+      "is_focal": false
+    },
+    {
+      "id": "S. Stelzl",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "T. K. Poddar",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "T. Namikawa",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "T. O'Shea",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "V. A. Mitsou",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "V. Kozhuharov",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "W. Ratzinger",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    },
+    {
+      "id": "W. Yin",
+      "papers": 1,
+      "papers_in_edges": 0,
+      "is_focal": false
+    }
+  ],
+  "links": [
+    {
+      "source": "A. Schachner",
+      "target": "S. Krippendorf",
+      "weight": 6
+    },
+    {
+      "source": "A. Schachner",
+      "target": "F. Quevedo",
+      "weight": 6
+    },
+    {
+      "source": "A. Schachner",
+      "target": "M. Cicoli",
+      "weight": 5
+    },
+    {
+      "source": "A. Schachner",
+      "target": "L. McAllister",
+      "weight": 4
+    },
+    {
+      "source": "A. Schachner",
+      "target": "E. Sheridan",
+      "weight": 3
+    },
+    {
+      "source": "A. Schachner",
+      "target": "R. Savelli",
+      "weight": 3
+    },
+    {
+      "source": "A. Schachner",
+      "target": "R. Valandro",
+      "weight": 3
+    },
+    {
+      "source": "F. Quevedo",
+      "target": "R. Valandro",
+      "weight": 3
+    },
+    {
+      "source": "A. Chauhan",
+      "target": "A. Maharana",
+      "weight": 2
+    },
+    {
+      "source": "A. Chauhan",
+      "target": "A. Schachner",
+      "weight": 2
+    },
+    {
+      "source": "A. Chauhan",
+      "target": "M. Cicoli",
+      "weight": 2
+    },
+    {
+      "source": "A. Chauhan",
+      "target": "P. Piantadosi",
+      "weight": 2
+    },
+    {
+      "source": "A. Chauhan",
+      "target": "S. Krippendorf",
+      "weight": 2
+    },
+    {
+      "source": "A. Maharana",
+      "target": "A. Schachner",
+      "weight": 2
+    },
+    {
+      "source": "A. Maharana",
+      "target": "M. Cicoli",
+      "weight": 2
+    },
+    {
+      "source": "A. Maharana",
+      "target": "P. Piantadosi",
+      "weight": 2
+    },
+    {
+      "source": "A. Maharana",
+      "target": "S. Krippendorf",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "P. Piantadosi",
+      "weight": 2
+    },
+    {
+      "source": "M. Cicoli",
+      "target": "P. Piantadosi",
+      "weight": 2
+    },
+    {
+      "source": "M. Cicoli",
+      "target": "S. Krippendorf",
+      "weight": 2
+    },
+    {
+      "source": "P. Piantadosi",
+      "target": "S. Krippendorf",
+      "weight": 2
+    },
+    {
+      "source": "A. Hebecker",
+      "target": "A. Schachner",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "D. J. E. Marsh",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "K. K. Rogers",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "M. Jain",
+      "weight": 2
+    },
+    {
+      "source": "D. J. E. Marsh",
+      "target": "E. Sheridan",
+      "weight": 2
+    },
+    {
+      "source": "D. J. E. Marsh",
+      "target": "K. K. Rogers",
+      "weight": 2
+    },
+    {
+      "source": "D. J. E. Marsh",
+      "target": "M. Jain",
+      "weight": 2
+    },
+    {
+      "source": "E. Sheridan",
+      "target": "K. K. Rogers",
+      "weight": 2
+    },
+    {
+      "source": "E. Sheridan",
+      "target": "M. Jain",
+      "weight": 2
+    },
+    {
+      "source": "K. K. Rogers",
+      "target": "M. Jain",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "J. T. Liu",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "R. Minasian",
+      "weight": 2
+    },
+    {
+      "source": "J. T. Liu",
+      "target": "R. Minasian",
+      "weight": 2
+    },
+    {
+      "source": "J. T. Liu",
+      "target": "R. Savelli",
+      "weight": 2
+    },
+    {
+      "source": "R. Minasian",
+      "target": "R. Savelli",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "N. Gendler",
+      "weight": 2
+    },
+    {
+      "source": "L. McAllister",
+      "target": "N. Gendler",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "J. Moritz",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "R. Nally",
+      "weight": 2
+    },
+    {
+      "source": "J. Moritz",
+      "target": "L. McAllister",
+      "weight": 2
+    },
+    {
+      "source": "J. Moritz",
+      "target": "R. Nally",
+      "weight": 2
+    },
+    {
+      "source": "L. McAllister",
+      "target": "R. Nally",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "N. MacFadden",
+      "weight": 2
+    },
+    {
+      "source": "A. Cole",
+      "target": "A. Schachner",
+      "weight": 2
+    },
+    {
+      "source": "A. Cole",
+      "target": "G. Shiu",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "G. Shiu",
+      "weight": 2
+    },
+    {
+      "source": "A. Schachner",
+      "target": "P. Shukla",
+      "weight": 2
+    },
+    {
+      "source": "M. Cicoli",
+      "target": "P. Shukla",
+      "weight": 2
+    },
+    {
+      "source": "F. Quevedo",
+      "target": "M. Cicoli",
+      "weight": 2
+    },
+    {
+      "source": "M. Cicoli",
+      "target": "R. Valandro",
+      "weight": 2
+    },
+    {
+      "source": "A. Hebecker",
+      "target": "S. L\u00fcst",
+      "weight": 1
+    },
+    {
+      "source": "A. Hebecker",
+      "target": "S. Schreyer",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "S. L\u00fcst",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "S. Schreyer",
+      "weight": 1
+    },
+    {
+      "source": "S. L\u00fcst",
+      "target": "S. Schreyer",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "E. Heyes",
+      "weight": 1
+    },
+    {
+      "source": "D. J. E. Marsh",
+      "target": "E. Heyes",
+      "weight": 1
+    },
+    {
+      "source": "E. Heyes",
+      "target": "E. Sheridan",
+      "weight": 1
+    },
+    {
+      "source": "E. Heyes",
+      "target": "K. K. Rogers",
+      "weight": 1
+    },
+    {
+      "source": "E. Heyes",
+      "target": "M. Jain",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "C. Hughes",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "S. AbdusSalam",
+      "weight": 1
+    },
+    {
+      "source": "C. Hughes",
+      "target": "F. Quevedo",
+      "weight": 1
+    },
+    {
+      "source": "C. Hughes",
+      "target": "S. AbdusSalam",
+      "weight": 1
+    },
+    {
+      "source": "F. Quevedo",
+      "target": "S. AbdusSalam",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "F. Carta",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "N. Righi",
+      "weight": 1
+    },
+    {
+      "source": "D. J. E. Marsh",
+      "target": "F. Carta",
+      "weight": 1
+    },
+    {
+      "source": "D. J. E. Marsh",
+      "target": "L. McAllister",
+      "weight": 1
+    },
+    {
+      "source": "D. J. E. Marsh",
+      "target": "N. Gendler",
+      "weight": 1
+    },
+    {
+      "source": "D. J. E. Marsh",
+      "target": "N. Righi",
+      "weight": 1
+    },
+    {
+      "source": "E. Sheridan",
+      "target": "F. Carta",
+      "weight": 1
+    },
+    {
+      "source": "E. Sheridan",
+      "target": "L. McAllister",
+      "weight": 1
+    },
+    {
+      "source": "E. Sheridan",
+      "target": "N. Gendler",
+      "weight": 1
+    },
+    {
+      "source": "E. Sheridan",
+      "target": "N. Righi",
+      "weight": 1
+    },
+    {
+      "source": "F. Carta",
+      "target": "K. K. Rogers",
+      "weight": 1
+    },
+    {
+      "source": "F. Carta",
+      "target": "L. McAllister",
+      "weight": 1
+    },
+    {
+      "source": "F. Carta",
+      "target": "M. Jain",
+      "weight": 1
+    },
+    {
+      "source": "F. Carta",
+      "target": "N. Gendler",
+      "weight": 1
+    },
+    {
+      "source": "F. Carta",
+      "target": "N. Righi",
+      "weight": 1
+    },
+    {
+      "source": "K. K. Rogers",
+      "target": "L. McAllister",
+      "weight": 1
+    },
+    {
+      "source": "K. K. Rogers",
+      "target": "N. Gendler",
+      "weight": 1
+    },
+    {
+      "source": "K. K. Rogers",
+      "target": "N. Righi",
+      "weight": 1
+    },
+    {
+      "source": "L. McAllister",
+      "target": "M. Jain",
+      "weight": 1
+    },
+    {
+      "source": "L. McAllister",
+      "target": "N. Righi",
+      "weight": 1
+    },
+    {
+      "source": "M. Jain",
+      "target": "N. Gendler",
+      "weight": 1
+    },
+    {
+      "source": "M. Jain",
+      "target": "N. Righi",
+      "weight": 1
+    },
+    {
+      "source": "N. Gendler",
+      "target": "N. Righi",
+      "weight": 1
+    },
+    {
+      "source": "E. Sheridan",
+      "target": "N. MacFadden",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "M. Stillman",
+      "weight": 1
+    },
+    {
+      "source": "J. Moritz",
+      "target": "M. Stillman",
+      "weight": 1
+    },
+    {
+      "source": "J. Moritz",
+      "target": "N. Gendler",
+      "weight": 1
+    },
+    {
+      "source": "J. Moritz",
+      "target": "N. MacFadden",
+      "weight": 1
+    },
+    {
+      "source": "L. McAllister",
+      "target": "M. Stillman",
+      "weight": 1
+    },
+    {
+      "source": "L. McAllister",
+      "target": "N. MacFadden",
+      "weight": 1
+    },
+    {
+      "source": "M. Stillman",
+      "target": "N. Gendler",
+      "weight": 1
+    },
+    {
+      "source": "M. Stillman",
+      "target": "N. MacFadden",
+      "weight": 1
+    },
+    {
+      "source": "M. Stillman",
+      "target": "R. Nally",
+      "weight": 1
+    },
+    {
+      "source": "N. Gendler",
+      "target": "N. MacFadden",
+      "weight": 1
+    },
+    {
+      "source": "N. Gendler",
+      "target": "R. Nally",
+      "weight": 1
+    },
+    {
+      "source": "N. MacFadden",
+      "target": "R. Nally",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "J. Ebelt",
+      "weight": 1
+    },
+    {
+      "source": "J. Ebelt",
+      "target": "S. Krippendorf",
+      "weight": 1
+    },
+    {
+      "source": "A. Dubey",
+      "target": "A. Schachner",
+      "weight": 1
+    },
+    {
+      "source": "A. Dubey",
+      "target": "S. Krippendorf",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "F. Muia",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "G. Villa",
+      "weight": 1
+    },
+    {
+      "source": "F. Muia",
+      "target": "F. Quevedo",
+      "weight": 1
+    },
+    {
+      "source": "F. Muia",
+      "target": "G. Villa",
+      "weight": 1
+    },
+    {
+      "source": "F. Quevedo",
+      "target": "G. Villa",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "C. Crin\u00f2",
+      "weight": 1
+    },
+    {
+      "source": "C. Crin\u00f2",
+      "target": "F. Quevedo",
+      "weight": 1
+    },
+    {
+      "source": "C. Crin\u00f2",
+      "target": "R. Valandro",
+      "weight": 1
+    },
+    {
+      "source": "A. Cole",
+      "target": "S. Krippendorf",
+      "weight": 1
+    },
+    {
+      "source": "G. Shiu",
+      "target": "S. Krippendorf",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "I. G. Etxebarria",
+      "weight": 1
+    },
+    {
+      "source": "F. Quevedo",
+      "target": "I. G. Etxebarria",
+      "weight": 1
+    },
+    {
+      "source": "F. Quevedo",
+      "target": "P. Shukla",
+      "weight": 1
+    },
+    {
+      "source": "I. G. Etxebarria",
+      "target": "M. Cicoli",
+      "weight": 1
+    },
+    {
+      "source": "I. G. Etxebarria",
+      "target": "P. Shukla",
+      "weight": 1
+    },
+    {
+      "source": "I. G. Etxebarria",
+      "target": "R. Valandro",
+      "weight": 1
+    },
+    {
+      "source": "P. Shukla",
+      "target": "R. Valandro",
+      "weight": 1
+    },
+    {
+      "source": "F. Quevedo",
+      "target": "R. Savelli",
+      "weight": 1
+    },
+    {
+      "source": "M. Cicoli",
+      "target": "R. Savelli",
+      "weight": 1
+    },
+    {
+      "source": "R. Savelli",
+      "target": "R. Valandro",
+      "weight": 1
+    },
+    {
+      "source": "A. Hebecker",
+      "target": "D. Junghans",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "D. Junghans",
+      "weight": 1
+    },
+    {
+      "source": "A. Pi\u00f1eiro Orioli",
+      "target": "A. Schachner",
+      "weight": 1
+    },
+    {
+      "source": "A. Pi\u00f1eiro Orioli",
+      "target": "J. Berges",
+      "weight": 1
+    },
+    {
+      "source": "A. Schachner",
+      "target": "J. Berges",
+      "weight": 1
+    }
+  ]
+}

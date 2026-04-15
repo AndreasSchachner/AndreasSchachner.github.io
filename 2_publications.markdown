@@ -12,6 +12,8 @@ data file in this repository; see `inspirehep/scripts/to_publications_yml.py`
 in the [`workflows`](https://github.com/AndreasSchachner) repository for the
 InspireHEP → YAML migration.
 
+{% include coauthor_graph.html %}
+
 {% assign papers = site.data.publications | sort: "earliest_date" | reverse %}
 {% assign current_year = "" %}
 
