@@ -2,11 +2,61 @@
 # Only the main Sass file needs front matter (the dashes are enough).
 ---
 
-// Widen minima's default content wrapper (800px) so the header, nav,
-// body copy, figures, and co-author graph all use more of a modern
-// display. Must be set before `@import "minima"` so minima picks up
-// the override rather than its default.
-$content-width: 960px;
-$on-laptop:     960px;
+// Widen minima's default content wrapper (800px) and bump the base
+// font size a touch. $on-laptop is raised to match $content-width so
+// minima does not switch to a reduced-padding layout just because the
+// viewport is narrower than the (now widened) wrapper. The palm /
+// mobile breakpoint is left at its default 600px so phones still get
+// the collapsed hamburger navigation.
+$content-width:  1200px;
+$on-laptop:      1200px;
+$base-font-size: 17px;
 
 @import "minima";
+
+// ---- Responsive safety rules -------------------------------------------
+// Prevent images, SVGs, and tables from ever overflowing the wrapper on
+// narrow viewports. Minima sets `img { max-width: 100% }` for the home
+// page only; the rule below applies site-wide, which matters for the
+// co-author graph SVG and any research figures.
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-content table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+pre,
+code {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+// Rescue any legacy inline `width: NNNpx` blocks on the home page so
+// they collapse to the viewport width on phones. Kept conservative with
+// an attribute-selector scope so desktop rendering is untouched.
+@media (max-width: 600px) {
+  .home [style*="width:"] {
+    width: auto !important;
+    max-width: 100% !important;
+  }
+  .home img[style*="float"] {
+    float: none !important;
+    display: block;
+    margin: 0 auto 1rem;
+    width: 60% !important;
+  }
+}
+
+// Slightly tighter nav spacing on phones so site-title + hamburger
+// fit cleanly.
+@media (max-width: 600px) {
+  .site-title { font-size: 20px; line-height: 44px; }
+  .site-header { min-height: 44px; }
+}
