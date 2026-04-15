@@ -1,0 +1,222 @@
+# Venues referenced by _data/talks.yml via the `venue_key` field.
+#
+# Coordinates are campus / building centres at ~4 decimal-place precision,
+# which is plenty at world-map zoom. Double-check before the site goes
+# public if you want a particular building, not just the campus.
+#
+# Adding a new venue:
+#   <key>:
+#     name:    official name
+#     city:    city (and US state if applicable)
+#     country: country
+#     lat:     decimal degrees (negative = south)
+#     lon:     decimal degrees (negative = west)
+#
+# Keys flagged `needs-verify: true` were inferred from the event name
+# (e.g. the host institution of a conference not spelled out in the CV /
+# talks PDF). Please verify and remove the flag.
+
+# ---- Research institutions / universities ---------------------------
+
+cambridge_uni:
+  name: University of Cambridge
+  city: Cambridge
+  country: UK
+  lat: 52.2053
+  lon: 0.1218
+
+harvard_phys:
+  name: Harvard University, Department of Physics
+  city: Cambridge, MA
+  country: USA
+  lat: 42.3770
+  lon: -71.1167
+
+wisconsin_madison:
+  name: University of Wisconsin-Madison
+  city: Madison, WI
+  country: USA
+  lat: 43.0766
+  lon: -89.4125
+
+imperial_london:
+  name: Imperial College London (TPG)
+  city: London
+  country: UK
+  lat: 51.4988
+  lon: -0.1749
+
+heidelberg_itp:
+  name: ITP, Ruprecht-Karl University of Heidelberg
+  city: Heidelberg
+  country: Germany
+  lat: 49.4174
+  lon: 8.6727
+
+bologna_difa:
+  name: DIFA, University of Bologna
+  city: Bologna
+  country: Italy
+  lat: 44.4949
+  lon: 11.3426
+
+bologna_uni:
+  name: University of Bologna
+  city: Bologna
+  country: Italy
+  lat: 44.4949
+  lon: 11.3426
+
+unist:
+  name: UNIST
+  city: Ulsan
+  country: South Korea
+  lat: 35.5622
+  lon: 129.2582
+
+nyu_abudhabi:
+  name: New York University Abu Dhabi
+  city: Abu Dhabi
+  country: UAE
+  lat: 24.5233
+  lon: 54.4347
+
+lehigh:
+  name: Lehigh University
+  city: Bethlehem, PA
+  country: USA
+  lat: 40.6064
+  lon: -75.3781
+
+lmu_munich:
+  name: LMU Munich — Arnold Sommerfeld Center
+  city: Munich
+  country: Germany
+  lat: 48.1507
+  lon: 11.5800
+
+rome_torvergata:
+  name: University of Rome Tor Vergata
+  city: Rome
+  country: Italy
+  lat: 41.8550
+  lon: 12.6065
+
+l2c_montpellier:
+  name: L2C, Université de Montpellier
+  city: Montpellier
+  country: France
+  lat: 43.6316
+  lon: 3.8644
+
+desy_hamburg:
+  name: DESY
+  city: Hamburg
+  country: Germany
+  lat: 53.5772
+  lon: 9.8783
+  needs-verify: true    # ML4Jets 2023 host, check
+
+cern:
+  name: CERN
+  city: Geneva
+  country: Switzerland
+  lat: 46.2338
+  lon: 6.0552
+
+# ---- Conference / workshop venues -----------------------------------
+
+banff_birs:
+  name: Banff International Research Station
+  city: Banff, AB
+  country: Canada
+  lat: 51.1784
+  lon: -115.5708
+
+ringberg_castle:
+  name: Ringberg Castle
+  city: Kreuth
+  country: Germany
+  lat: 47.6780
+  lon: 11.7770
+
+corfu_summer:
+  name: Corfu Summer Institute
+  city: Corfu
+  country: Greece
+  lat: 39.6200
+  lon: 19.9220
+
+crete_chania:
+  name: Crete Regional Meeting on String Theory
+  city: Chania, Crete
+  country: Greece
+  lat: 35.5138
+  lon: 23.9756
+
+naples_smfesto:
+  name: Complesso dei Santi Marcellino e Festo (Avogadro Meeting)
+  city: Naples
+  country: Italy
+  lat: 40.8497
+  lon: 14.2586
+
+qmul_london:
+  name: Queen Mary University of London (String Data 2025)
+  city: London
+  country: UK
+  lat: 51.5246
+  lon: -0.0404
+  needs-verify: true
+
+ift_madrid:
+  name: IFT UAM–CSIC (Dark World to Swampland 2025)
+  city: Madrid
+  country: Spain
+  lat: 40.5406
+  lon: -3.6920
+  needs-verify: true
+
+istanbul:
+  name: COSMIC WISPers 2nd General Meeting
+  city: Istanbul
+  country: Turkey
+  lat: 41.0136
+  lon: 28.9550
+
+# ---- Entries to confirm before switching on the map -----------------
+# If you can tell me the host city for each, I'll fill the coords and
+# drop the needs-verify flag.
+
+padova_uni:
+  name: University of Padova (String Phenomenology 2024)
+  city: Padova
+  country: Italy
+  lat: 45.4083
+  lon: 11.8765
+  needs-verify: true
+
+liverpool_uni:
+  name: University of Liverpool (String Phenomenology 2022)
+  city: Liverpool
+  country: UK
+  lat: 53.4067
+  lon: -2.9664
+  needs-verify: true
+
+vienna_uni:
+  name: University of Vienna (Strings 2022)
+  city: Vienna
+  country: Austria
+  lat: 48.2133
+  lon: 16.3593
+  needs-verify: true
+
+kaist_daejeon:
+  name: KAIST (String Phenomenology 2023)
+  city: Daejeon
+  country: South Korea
+  lat: 36.3726
+  lon: 127.3605
+  needs-verify: true
+

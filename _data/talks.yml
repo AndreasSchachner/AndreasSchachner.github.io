@@ -18,6 +18,7 @@
   event: String Data 2025
   venue: London, UK
   type: invited-plenary
+  venue_key: qmul_london
   url: ""
   slides: ""
 
@@ -25,6 +26,7 @@
   event: Cosmology Seminar
   venue: University of Cambridge, UK
   type: invited-seminar
+  venue_key: cambridge_uni
   url: ""
   slides: ""
 
@@ -32,6 +34,7 @@
   event: Dark World to Swampland 2025
   venue: Madrid, Spain
   type: invited-plenary
+  venue_key: ift_madrid
   url: ""
   slides: ""
 
@@ -39,6 +42,7 @@
   event: Workshop on Quantum Gravity and Strings
   venue: Corfu, Greece
   type: invited-plenary
+  venue_key: corfu_summer
   url: ""
   slides: ""
 
@@ -46,6 +50,7 @@
   event: 14th Crete Regional Meeting on String Theory
   venue: Crete, Greece
   type: invited-plenary
+  venue_key: crete_chania
   url: ""
   slides: ""
 
@@ -53,6 +58,7 @@
   event: Seminar talk
   venue: New York University Abu Dhabi, UAE
   type: invited-seminar
+  venue_key: nyu_abudhabi
   url: ""
   slides: ""
 
@@ -60,6 +66,7 @@
   event: Prospects for the String Axiverse
   venue: Banff, Canada
   type: invited-plenary
+  venue_key: banff_birs
   url: ""
   slides: ""
 
@@ -67,6 +74,7 @@
   event: Avogadro Meeting 2024 — Lectures on Machine Learning Techniques in the String Landscape
   venue: Complesso dei Santi Marcellino e Festo, Napoli, Italy
   type: lectures
+  venue_key: naples_smfesto
   url: https://agenda.infn.it/event/42186/
   slides: https://github.com/AndreasSchachner/ml-string-landscape
 
@@ -74,6 +82,7 @@
   event: Colloquium
   venue: University of Rome Tor Vergata, Italy
   type: colloquium
+  venue_key: rome_torvergata
   url: ""
   slides: ""
 
@@ -81,6 +90,7 @@
   event: String Data 2024
   venue: ""
   type: contributed
+  venue_key:
   url: ""
   slides: ""
 
@@ -88,6 +98,7 @@
   event: WISPs in String Cosmology
   venue: University of Bologna, Italy
   type: invited-plenary
+  venue_key: bologna_uni
   url: ""
   slides: ""
 
@@ -95,6 +106,7 @@
   event: Quantum Gravity, Strings and the Swampland
   venue: Corfu, Greece
   type: invited-plenary
+  venue_key: corfu_summer
   url: ""
   slides: ""
 
@@ -102,6 +114,7 @@
   event: 2nd General Meeting of COST Action COSMIC WISPers
   venue: Istanbul, Turkey
   type: contributed
+  venue_key: istanbul
   url: ""
   slides: ""
 
@@ -109,6 +122,7 @@
   event: String Phenomenology 2024
   venue: ""
   type: invited-plenary
+  venue_key: padova_uni
   url: ""
   slides: ""
 
@@ -116,6 +130,7 @@
   event: Geometry, Strings and the Swampland Program
   venue: Ringberg Castle, Germany
   type: invited-plenary
+  venue_key: ringberg_castle
   url: ""
   slides: ""
 
@@ -123,6 +138,7 @@
   event: Colloquium
   venue: ITP, Ruprecht-Karl University of Heidelberg, Germany
   type: colloquium
+  venue_key: heidelberg_itp
   url: ""
   slides: ""
 
@@ -130,6 +146,7 @@
   event: Seminar
   venue: L2C, Montpellier, France
   type: invited-seminar
+  venue_key: l2c_montpellier
   url: ""
   slides: ""
 
@@ -137,6 +154,7 @@
   event: ML4Jets 2023
   venue: ""
   type: invited-plenary
+  venue_key: desy_hamburg
   url: ""
   slides: ""
 
@@ -144,6 +162,7 @@
   event: Seminar
   venue: LMU Munich, Germany
   type: invited-seminar
+  venue_key: lmu_munich
   url: ""
   slides: ""
 
@@ -151,6 +170,7 @@
   event: String Phenomenology 2023
   venue: ""
   type: contributed
+  venue_key: kaist_daejeon
   url: ""
   slides: ""
 
@@ -158,6 +178,7 @@
   event: String Theory, Geometry and Machine Learning
   venue: UNIST, South Korea
   type: invited-plenary
+  venue_key: unist
   url: ""
   slides: ""
 
@@ -165,6 +186,7 @@
   event: Seminar
   venue: Lehigh University, Bethlehem, PA, USA
   type: invited-seminar
+  venue_key: lehigh
   url: ""
   slides: ""
 
@@ -172,6 +194,7 @@
   event: Strings 2022
   venue: ""
   type: contributed
+  venue_key: vienna_uni
   url: ""
   slides: ""
 
@@ -179,6 +202,7 @@
   event: String Phenomenology 2022
   venue: ""
   type: contributed
+  venue_key: liverpool_uni
   url: ""
   slides: ""
 
@@ -186,6 +210,7 @@
   event: Seminar Series on String Phenomenology
   venue: Harvard University, Cambridge, MA, USA
   type: invited-seminar
+  venue_key: harvard_phys
   url: ""
   slides: ""
 
@@ -193,6 +218,7 @@
   event: Seminar
   venue: University of Wisconsin-Madison, USA
   type: invited-seminar
+  venue_key: wisconsin_madison
   url: ""
   slides: ""
 
@@ -200,6 +226,7 @@
   event: Seminar
   venue: TPG, Imperial College London, UK
   type: invited-seminar
+  venue_key: imperial_london
   url: ""
   slides: ""
 
@@ -207,6 +234,7 @@
   event: Fundamental Physics UK (FPUK) — Semi-In-Person Meeting
   venue: ""
   type: contributed
+  venue_key:
   url: ""
   slides: ""
 
@@ -214,6 +242,7 @@
   event: Seminar
   venue: ITP, Ruprecht-Karl University of Heidelberg, Germany
   type: invited-seminar
+  venue_key: heidelberg_itp
   url: ""
   slides: ""
 
@@ -221,6 +250,7 @@
   event: SUSY 2021
   venue: ""
   type: contributed
+  venue_key:
   url: ""
   slides: ""
 
@@ -228,6 +258,7 @@
   event: Seminar
   venue: DIFA, University of Bologna, Italy
   type: invited-seminar
+  venue_key: bologna_difa
   url: ""
   slides: ""
 
@@ -235,6 +266,7 @@
   event: PPC 2021 — Interconnections between Particle Physics and Cosmology
   venue: ""
   type: contributed
+  venue_key:
   url: ""
   slides: ""
 
@@ -242,6 +274,7 @@
   event: Seminar Series on String Phenomenology
   venue: Harvard University, Cambridge, MA, USA
   type: invited-seminar
+  venue_key: harvard_phys
   url: ""
   slides: ""
 
@@ -249,6 +282,7 @@
   event: String Data 2020
   venue: ""
   type: contributed
+  venue_key:
   url: ""
   slides: ""
 
@@ -256,6 +290,7 @@
   event: Seminar
   venue: ITP, Ruprecht-Karl University of Heidelberg, Germany
   type: invited-seminar
+  venue_key: heidelberg_itp
   url: ""
   slides: ""
 
@@ -263,6 +298,7 @@
   event: String Phenomenology 2019
   venue: ""
   type: contributed
+  venue_key: cern
   url: ""
   slides: ""
 
@@ -270,6 +306,7 @@
   event: Seminar
   venue: University of Wisconsin-Madison, USA
   type: invited-seminar
+  venue_key: wisconsin_madison
   url: ""
   slides: ""
 
@@ -277,5 +314,6 @@
   event: Gauge Field Dynamics with Ultracold Gas Systems (plenary talk & poster)
   venue: ""
   type: invited-plenary
+  venue_key:
   url: ""
   slides: ""
