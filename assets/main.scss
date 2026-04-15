@@ -1,0 +1,12 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough).
+---
+
+// Widen minima's default content wrapper (800px) so the header, nav,
+// body copy, figures, and co-author graph all use more of a modern
+// display. Must be set before `@import "minima"` so minima picks up
+// the override rather than its default.
+$content-width: 960px;
+$on-laptop:     960px;
+
+@import "minima";
