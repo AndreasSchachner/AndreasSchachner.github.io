@@ -1,0 +1,269 @@
+{%- comment -%}
+World map of talks. Joins `_data/talks.yml` (via each entry's
+`venue_key`) with `_data/venues.yml` (coordinates) at Liquid compile
+time, serialises the result as inline JSON, and renders a Leaflet
+map with one marker per venue. Each marker's popup lists every talk
+at that venue; colour encodes the primary (most-recent) type.
+
+Tile provider: CartoDB Positron ("Light, no labels" would be cleaner
+but keeps country labels for orientation). Attribution is required.
+{%- endcomment -%}
+
+<div class="talks-map" id="talks-map">
+  <div class="talks-map__header">
+    <h3>Where I've spoken</h3>
+    <p class="talks-map__caption">
+      Each marker is a venue; click to see every talk I gave there.
+      Colours distinguish talk types; the legend toggles individual
+      categories. Zoom with the scroll wheel or the +/− controls.
+    </p>
+  </div>
+  <div class="talks-map__canvas"></div>
+  <noscript>
+    <p><em>Interactive map requires JavaScript. The talk list below is
+    the authoritative view.</em></p>
+  </noscript>
+</div>
+
+{%- comment -%} Build the venue payload as inline JSON. {%- endcomment -%}
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign venues = site.data.venues %}
+{% assign talks = site.data.talks | sort: "date" | reverse %}
+
+<script>
+(function () {
+  const venues = {{ venues | jsonify }};
+  const talks  = {{ talks  | jsonify }};
+  const today  = {{ today  | jsonify }};
+
+  // Group talks by venue_key, discarding entries without a key.
+  const byVenue = new Map();
+  for (const t of talks) {
+    const key = t.venue_key;
+    if (!key) continue;
+    if (!venues[key]) continue;
+    if (!byVenue.has(key)) byVenue.set(key, []);
+    byVenue.get(key).push(t);
+  }
+
+  // Colour and legend label per type.
+  const typeMeta = {
+    "invited-plenary":  { color: "#2f9e44", label: "Invited plenary + lectures" },
+    "lectures":         { color: "#2f9e44", label: "Invited plenary + lectures" },
+    "invited-seminar":  { color: "#1971c2", label: "Invited seminar" },
+    "colloquium":       { color: "#9c36b5", label: "Colloquium" },
+    "contributed":      { color: "#e8590c", label: "Contributed + poster" }
+  };
+  const upcomingColor = "#868e96";
+
+  // Group legend entries; "upcoming" is handled separately.
+  const legendGroups = [
+    { key: "plenary",   color: "#2f9e44", label: "Invited plenary + lectures", match: t => t.type === "invited-plenary" || t.type === "lectures" },
+    { key: "seminar",   color: "#1971c2", label: "Invited seminar",            match: t => t.type === "invited-seminar" },
+    { key: "colloquium",color: "#9c36b5", label: "Colloquium",                 match: t => t.type === "colloquium" },
+    { key: "contributed",color:"#e8590c", label: "Contributed + poster",       match: t => t.type === "contributed" },
+    { key: "upcoming",  color: upcomingColor, label: "Upcoming", match: t => t.date > today }
+  ];
+
+  const container = document.getElementById("talks-map");
+  const canvas = container.querySelector(".talks-map__canvas");
+  canvas.style.height = "520px";
+
+  const map = L.map(canvas, {
+    scrollWheelZoom: false,   // avoid trapping scroll; user enables via click
+    worldCopyJump: true
+  }).setView([30, 10], 2);
+
+  // Click to enable scroll-zoom, as a UX courtesy.
+  map.on("click", () => map.scrollWheelZoom.enable());
+
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>',
+    subdomains: "abcd",
+    maxZoom: 18
+  }).addTo(map);
+
+  // One layer group per legend key, so toggling is a simple add/remove.
+  const layerGroups = {};
+  legendGroups.forEach(g => { layerGroups[g.key] = L.layerGroup().addTo(map); });
+
+  const allLatLngs = [];
+
+  function primaryLegendKey(venueTalks) {
+    // Use the most-recent talk's type to determine marker colour,
+    // but upcoming trumps everything.
+    const future = venueTalks.find(t => t.date > today);
+    if (future) return "upcoming";
+    const mostRecent = venueTalks[0];  // talks are already sorted desc
+    switch (mostRecent.type) {
+      case "invited-plenary":
+      case "lectures":       return "plenary";
+      case "invited-seminar": return "seminar";
+      case "colloquium":      return "colloquium";
+      case "contributed":     return "contributed";
+      default:                return "seminar";
+    }
+  }
+
+  function makeIcon(color) {
+    // Small filled circle as a DivIcon — no external sprite required.
+    return L.divIcon({
+      className: "talks-map__marker",
+      html: `<span style="background:${color}"></span>`,
+      iconSize: [14, 14],
+      iconAnchor: [7, 7]
+    });
+  }
+
+  function buildPopup(venue, vTalks) {
+    const lines = [`<div class="talks-map__popup"><h4>${venue.name}</h4>`];
+    if (venue.city || venue.country) {
+      lines.push(`<p class="talks-map__popup-loc">${[venue.city, venue.country].filter(Boolean).join(", ")}</p>`);
+    }
+    lines.push(`<ul>`);
+    for (const t of vTalks) {
+      const d = t.date.split("-");
+      const dd = d[2] + "/" + d[1] + "/" + d[0];
+      const typeBadge = (typeMeta[t.type] && typeMeta[t.type].label) || t.type;
+      const upcoming = t.date > today ? ' <em>(upcoming)</em>' : '';
+      const eventStr = t.url ? `<a href="${t.url}" target="_blank" rel="noopener">${t.event}</a>` : t.event;
+      lines.push(`<li><strong>${dd}</strong> &mdash; ${eventStr}${upcoming}<br><small>${typeBadge}</small></li>`);
+    }
+    lines.push(`</ul></div>`);
+    return lines.join("");
+  }
+
+  for (const [key, vTalks] of byVenue) {
+    const venue = venues[key];
+    const legendKey = primaryLegendKey(vTalks);
+    const color = legendGroups.find(g => g.key === legendKey).color;
+    const marker = L.marker([venue.lat, venue.lon], { icon: makeIcon(color) });
+    marker.bindPopup(buildPopup(venue, vTalks), { maxWidth: 320 });
+    marker.addTo(layerGroups[legendKey]);
+    allLatLngs.push([venue.lat, venue.lon]);
+  }
+
+  if (allLatLngs.length > 0) {
+    map.fitBounds(L.latLngBounds(allLatLngs).pad(0.15), { maxZoom: 4 });
+  }
+
+  // Legend control.
+  const legend = L.control({ position: "topright" });
+  legend.onAdd = function () {
+    const div = L.DomUtil.create("div", "talks-map__legend");
+    L.DomEvent.disableClickPropagation(div);
+    L.DomEvent.disableScrollPropagation(div);
+    div.innerHTML =
+      "<strong>Talk type</strong>" +
+      legendGroups.map(g => `
+        <label>
+          <input type="checkbox" data-key="${g.key}" checked>
+          <span class="talks-map__legend-swatch" style="background:${g.color}"></span>
+          ${g.label}
+        </label>`).join("");
+    div.addEventListener("change", e => {
+      if (e.target.matches("input[type=checkbox]")) {
+        const key = e.target.getAttribute("data-key");
+        if (e.target.checked) layerGroups[key].addTo(map);
+        else map.removeLayer(layerGroups[key]);
+      }
+    });
+    return div;
+  };
+  legend.addTo(map);
+})();
+</script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+
+<style>
+.talks-map {
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 1rem 1rem 0.5rem;
+  margin: 1rem 0 2rem;
+  background: #fff;
+}
+.talks-map__header h3 { margin: 0 0 0.25rem; }
+.talks-map__caption {
+  color: #57606a;
+  font-size: 0.88rem;
+  margin: 0 0 0.5rem;
+}
+.talks-map__canvas {
+  width: 100%;
+  height: 520px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #f6f8fa;
+}
+/* Hide the tile attribution when the map isn't actually rendered
+   (e.g. before Leaflet has loaded). */
+.leaflet-container { outline: 0; }
+
+.talks-map__marker span {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+.talks-map__popup h4 { margin: 0 0 0.15rem; font-size: 1rem; color: #0f172a; }
+.talks-map__popup-loc {
+  margin: 0 0 0.35rem;
+  color: #57606a;
+  font-size: 0.85rem;
+}
+.talks-map__popup ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 180px;
+  overflow-y: auto;
+}
+.talks-map__popup li {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #eaeef2;
+  font-size: 0.9rem;
+}
+.talks-map__popup li:last-child { border-bottom: 0; }
+
+.talks-map__legend {
+  background: #ffffffdd;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  max-width: 220px;
+}
+.talks-map__legend strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #0f172a;
+}
+.talks-map__legend label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+.talks-map__legend input {
+  margin: 0;
+}
+.talks-map__legend-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 0 1px #d0d7de;
+}
+</style>

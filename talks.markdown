@@ -7,6 +7,8 @@ permalink: /talks/
 A reverse-chronological list of seminars, colloquia, plenary talks, and
 lecture series. Dates follow the DD/MM/YYYY convention.
 
+{% include talks_map.html %}
+
 {%- comment -%}
 Render helpers:
 - `today` comparison uses the ISO date string from the data file so the

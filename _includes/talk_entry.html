@@ -1,7 +1,8 @@
 {%- comment -%}
 Single talk row. Expects the parameter `t` to be a talk record from
-`_data/talks.yml`. Renders DD/MM/YYYY followed by event (optionally
-linked), venue, and optional slides link.
+`_data/talks.yml`. Renders DD/MM/YYYY followed by event, talk title
+(if given), venue, slides link, and arXiv links to any papers the
+talk was based on (if given).
 {%- endcomment -%}
 - <span class="talk-date">{{ t.date | date: "%d/%m/%Y" }}</span> &mdash;
   {% if t.url and t.url != "" %}
@@ -10,4 +11,10 @@ linked), venue, and optional slides link.
     **{{ t.event }}**
   {% endif %}
   {% if t.venue and t.venue != "" %}, {{ t.venue }}{% endif %}
+  {% if t.title and t.title != "" %}<br>&nbsp;&nbsp;&nbsp;&nbsp;<em>{{ t.title }}</em>{% endif %}
+  {% if t.papers and t.papers != empty %}
+    {% if t.title and t.title != "" %}<br>&nbsp;&nbsp;&nbsp;&nbsp;{% else %}<br>&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
+    <small>Based on:
+    {% for p in t.papers %}[arXiv:{{ p }}](https://arxiv.org/abs/{{ p }}){% unless forloop.last %}, {% endunless %}{% endfor %}</small>
+  {% endif %}
   {% if t.slides and t.slides != "" %} &middot; [slides]({{ t.slides }}){% endif %}
