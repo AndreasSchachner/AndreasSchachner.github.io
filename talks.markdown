@@ -7,27 +7,15 @@ permalink: /talks/
 A reverse-chronological list of seminars, colloquia, plenary talks, and
 lecture series. Dates follow the DD/MM/YYYY convention.
 
-{% include talks_map.html %}
-
 {%- comment -%}
-Render helpers:
-- `today` comparison uses the ISO date string from the data file so the
-  page never needs regenerating for a date rollover.
-- Types map to human-readable section titles.
+World map temporarily disabled. Re-enable by removing this comment block:
+{% include talks_map.html %}
 {%- endcomment -%}
 
 {% assign today = site.time | date: "%Y-%m-%d" %}
 {% assign all_talks = site.data.talks | sort: "date" | reverse %}
-
-{% assign upcoming = "" | split: "" %}
-{% assign past     = "" | split: "" %}
-{% for t in all_talks %}
-  {% if t.date > today %}
-    {% assign upcoming = upcoming | push: t %}
-  {% else %}
-    {% assign past = past | push: t %}
-  {% endif %}
-{% endfor %}
+{% assign upcoming = all_talks | where_exp: "t", "t.date > today" %}
+{% assign past     = all_talks | where_exp: "t", "t.date <= today" %}
 
 {% if upcoming.size > 0 %}
 ## Upcoming
