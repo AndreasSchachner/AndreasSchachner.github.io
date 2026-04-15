@@ -134,15 +134,6 @@ Type&nbsp;IIB compactifications.
 
 ## Higher-derivative corrections {#higher-derivative}
 
-<figure class="avenue-figure">
-  <img src="{{ '/images/research/higher-derivative-fig3.png' | relative_url }}"
-       alt="h^3 phi^2 amplitude: diagrams contributing to the five-point closed-string amplitude at eight derivatives, with intermediate exchange channels (in blue) to be subtracted to isolate the contact term">
-  <figcaption>
-    Fig. 3 from <a href="https://arxiv.org/abs/2507.07934"
-    target="_blank" rel="noopener">arXiv:2507.07934</a>. The
-    <em>h</em><sup>3</sup><em>&phi;</em><sup>2</sup> amplitude; diagrams in blue indicate poles to be subtracted.
-  </figcaption>
-</figure>
 
 Extracting reliable low-energy information from string compactifications
 requires a detailed understanding of the UV sensitivity of the resulting
