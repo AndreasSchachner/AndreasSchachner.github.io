@@ -7,10 +7,7 @@ permalink: /talks/
 A reverse-chronological list of seminars, colloquia, plenary talks, and
 lecture series. Dates follow the DD/MM/YYYY convention.
 
-{%- comment -%}
-World map temporarily disabled. Re-enable by removing this comment block:
 {% include talks_map.html %}
-{%- endcomment -%}
 
 {% assign today = site.time | date: "%Y-%m-%d" %}
 {% assign all_talks = site.data.talks | sort: "date" | reverse %}
