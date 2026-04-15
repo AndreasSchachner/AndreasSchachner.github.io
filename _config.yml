@@ -27,14 +27,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "Andi1707"
 github_username:  "AndreasSchachner"
 
-collections:
-  research_avenues:
-    output: true
-  talklist:
-    output: true
-  category:
-    output: true
-
 # Build settings
 theme: minima
 plugins:
