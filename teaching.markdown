@@ -13,9 +13,9 @@ permalink: /teaching/
 
 1. "**TASI Lectures on de Sitter Vacua**" in collaboration with Liam McAllister (Cornell University)
 
-    * Lectures held by Liam McAllister at TASI 2025. 
-    * Preliminary version can be found on official TASI 2025 website: [link](https://drive.google.com/drive/folders/1xZ1ScNzdE4i8hqASsCcZpk31A8FFy3UQ)
-    * e-Print: [to appear](https://arxiv.org/abs/)
+    * Lectures held by Liam McAllister at [TASI 2025](https://sites.google.com/colorado.edu/tasi-2025-hub/home). 
+    * To be submitted to Physics Reports.
+    * e-Print: [2512.17095 [hep-th]](https://arxiv.org/abs/2512.17095)
 
     &nbsp;
 
@@ -29,7 +29,7 @@ permalink: /teaching/
 
 ### <b> Ludwig Maximilian University of Munich </b>
 
-* Summer term 2024/25: Supervisor of an experiment in the AI Lab Course, guiding students in applying neural networks to solve partial differential equations in physics.
+* Summer terms 2024 and 2025: Supervisor of an experiment in the AI Lab Course, guiding students in applying neural networks to solve partial differential equations in physics.
 
 * Winter term 2024/25: String Theory I tutorials (Lecturer: PD Dr. R. Blumenhagen)
 
@@ -37,9 +37,9 @@ permalink: /teaching/
 
 ### <b> Unversity of Cambridge </b>
 
-* Lent term 2020/21/22: Standard Model example classes (Lecturer: Prof. F. Quevedo, co-author of lecture notes, click [https://arxiv.org/abs/2409.09211](https://arxiv.org/abs/2409.09211) (to be published as book with Cambridge University Press in 2026/27))
+* Lent terms 2020-2022: Standard Model example classes (Lecturer: Prof. F. Quevedo, co-author of lecture notes, click [https://arxiv.org/abs/2409.09211](https://arxiv.org/abs/2409.09211) (to be published as book with Cambridge University Press in 2026/27))
 
-* Lent term 2021/22: Advanced Quantum Field Theory example classes (Lecturer: Prof. M. Wingate)
+* Lent term 2021 and 2022: Advanced Quantum Field Theory example classes (Lecturer: Prof. M. Wingate)
 
 * Lent term 2021: Drop in sessions Advanced Quantum Field Theory
 
