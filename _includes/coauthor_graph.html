@@ -90,6 +90,9 @@ focal author. Click the background (or the close button) to clear.
       .attr("stroke-width", d => edgeWidth(d.weight))
       .attr("stroke-opacity", d => edgeOpacity(d.weight));
 
+  // Threshold for always-visible labels (papers with focal author).
+  const PERSISTENT_LABEL_THRESHOLD = 3;
+
   const node = svg.append("g")
     .attr("class", "coauthor-graph__nodes")
     .selectAll("circle")
@@ -106,7 +109,9 @@ focal author. Click the background (or the close button) to clear.
         event.stopPropagation();
         showPanel(d);
         highlight(d);
-      });
+      })
+      .on("mouseenter", (event, d) => showLabel(d))
+      .on("mouseleave", (event, d) => hideLabel(d));
 
   node.append("title")
     .text(d => {
@@ -120,14 +125,40 @@ focal author. Click the background (or the close button) to clear.
   const label = svg.append("g")
     .attr("class", "coauthor-graph__labels")
     .selectAll("text")
-    .data(nodes.filter(d => d.is_focal))
+    .data(nodes)
     .join("text")
       .attr("text-anchor", "middle")
-      .attr("dy", "-1.2em")
-      .attr("font-size", "11px")
-      .attr("font-weight", "600")
-      .attr("fill", "#1f2328")
+      .attr("dy", d => d.is_focal ? "-1.2em" : "-0.8em")
+      .attr("class", d => {
+        const base = "coauthor-graph__label";
+        if (d.is_focal) {
+          return base + " coauthor-graph__label--focal coauthor-graph__label--visible";
+        }
+        if (d.papers >= PERSISTENT_LABEL_THRESHOLD) {
+          return base + " coauthor-graph__label--persistent coauthor-graph__label--visible";
+        }
+        return base;
+      })
       .text(d => d.id);
+
+  // Map node id → label DOM element, so hover handlers can flip visibility.
+  const labelByNodeId = new Map();
+  label.each(function (d) { labelByNodeId.set(d.id, this); });
+
+  function showLabel(d) {
+    const el = labelByNodeId.get(d.id);
+    if (el) el.classList.add("coauthor-graph__label--visible");
+  }
+  function hideLabel(d) {
+    const el = labelByNodeId.get(d.id);
+    if (!el) return;
+    // Leave persistent / focal labels visible even on mouseleave.
+    if (el.classList.contains("coauthor-graph__label--focal") ||
+        el.classList.contains("coauthor-graph__label--persistent")) {
+      return;
+    }
+    el.classList.remove("coauthor-graph__label--visible");
+  }
 
   simulation.on("tick", () => {
     link
@@ -260,6 +291,24 @@ focal author. Click the background (or the close button) to clear.
 }
 .coauthor-graph__svg:active { cursor: grabbing; }
 .coauthor-graph__links line { stroke-linecap: round; }
+
+.coauthor-graph__label {
+  font-size: 10px;
+  font-weight: 500;
+  fill: #1f2328;
+  paint-order: stroke;
+  stroke: #ffffff;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.coauthor-graph__label--focal {
+  font-size: 11px;
+  font-weight: 600;
+}
+.coauthor-graph__label--visible { opacity: 1; }
 
 .coauthor-graph__panel {
   position: relative;
