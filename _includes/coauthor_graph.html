@@ -6,6 +6,9 @@ workflows/inspirehep/scripts/coauthor_graph.py).
 Embeds the data inline via Liquid's `jsonify` filter so no second
 HTTP request is needed; degrades gracefully to a plain-text note if
 JavaScript is disabled.
+
+Clicking a node opens an info panel listing the joint papers with the
+focal author. Click the background (or the close button) to clear.
 {%- endcomment -%}
 
 <div class="coauthor-graph" id="coauthor-graph">
@@ -14,17 +17,24 @@ JavaScript is disabled.
     <p class="coauthor-graph__caption">
       Each circle is a co-author; edges connect authors who have written a
       paper together. Circle size is proportional to the number of joint
-      papers with me. Hover a node to see the name and joint-paper count.
-      Large collaborations (more than {{ site.data.coauthors.max_collab_authors }}
-      authors) contribute to node counts but not to edges, to keep the
-      layout readable. Drag any node to rearrange the layout.
+      papers with me. Click any node to see the list of our joint papers;
+      drag to rearrange the layout. Large collaborations (more than
+      {{ site.data.coauthors.max_collab_authors }} authors) contribute to
+      node counts but not to edges, to keep the layout readable.
     </p>
   </div>
   <svg class="coauthor-graph__svg" aria-labelledby="coauthor-graph-title"
        role="img"></svg>
+  <div class="coauthor-graph__panel" hidden>
+    <button type="button" class="coauthor-graph__panel-close"
+            aria-label="Close">&times;</button>
+    <h4 class="coauthor-graph__panel-name"></h4>
+    <p class="coauthor-graph__panel-summary"></p>
+    <ul class="coauthor-graph__panel-papers"></ul>
+  </div>
   <noscript>
-    <p><em>Interactive graph requires JavaScript. A static co-author list
-    is rendered in the publications below.</em></p>
+    <p><em>Interactive graph requires JavaScript. The year-grouped
+    publications list below is the authoritative view.</em></p>
   </noscript>
 </div>
 
@@ -36,6 +46,11 @@ JavaScript is disabled.
 
   const container = document.getElementById("coauthor-graph");
   const svgEl = container.querySelector(".coauthor-graph__svg");
+  const panel = container.querySelector(".coauthor-graph__panel");
+  const panelName = container.querySelector(".coauthor-graph__panel-name");
+  const panelSummary = container.querySelector(".coauthor-graph__panel-summary");
+  const panelPapers = container.querySelector(".coauthor-graph__panel-papers");
+  const panelClose = container.querySelector(".coauthor-graph__panel-close");
 
   const width = container.clientWidth || 720;
   const height = 520;
@@ -45,7 +60,6 @@ JavaScript is disabled.
 
   const svg = d3.select(svgEl);
 
-  // Deep-copy to avoid mutating the Liquid-injected object in place.
   const nodes = data.nodes.map(n => Object.assign({}, n));
   const links = data.links.map(l => Object.assign({}, l));
 
@@ -86,24 +100,23 @@ JavaScript is disabled.
       .attr("fill-opacity", d => d.is_focal ? 1 : 0.8)
       .attr("stroke", "#fff")
       .attr("stroke-width", 1.2)
-      .call(drag(simulation));
+      .style("cursor", "pointer")
+      .call(drag(simulation))
+      .on("click", (event, d) => {
+        event.stopPropagation();
+        showPanel(d);
+        highlight(d);
+      });
 
   node.append("title")
     .text(d => {
       if (d.is_focal) {
-        return `${d.id} (${d.papers} papers)`;
+        return `${d.id} (${d.papers} papers) — click any node to inspect`;
       }
-      // Joint-paper count is the edge weight on the link to the focal node.
-      const edge = links.find(l =>
-        (l.source.id === focal && l.target.id === d.id) ||
-        (l.target.id === focal && l.source.id === d.id) ||
-        (l.source === focal && l.target === d.id) ||
-        (l.target === focal && l.source === d.id));
-      const joint = edge ? edge.weight : d.papers_in_edges;
-      return `${d.id} — ${joint} joint paper${joint === 1 ? "" : "s"}`;
+      const joint = d.joint_papers ? d.joint_papers.length : 0;
+      return `${d.id} — ${joint} joint paper${joint === 1 ? "" : "s"} (click for details)`;
     });
 
-  // Label only the focal author; others get tooltips on hover.
   const label = svg.append("g")
     .attr("class", "coauthor-graph__labels")
     .selectAll("text")
@@ -129,6 +142,83 @@ JavaScript is disabled.
       .attr("x", d => d.x)
       .attr("y", d => d.y);
   });
+
+  // Click on empty svg background clears selection.
+  svg.on("click", () => {
+    clearHighlight();
+    panel.setAttribute("hidden", "");
+  });
+
+  panelClose.addEventListener("click", () => {
+    clearHighlight();
+    panel.setAttribute("hidden", "");
+  });
+
+  function highlight(selected) {
+    const neighbourIds = new Set([selected.id]);
+    links.forEach(l => {
+      const s = typeof l.source === "object" ? l.source.id : l.source;
+      const t = typeof l.target === "object" ? l.target.id : l.target;
+      if (s === selected.id) neighbourIds.add(t);
+      if (t === selected.id) neighbourIds.add(s);
+    });
+    node.attr("fill-opacity", d =>
+      neighbourIds.has(d.id) ? (d.is_focal ? 1 : 0.95) : 0.15
+    );
+    link
+      .attr("stroke-opacity", l => {
+        const s = typeof l.source === "object" ? l.source.id : l.source;
+        const t = typeof l.target === "object" ? l.target.id : l.target;
+        return (s === selected.id || t === selected.id)
+          ? 0.9
+          : 0.05;
+      });
+  }
+
+  function clearHighlight() {
+    node.attr("fill-opacity", d => d.is_focal ? 1 : 0.8);
+    link.attr("stroke-opacity", d => edgeOpacity(d.weight));
+  }
+
+  function showPanel(d) {
+    panelName.textContent = d.id;
+    panelPapers.innerHTML = "";
+    if (d.is_focal) {
+      panelSummary.textContent =
+        d.papers + " papers total; click any connected node to see joint work.";
+      return panel.removeAttribute("hidden");
+    }
+    const joint = d.joint_papers || [];
+    const n = joint.length;
+    panelSummary.textContent =
+      n + " joint paper" + (n === 1 ? "" : "s") +
+      " with " + focal + ".";
+    joint.forEach(p => {
+      const li = document.createElement("li");
+      const title = document.createElement("span");
+      title.className = "coauthor-graph__paper-title";
+      title.textContent = p.title;
+      li.appendChild(title);
+      if (p.arxiv) {
+        const sep = document.createTextNode(" · ");
+        li.appendChild(sep);
+        const a = document.createElement("a");
+        a.href = "https://arxiv.org/abs/" + p.arxiv;
+        a.textContent = "arXiv:" + p.arxiv;
+        a.target = "_blank";
+        a.rel = "noopener";
+        li.appendChild(a);
+      }
+      if (p.year) {
+        const yr = document.createElement("span");
+        yr.className = "coauthor-graph__paper-year";
+        yr.textContent = " (" + p.year + ")";
+        li.appendChild(yr);
+      }
+      panelPapers.appendChild(li);
+    });
+    panel.removeAttribute("hidden");
+  }
 
   function drag(sim) {
     return d3.drag()
@@ -170,4 +260,47 @@ JavaScript is disabled.
 }
 .coauthor-graph__svg:active { cursor: grabbing; }
 .coauthor-graph__links line { stroke-linecap: round; }
+
+.coauthor-graph__panel {
+  position: relative;
+  border-top: 1px solid #eaeef2;
+  padding: 0.75rem 2rem 0.75rem 0.25rem;
+  margin-top: 0.5rem;
+}
+.coauthor-graph__panel[hidden] { display: none; }
+.coauthor-graph__panel-name {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+  color: #0f172a;
+}
+.coauthor-graph__panel-summary {
+  color: #57606a;
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+}
+.coauthor-graph__panel-papers {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0;
+}
+.coauthor-graph__panel-papers li {
+  margin-bottom: 0.25rem;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+.coauthor-graph__paper-title { color: #0f172a; }
+.coauthor-graph__paper-year { color: #8b949e; font-size: 0.85rem; }
+.coauthor-graph__panel-close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.25rem;
+  background: transparent;
+  border: 0;
+  font-size: 1.3rem;
+  color: #8b949e;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0.1rem 0.4rem;
+}
+.coauthor-graph__panel-close:hover { color: #0969da; }
 </style>

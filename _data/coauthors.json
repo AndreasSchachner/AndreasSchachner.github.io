@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T08:15:23.483665+00:00",
+  "generated_at": "2026-04-15T08:25:09.237017+00:00",
   "focal_author": "A. Schachner",
   "max_collab_authors": 15,
   "n_papers_considered": 29,
@@ -8,985 +8,2747 @@
       "id": "A. Schachner",
       "papers": 29,
       "papers_in_edges": 28,
-      "is_focal": true
+      "is_focal": true,
+      "joint_papers": []
     },
     {
       "id": "F. Quevedo",
       "papers": 6,
       "papers_in_edges": 6,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2507.00615",
+          "title": "Coexisting flux string vacua from numerical K\u00e4hler moduli stabilisation",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2025-07-01"
+        },
+        {
+          "arxiv": "2409.09211",
+          "title": "Cambridge Lectures on The Standard Model",
+          "year": 2024,
+          "type": "article",
+          "earliest_date": "2024-09-13"
+        },
+        {
+          "arxiv": "2303.01548",
+          "title": "Testing BSM physics with gravitational waves",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-03-02"
+        },
+        {
+          "arxiv": "2204.13115",
+          "title": "A database of Calabi-Yau orientifolds and the size of D3-tadpoles",
+          "year": 2022,
+          "type": "article",
+          "earliest_date": "2022-04-27"
+        },
+        {
+          "arxiv": "2106.11964",
+          "title": "The Standard Model quiver in de Sitter string compactifications",
+          "year": 2021,
+          "type": "article",
+          "earliest_date": "2021-06-22"
+        },
+        {
+          "arxiv": "2106.04592",
+          "title": "Systematics of the \u03b1\u2032 expansion in F-theory",
+          "year": 2021,
+          "type": "article",
+          "earliest_date": "2021-06-08"
+        }
+      ]
     },
     {
       "id": "M. Cicoli",
       "papers": 6,
       "papers_in_edges": 5,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.04941",
+          "title": "Parameter compression in the flux landscape",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-05"
+        },
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        },
+        {
+          "arxiv": "2501.03984",
+          "title": "Deep observations of the Type IIB flux landscape",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-01-07"
+        },
+        {
+          "arxiv": "2109.14624",
+          "title": "Systematics of type IIB moduli stabilisation with odd axions",
+          "year": 2022,
+          "type": "article",
+          "earliest_date": "2021-09-29"
+        },
+        {
+          "arxiv": "2106.11964",
+          "title": "The Standard Model quiver in de Sitter string compactifications",
+          "year": 2021,
+          "type": "article",
+          "earliest_date": "2021-06-22"
+        },
+        {
+          "arxiv": "2106.04592",
+          "title": "Systematics of the \u03b1\u2032 expansion in F-theory",
+          "year": 2021,
+          "type": "article",
+          "earliest_date": "2021-06-08"
+        }
+      ]
     },
     {
       "id": "S. Krippendorf",
       "papers": 6,
       "papers_in_edges": 6,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.04941",
+          "title": "Parameter compression in the flux landscape",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-05"
+        },
+        {
+          "arxiv": "2501.03984",
+          "title": "Deep observations of the Type IIB flux landscape",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-01-07"
+        },
+        {
+          "arxiv": "2308.15525",
+          "title": "New non-supersymmetric flux vacua in string theory",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-08-29"
+        },
+        {
+          "arxiv": "2307.15749",
+          "title": "W0_sample = np.random.normal(0,1)?",
+          "year": 2024,
+          "type": "article",
+          "earliest_date": "2023-07-28"
+        },
+        {
+          "arxiv": "2306.06160",
+          "title": "JAXVacua \u2014 a framework for sampling string vacua",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-06-09"
+        },
+        {
+          "arxiv": "2111.11466",
+          "title": "Probing the Structure of String Theory Vacua with Genetic Algorithms and Reinforcement Learning",
+          "year": 2021,
+          "type": "conference paper",
+          "earliest_date": "2021-11-22"
+        }
+      ]
     },
     {
       "id": "L. McAllister",
       "papers": 4,
       "papers_in_edges": 4,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2512.17095",
+          "title": "TASI Lectures on de Sitter Vacua",
+          "year": 2025,
+          "type": "conference paper",
+          "earliest_date": "2025-12-18"
+        },
+        {
+          "arxiv": "2412.12012",
+          "title": "Fuzzy axions and associated relics",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2024-12-16"
+        },
+        {
+          "arxiv": "2406.13751",
+          "title": "Candidate de Sitter vacua",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2024-06-19"
+        },
+        {
+          "arxiv": "2310.06820",
+          "title": "Counting Calabi-Yau Threefolds",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-10-10"
+        }
+      ]
     },
     {
       "id": "E. Sheridan",
       "papers": 3,
       "papers_in_edges": 3,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2512.00144",
+          "title": "Bayesian inference on Calabi--Yau moduli spaces and the axiverse: experimental data meets string theory",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-11-28"
+        },
+        {
+          "arxiv": "2412.12012",
+          "title": "Fuzzy axions and associated relics",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2024-12-16"
+        },
+        {
+          "arxiv": "2405.08871",
+          "title": "The DNA of Calabi-Yau Hypersurfaces",
+          "year": 2024,
+          "type": "article",
+          "earliest_date": "2024-05-14"
+        }
+      ]
     },
     {
       "id": "K. K. Rogers",
       "papers": 3,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        },
+        {
+          "arxiv": "2512.00144",
+          "title": "Bayesian inference on Calabi--Yau moduli spaces and the axiverse: experimental data meets string theory",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-11-28"
+        },
+        {
+          "arxiv": "2412.12012",
+          "title": "Fuzzy axions and associated relics",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2024-12-16"
+        }
+      ]
     },
     {
       "id": "R. Savelli",
       "papers": 3,
       "papers_in_edges": 3,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2507.07934",
+          "title": "Type IIB at eight derivatives: five-point axio-dilaton couplings",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-07-10"
+        },
+        {
+          "arxiv": "2205.11530",
+          "title": "Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles",
+          "year": 2022,
+          "type": "article",
+          "earliest_date": "2022-05-23"
+        },
+        {
+          "arxiv": "2106.04592",
+          "title": "Systematics of the \u03b1\u2032 expansion in F-theory",
+          "year": 2021,
+          "type": "article",
+          "earliest_date": "2021-06-08"
+        }
+      ]
     },
     {
       "id": "R. Valandro",
       "papers": 3,
       "papers_in_edges": 3,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2204.13115",
+          "title": "A database of Calabi-Yau orientifolds and the size of D3-tadpoles",
+          "year": 2022,
+          "type": "article",
+          "earliest_date": "2022-04-27"
+        },
+        {
+          "arxiv": "2106.11964",
+          "title": "The Standard Model quiver in de Sitter string compactifications",
+          "year": 2021,
+          "type": "article",
+          "earliest_date": "2021-06-22"
+        },
+        {
+          "arxiv": "2106.04592",
+          "title": "Systematics of the \u03b1\u2032 expansion in F-theory",
+          "year": 2021,
+          "type": "article",
+          "earliest_date": "2021-06-08"
+        }
+      ]
     },
     {
       "id": "A. Chauhan",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.04941",
+          "title": "Parameter compression in the flux landscape",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-05"
+        },
+        {
+          "arxiv": "2501.03984",
+          "title": "Deep observations of the Type IIB flux landscape",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-01-07"
+        }
+      ]
     },
     {
       "id": "A. Cole",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2111.11466",
+          "title": "Probing the Structure of String Theory Vacua with Genetic Algorithms and Reinforcement Learning",
+          "year": 2021,
+          "type": "conference paper",
+          "earliest_date": "2021-11-22"
+        },
+        {
+          "arxiv": "1907.10072",
+          "title": "Searching the Landscape of Flux Vacua with Genetic Algorithms",
+          "year": 2019,
+          "type": "article",
+          "earliest_date": "2019-07-23"
+        }
+      ]
     },
     {
       "id": "A. Hebecker",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2512.17995",
+          "title": "Effective potentials, warping, and implications for F-term uplifting",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-12-19"
+        },
+        {
+          "arxiv": "1812.05626",
+          "title": "Large Field Ranges from Aligned and Misaligned Winding",
+          "year": 2019,
+          "type": "article",
+          "earliest_date": "2018-12-13"
+        }
+      ]
     },
     {
       "id": "A. Maharana",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.04941",
+          "title": "Parameter compression in the flux landscape",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-05"
+        },
+        {
+          "arxiv": "2501.03984",
+          "title": "Deep observations of the Type IIB flux landscape",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-01-07"
+        }
+      ]
     },
     {
       "id": "D. J. E. Marsh",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2512.00144",
+          "title": "Bayesian inference on Calabi--Yau moduli spaces and the axiverse: experimental data meets string theory",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-11-28"
+        },
+        {
+          "arxiv": "2412.12012",
+          "title": "Fuzzy axions and associated relics",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2024-12-16"
+        }
+      ]
     },
     {
       "id": "G. Shiu",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2111.11466",
+          "title": "Probing the Structure of String Theory Vacua with Genetic Algorithms and Reinforcement Learning",
+          "year": 2021,
+          "type": "conference paper",
+          "earliest_date": "2021-11-22"
+        },
+        {
+          "arxiv": "1907.10072",
+          "title": "Searching the Landscape of Flux Vacua with Genetic Algorithms",
+          "year": 2019,
+          "type": "article",
+          "earliest_date": "2019-07-23"
+        }
+      ]
     },
     {
       "id": "J. Moritz",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2406.13751",
+          "title": "Candidate de Sitter vacua",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2024-06-19"
+        },
+        {
+          "arxiv": "2310.06820",
+          "title": "Counting Calabi-Yau Threefolds",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-10-10"
+        }
+      ]
     },
     {
       "id": "J. T. Liu",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2507.07934",
+          "title": "Type IIB at eight derivatives: five-point axio-dilaton couplings",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-07-10"
+        },
+        {
+          "arxiv": "2205.11530",
+          "title": "Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles",
+          "year": 2022,
+          "type": "article",
+          "earliest_date": "2022-05-23"
+        }
+      ]
     },
     {
       "id": "M. Jain",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2512.00144",
+          "title": "Bayesian inference on Calabi--Yau moduli spaces and the axiverse: experimental data meets string theory",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-11-28"
+        },
+        {
+          "arxiv": "2412.12012",
+          "title": "Fuzzy axions and associated relics",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2024-12-16"
+        }
+      ]
     },
     {
       "id": "N. Gendler",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2412.12012",
+          "title": "Fuzzy axions and associated relics",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2024-12-16"
+        },
+        {
+          "arxiv": "2310.06820",
+          "title": "Counting Calabi-Yau Threefolds",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-10-10"
+        }
+      ]
     },
     {
       "id": "N. MacFadden",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2405.08871",
+          "title": "The DNA of Calabi-Yau Hypersurfaces",
+          "year": 2024,
+          "type": "article",
+          "earliest_date": "2024-05-14"
+        },
+        {
+          "arxiv": "2310.06820",
+          "title": "Counting Calabi-Yau Threefolds",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-10-10"
+        }
+      ]
     },
     {
       "id": "N. Righi",
       "papers": 2,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        },
+        {
+          "arxiv": "2412.12012",
+          "title": "Fuzzy axions and associated relics",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2024-12-16"
+        }
+      ]
     },
     {
       "id": "P. Piantadosi",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.04941",
+          "title": "Parameter compression in the flux landscape",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-05"
+        },
+        {
+          "arxiv": "2501.03984",
+          "title": "Deep observations of the Type IIB flux landscape",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-01-07"
+        }
+      ]
     },
     {
       "id": "P. Shukla",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2109.14624",
+          "title": "Systematics of type IIB moduli stabilisation with odd axions",
+          "year": 2022,
+          "type": "article",
+          "earliest_date": "2021-09-29"
+        },
+        {
+          "arxiv": "2106.11964",
+          "title": "The Standard Model quiver in de Sitter string compactifications",
+          "year": 2021,
+          "type": "article",
+          "earliest_date": "2021-06-22"
+        }
+      ]
     },
     {
       "id": "R. Minasian",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2507.07934",
+          "title": "Type IIB at eight derivatives: five-point axio-dilaton couplings",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-07-10"
+        },
+        {
+          "arxiv": "2205.11530",
+          "title": "Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles",
+          "year": 2022,
+          "type": "article",
+          "earliest_date": "2022-05-23"
+        }
+      ]
     },
     {
       "id": "R. Nally",
       "papers": 2,
       "papers_in_edges": 2,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2406.13751",
+          "title": "Candidate de Sitter vacua",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2024-06-19"
+        },
+        {
+          "arxiv": "2310.06820",
+          "title": "Counting Calabi-Yau Threefolds",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-10-10"
+        }
+      ]
     },
     {
       "id": "A. Arza",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. Drew",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. Dubey",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2306.06160",
+          "title": "JAXVacua \u2014 a framework for sampling string vacua",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-06-09"
+        }
+      ]
     },
     {
       "id": "A. D\u00edaz-Morcillo",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. Ejlli",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. Esposito",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. Lella",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. Lindner",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. Mirizzi",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. Pi\u00f1eiro Orioli",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "1612.03038",
+          "title": "Universal scaling of unequal-time correlation functions in ultracold Bose gases far from equilibrium",
+          "year": 2017,
+          "type": "article",
+          "earliest_date": "2016-12-09"
+        }
+      ]
     },
     {
       "id": "A. Rettaroli",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. Ringwald",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. Sokolov",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. Weiler",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. de Giorgi",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "A. \u00d6vg\u00fcn",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "B. D\u00f6brich",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "B. Gimeno",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "B. Puli\u00e7e",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "C. Bonati",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "C. Burrage",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "C. Crin\u00f2",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2204.13115",
+          "title": "A database of Calabi-Yau orientifolds and the size of D3-tadpoles",
+          "year": 2022,
+          "type": "article",
+          "earliest_date": "2022-04-27"
+        }
+      ]
     },
     {
       "id": "C. De Dominicis",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "C. Eckner",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "C. F. A. Baynham",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "C. Garc\u00eda-Cely",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "C. Gatti",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "C. Hughes",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2507.00615",
+          "title": "Coexisting flux string vacua from numerical K\u00e4hler moduli stabilisation",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2025-07-01"
+        }
+      ]
     },
     {
       "id": "C. Margalejo",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "C. O'Hare",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "C. Toni",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "D. Aybas",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "D. Budker",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "D. D\u00edez-Ib\u00e1\u00f1ez",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "D. F. G. Fiorillo",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "D. Gavilan-Martin",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "D. Horns",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "D. Junghans",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "1812.05626",
+          "title": "Large Field Ranges from Aligned and Misaligned Winding",
+          "year": 2019,
+          "type": "article",
+          "earliest_date": "2018-12-13"
+        }
+      ]
     },
     {
       "id": "E. Ferreira",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "E. Heyes",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2512.00144",
+          "title": "Bayesian inference on Calabi--Yau moduli spaces and the axiverse: experimental data meets string theory",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-11-28"
+        }
+      ]
     },
     {
       "id": "E. Todarello",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "E. Vitagliano",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "F. Calore",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "F. Carta",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2412.12012",
+          "title": "Fuzzy axions and associated relics",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2024-12-16"
+        }
+      ]
     },
     {
       "id": "F. Chadha-Day",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "F. D'Eramo",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "F. G. Pedro",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "F. L. Constantin",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "F. Lecce",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "F. Muia",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2303.01548",
+          "title": "Testing BSM physics with gravitational waves",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-03-02"
+        }
+      ]
     },
     {
       "id": "F. Naokawa",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "F. R. Cand\u00f3n",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "F. R. Urban",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "G. G. Raffelt",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "G. G. di Cortona",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "G. Higgins",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "G. Lucente",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "G. Mueller",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "G. Pierobon",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "G. Villa",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2303.01548",
+          "title": "Testing BSM physics with gravitational waves",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-03-02"
+        }
+      ]
     },
     {
       "id": "I. G. Etxebarria",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2106.11964",
+          "title": "The Standard Model quiver in de Sitter string compactifications",
+          "year": 2021,
+          "type": "article",
+          "earliest_date": "2021-06-22"
+        }
+      ]
     },
     {
       "id": "I. M. Bloch",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "I. Obata",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "J. Berges",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "1612.03038",
+          "title": "Universal scaling of unequal-time correlation functions in ultracold Bose gases far from equilibrium",
+          "year": 2017,
+          "type": "article",
+          "earliest_date": "2016-12-09"
+        }
+      ]
     },
     {
       "id": "J. Correia",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "J. De Miguel",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "J. Ebelt",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2307.15749",
+          "title": "W0_sample = np.random.normal(0,1)?",
+          "year": 2024,
+          "type": "article",
+          "earliest_date": "2023-07-28"
+        }
+      ]
     },
     {
       "id": "J. Gu\u00e9",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "J. K. Vogel",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "J. P. Conlon",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "J. Pradler",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "J. Ruz",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "J. Schaffran",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "J. Serra",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "K. Bartnick",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "K. Choi",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "K. Murai",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "K. Saikawa",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "K. Schmieden",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "K. Springmann",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "K. Zioutas",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "L. Cong",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "L. Di Luzio",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "L. H. Nguyen",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "L. Marsicano",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "L. Merlo",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "L. R. Roberts",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "L. Ubaldi",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "L. Visinelli",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Buschmann",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Galaverni",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Gallinaro",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Giannotti",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Gorghetto",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Kaltschmidt",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Karuza",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Maroudas",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. P. Lombardo",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Ramos",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Regis",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Reig",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Scalisi",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Schott",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Staelens",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Stillman",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2310.06820",
+          "title": "Counting Calabi-Yau Threefolds",
+          "year": 2023,
+          "type": "article",
+          "earliest_date": "2023-10-10"
+        }
+      ]
     },
     {
       "id": "M. Taoso",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "M. Wurm",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "N. Ferreiro Iachellini",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "O. M. Ruimi",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "O. Maliaka",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "O. Straniero",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "P. Carenza",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "P. De la Torre Luque",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "P. Diego-Palazuelos",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "P. Pugnat",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "P. Spagnolo",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "Q. Rokn",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "R. Balkin",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "R. Quishpe",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "R. Vicente",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "S. A. Cetin",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "S. A. R. Ellis",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "S. AbdusSalam",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2507.00615",
+          "title": "Coexisting flux string vacua from numerical K\u00e4hler moduli stabilisation",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2025-07-01"
+        }
+      ]
     },
     {
       "id": "S. Balaji",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "S. Chakraborti",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "S. Gasparotto",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "S. J. Witte",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "S. Kunc",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "S. L\u00fcst",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2512.17995",
+          "title": "Effective potentials, warping, and implications for F-term uplifting",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-12-19"
+        }
+      ]
     },
     {
       "id": "S. Renner",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "S. Schreyer",
       "papers": 1,
       "papers_in_edges": 1,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2512.17995",
+          "title": "Effective potentials, warping, and implications for F-term uplifting",
+          "year": 2025,
+          "type": "article",
+          "earliest_date": "2025-12-19"
+        }
+      ]
     },
     {
       "id": "S. Stelzl",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "T. K. Poddar",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "T. Namikawa",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "T. O'Shea",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "V. A. Mitsou",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "V. Kozhuharov",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "W. Ratzinger",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     },
     {
       "id": "W. Yin",
       "papers": 1,
       "papers_in_edges": 0,
-      "is_focal": false
+      "is_focal": false,
+      "joint_papers": [
+        {
+          "arxiv": "2603.03433",
+          "title": "The COSMIC WISPers White Paper: The physics case for Weakly Interacting Slim Particles",
+          "year": 2026,
+          "type": "article",
+          "earliest_date": "2026-03-03"
+        }
+      ]
     }
   ],
   "links": [
