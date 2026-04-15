@@ -1,15 +1,14 @@
 {%- comment -%}
-Single talk row. Expects `t`. Single logical line in kramdown source so
-the list item renders as one <li> with <br>-separated sub-lines rather
-than multiple <p> paragraphs.
+Single talk row. `t` is a record from _data/talks.yml. Renders as one
+<li> with explicit <br>s between date/venue, title, papers, and
+slides so the sub-lines actually wrap instead of collapsing into one
+run of whitespace.
 {%- endcomment -%}
 {%- capture event_html -%}
 {% if t.url and t.url != "" %}[**{{ t.event }}**]({{ t.url }}){% else %}**{{ t.event }}**{% endif %}
 {%- endcapture -%}
 {%- capture venue_html -%}{% if t.venue and t.venue != "" %}, {{ t.venue }}{% endif %}{%- endcapture -%}
-{%- capture title_html -%}{% if t.title and t.title != "" %}
-*{{ t.title }}*{% endif %}{%- endcapture -%}
-{%- capture papers_html -%}{% if t.papers and t.papers != empty %}
-<small>Based on: {% for p in t.papers %}[arXiv:{{ p }}](https://arxiv.org/abs/{{ p }}){% unless forloop.last %}, {% endunless %}{% endfor %}</small>{% endif %}{%- endcapture -%}
+{%- capture title_html -%}{% if t.title and t.title != "" %}<br><em>{{ t.title }}</em>{% endif %}{%- endcapture -%}
+{%- capture papers_html -%}{% if t.papers and t.papers != empty %}<br><small>Based on: {% for p in t.papers %}[arXiv:{{ p }}](https://arxiv.org/abs/{{ p }}){% unless forloop.last %}, {% endunless %}{% endfor %}</small>{% endif %}{%- endcapture -%}
 {%- capture slides_html -%}{% if t.slides and t.slides != "" %} &middot; [slides]({{ t.slides }}){% endif %}{%- endcapture -%}
 - **{{ t.date | date: "%d/%m/%Y" }}** &mdash; {{ event_html }}{{ venue_html }}{{ slides_html }}{{ title_html }}{{ papers_html }}
