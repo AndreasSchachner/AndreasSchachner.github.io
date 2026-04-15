@@ -7,6 +7,8 @@ permalink: /talks/
 A reverse-chronological list of seminars, colloquia, plenary talks, and
 lecture series. Dates follow the DD/MM/YYYY convention.
 
+{% include talks_map.html %}
+
 {% assign today = site.time | date: "%Y-%m-%d" %}
 {% assign all_talks = site.data.talks | sort: "date" | reverse %}
 {% assign upcoming = all_talks | where_exp: "t", "t.date > today" %}
