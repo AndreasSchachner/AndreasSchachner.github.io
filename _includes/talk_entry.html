@@ -1,0 +1,13 @@
+{%- comment -%}
+Single talk row. Expects the parameter `t` to be a talk record from
+`_data/talks.yml`. Renders DD/MM/YYYY followed by event (optionally
+linked), venue, and optional slides link.
+{%- endcomment -%}
+- <span class="talk-date">{{ t.date | date: "%d/%m/%Y" }}</span> &mdash;
+  {% if t.url and t.url != "" %}
+    [**{{ t.event }}**]({{ t.url }})
+  {% else %}
+    **{{ t.event }}**
+  {% endif %}
+  {% if t.venue and t.venue != "" %}, {{ t.venue }}{% endif %}
+  {% if t.slides and t.slides != "" %} &middot; [slides]({{ t.slides }}){% endif %}
