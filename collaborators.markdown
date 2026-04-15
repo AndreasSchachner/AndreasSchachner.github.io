@@ -4,45 +4,11 @@ title: Collaborators
 permalink: /collaborators/
 ---
 
-I am very grateful to current and previous collaborators:
+I am very grateful to my current and previous collaborators. The
+interactive graph below shows the co-authorship network derived from my
+publications: click any node to see the joint papers.
 
-- Federico Carta
-- Aman Chauhan
-- Michele Cicoli
-- Alex Cole
-- Abhishek Dubey
-- Julian Ebelt
-- Iñaki Garcia Etxebarria
-- Naomi Gendler
-- Arthur Hebecker
-- Chris Hughes
-- Mudit Jain
-- Daniel Junghans
-- Sven Krippendorf
-- James Liu
-- Severin Lüst
-- Nate MacFadden
-- Anshuman Maharana
-- Doddy Marsh
-- Liam McAllister
-- Ruben Minasian
-- Jakob Moritz
-- Francesco Muia
-- Richard Nally
-- Pellegrino Piantadosi
-- Fernando Quevedo 
-- Nicole Righi
-- Keir K. Rogers
-- Raffaele Savelli
-- Simon Schreyer
-- Elijah Sheridan
-- Gary Shiu
-- Pramod Shukla
-- Mike Stillman
-- Roberto Valandro
-- Gonzalo Villa
-
-<br>
+{% include coauthor_graph.html %}
 
 For references, please contact:
 
