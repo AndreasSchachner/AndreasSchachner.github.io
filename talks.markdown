@@ -18,7 +18,7 @@ lecture series. Dates follow the DD/MM/YYYY convention.
 ## Upcoming
 
 {% for t in upcoming %}
-{%- include talk_entry.html t=t -%}
+{% include talk_entry.html t=t %}
 {% endfor %}
 {% endif %}
 
@@ -34,7 +34,7 @@ lecture series. Dates follow the DD/MM/YYYY convention.
 ## {{ title }}
 
 {% for t in items %}
-{%- include talk_entry.html t=t -%}
+{% include talk_entry.html t=t %}
 {% endfor %}
 
   {% endif %}
