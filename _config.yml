@@ -31,9 +31,10 @@ twitter_username: "Andi1707"
 github_username:  "AndreasSchachner"
 
 # SEO tag metadata (consumed by jekyll-seo-tag → OpenGraph + Twitter cards).
-author:
-  name:  Andreas Schachner
-  email: as3475@cornell.edu
+# `author` is a string so minima's footer renders it cleanly as
+# "{{ site.author }}"; jekyll-seo-tag also accepts the string form
+# and uses `email` (top-level) for contact info.
+author: Andreas Schachner
 image:  /images/profile01.JPG
 social:
   name: Andreas Schachner
