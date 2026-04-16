@@ -17,7 +17,7 @@ layout: home
 <br>
 <div style="width: 650px;">
     <p align="justify">
-    This site collects my research projects, publications, software, and teaching activities. For a narrative overview, see the <a href="{{ '/research/' | relative_url }}">Research</a> page; a full chronological list of publications together with the associated co-authorship network is on <a href="{{ '/publications/' | relative_url }}">Publications</a>; public code lives on <a href="{{ '/software/' | relative_url }}">Software</a>; my background and CV can be found on <a href="{{ '/bio/' | relative_url }}">Biography</a>.
+    This site collects my research projects, publications, software, talks, and teaching activities. For a narrative overview, see the <a href="{{ '/research/' | relative_url }}">Research</a> page; a full chronological list of publications together with the associated co-authorship network is on <a href="{{ '/publications/' | relative_url }}">Publications</a>; public code lives on <a href="{{ '/software/' | relative_url }}">Software</a>; past and upcoming <a href="{{ '/talks/' | relative_url }}">Talks</a> are mapped onto the world; my background and CV can be found on <a href="{{ '/bio/' | relative_url }}">Biography</a>.
     </p>
 </div>
 
