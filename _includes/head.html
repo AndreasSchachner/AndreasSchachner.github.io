@@ -1,0 +1,29 @@
+{%- comment -%}
+Override of minima 2.5's _includes/head.html.
+Adds favicons, Apple touch icon, and the Inter webfont; keeps the
+rest of the default head (SEO tag, main stylesheet, feed metadata,
+optional Google Analytics include).
+{%- endcomment -%}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- seo -%}
+
+  <link rel="icon" type="image/png" sizes="32x32"
+        href="{{ '/images/favicon-32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16"
+        href="{{ '/images/favicon-16.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180"
+        href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>

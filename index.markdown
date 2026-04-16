@@ -7,7 +7,7 @@ layout: home
 
 
 
-<img style="float: right;" src="{{site.url}}images/profile01.JPG" width="35%" height="auto">
+<img style="float: right;" src="{{site.url}}images/profile01.JPG" width="35%" height="auto" alt="Portrait of Andreas Schachner">
 
 <div style="width: 650px;">
    <p align="justify">

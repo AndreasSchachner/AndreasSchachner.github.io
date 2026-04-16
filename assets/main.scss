@@ -12,7 +12,21 @@ $content-width:  1200px;
 $on-laptop:      1200px;
 $base-font-size: 17px;
 
+// Inter is loaded via <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+// in _includes/head.html. System-font fallback kicks in if the CDN is slow.
+$base-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, "Helvetica Neue", Arial, sans-serif;
+
 @import "minima";
+
+// When the InterVariable font face is available, enable its modern features.
+@supports (font-variation-settings: normal) {
+  html { font-family: "InterVariable", "Inter", sans-serif; }
+  body {
+    font-feature-settings: "cv11", "ss01", "ss03";
+    font-variation-settings: "opsz" 18;
+  }
+}
 
 // ---- Responsive safety rules -------------------------------------------
 // Prevent images, SVGs, and tables from ever overflowing the wrapper on

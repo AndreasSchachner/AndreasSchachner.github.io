@@ -21,16 +21,36 @@
 title: Andreas Schachner
 email: as3475@cornell.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Research Associate in Theoretical Physics - working at Cornell University and Ludwig-Maximilians-University Munich.
+  Postdoctoral researcher in theoretical physics at Cornell University and the Arnold
+  Sommerfeld Center, LMU Munich. String phenomenology, flux vacua, moduli stabilisation,
+  de Sitter constructions, higher-derivative corrections, the axiverse, and JAX-native
+  machine-learning tools for the string landscape.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://andreasschachner.github.io"
 twitter_username: "Andi1707"
 github_username:  "AndreasSchachner"
+
+# SEO tag metadata (consumed by jekyll-seo-tag → OpenGraph + Twitter cards).
+author:
+  name:  Andreas Schachner
+  email: as3475@cornell.edu
+image:  /images/profile01.JPG
+social:
+  name: Andreas Schachner
+  links:
+    - https://github.com/AndreasSchachner
+    - https://github.com/ASchachnerGroup
+    - https://inspirehep.net/authors/1635387
+    - https://orcid.org/0000-0002-7287-1476
+    - https://www.classe.cornell.edu/about/people/andreas-schachner
+    - https://www.linkedin.com/in/andreas-schachner-4804051a5/
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 markdown: kramdown
 kramdown:
   math_engine: mathjax
