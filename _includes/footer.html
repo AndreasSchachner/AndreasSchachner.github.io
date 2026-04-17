@@ -1,17 +1,39 @@
-{%- comment -%}
-Override of minima 2.5 footer. Compact academic footer with social
-row, copyright, last-updated timestamp, and GoatCounter page-view
-counter.
-{%- endcomment -%}
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
   <div class="wrapper">
-    <p class="site-footer__meta">
-      &copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}
-      &middot; Last updated {{ site.time | date: '%B %Y' }}
-      &middot; <span class="gc-count"></span>
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social-media-links.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+    <p style="color:#8b949e;font-size:0.85rem;margin-top:0.5rem;">
+      <span class="gc-count"></span>
     </p>
+
   </div>
+
 </footer>
 
 <script>
@@ -28,12 +50,3 @@ counter.
   }
 })();
 </script>
-
-<style>
-.site-footer__meta {
-  color: #8b949e;
-  font-size: 0.85rem;
-  margin: 0.25rem 0 0;
-}
-.gc-count { color: #8b949e; font-size: 0.85rem; }
-</style>
