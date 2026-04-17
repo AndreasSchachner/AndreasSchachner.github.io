@@ -17,10 +17,8 @@ focal author. Click the background (or the close button) to clear.
     <p class="coauthor-graph__caption">
       Each circle is a co-author; edges connect authors who have written a
       paper together. Circle size is proportional to the number of joint
-      papers with me. Click any node to see the list of our joint papers;
-      drag to rearrange the layout. Large collaborations (more than
-      {{ site.data.coauthors.max_collab_authors }} authors) contribute to
-      node counts but not to edges, to keep the layout readable.
+      papers with me. Click any node to filter my publications by that
+      co-author and see our joint papers; drag to rearrange the layout.
     </p>
   </div>
   <svg class="coauthor-graph__svg" aria-labelledby="coauthor-graph-title"
@@ -53,7 +51,7 @@ focal author. Click the background (or the close button) to clear.
   const panelClose = container.querySelector(".coauthor-graph__panel-close");
 
   const width = container.clientWidth || 720;
-  const height = 520;
+  const height = 380;
   svgEl.setAttribute("viewBox", `0 0 ${width} ${height}`);
   svgEl.style.width = "100%";
   svgEl.style.height = height + "px";
