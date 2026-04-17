@@ -33,11 +33,25 @@ optional Google Analytics include).
     if (!footer) return;
     var p = document.createElement('p');
     p.style.cssText = 'color:#8b949e;font-size:0.85rem;margin-top:0.5rem;';
-    p.innerHTML = '<span class="gc-count"></span>';
+    var span = document.createElement('span');
+    span.className = 'gc-count';
+    p.appendChild(span);
     footer.appendChild(p);
     (function poll() {
       if (window.goatcounter && goatcounter.visit_count) {
-        goatcounter.visit_count({ append: '.gc-count', type: 'html', no_branding: true, style: '' });
+        try {
+          goatcounter.visit_count({
+            append: '.gc-count', type: 'html', no_branding: true, style: '',
+            no_error: true
+          });
+        } catch (e) { p.style.display = 'none'; }
+        // Hide if the API returned an error string instead of a count.
+        setTimeout(function () {
+          if (span.textContent.toLowerCase().indexOf('error') !== -1 ||
+              span.textContent.trim() === '') {
+            p.style.display = 'none';
+          }
+        }, 2000);
       } else {
         setTimeout(poll, 200);
       }
