@@ -31,31 +31,17 @@ optional Google Analytics include).
   document.addEventListener('DOMContentLoaded', function () {
     var footer = document.querySelector('.site-footer .wrapper');
     if (!footer) return;
-    var p = document.createElement('p');
-    p.style.cssText = 'color:#8b949e;font-size:0.85rem;margin-top:0.5rem;';
-    var span = document.createElement('span');
-    span.className = 'gc-count';
-    p.appendChild(span);
-    footer.appendChild(p);
-    (function poll() {
-      if (window.goatcounter && goatcounter.visit_count) {
-        try {
-          goatcounter.visit_count({
-            append: '.gc-count', type: 'html', no_branding: true, style: '',
-            no_error: true
-          });
-        } catch (e) { p.style.display = 'none'; }
-        // Hide if the API returned an error string instead of a count.
-        setTimeout(function () {
-          if (span.textContent.toLowerCase().indexOf('error') !== -1 ||
-              span.textContent.trim() === '') {
-            p.style.display = 'none';
-          }
-        }, 2000);
-      } else {
-        setTimeout(poll, 200);
-      }
-    })();
+    var path = encodeURIComponent(location.pathname);
+    fetch('https://andreasschachner.goatcounter.com/counter/' + path + '.json')
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+      .then(function (d) {
+        if (!d || !d.count || d.count === '0') return;
+        var p = document.createElement('p');
+        p.style.cssText = 'color:#8b949e;font-size:0.85rem;margin-top:0.5rem;';
+        p.textContent = d.count + ' page views';
+        footer.appendChild(p);
+      })
+      .catch(function () { /* silently hide on error */ });
   });
   </script>
 </head>
