@@ -11,7 +11,7 @@ layout: home
 
 <div style="width: 650px;">
    <p align="justify">
-   I am a postdoctoral researcher in theoretical physics, jointly affiliated with Cornell University (Department of Physics) and the Arnold Sommerfeld Center at Ludwig-Maximilians-Universität München. My work lies at the interface of string theory, quantum gravity, and machine learning, with a sustained focus on extracting controlled four-dimensional effective theories from string compactifications &mdash; flux vacua, moduli stabilisation, de Sitter constructions, higher-derivative corrections, and the resulting axion phenomenology. A complementary thread develops open-source, JAX-native scientific software to bring large-scale computation and modern machine-learning methods to bear on the string landscape.
+   I am a postdoctoral researcher in theoretical physics, jointly affiliated with Cornell University (Department of Physics) and the Arnold Sommerfeld Center at Ludwig-Maximilians-Universität München. My work lies at the interface of string theory, quantum gravity, and machine learning, with a sustained focus on extracting controlled four-dimensional effective theories from string compactifications &mdash; flux vacua, moduli stabilisation, de Sitter constructions, higher-derivative corrections, and the resulting axion phenomenology. A complementary thread develops open-source, JAX-native scientific software to bring large-scale computation and modern machine-learning methods to bear on problems in high-energy theory.
    </p>
 </div>
 <br>

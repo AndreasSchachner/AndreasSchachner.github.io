@@ -26,4 +26,22 @@ optional Google Analytics include).
 
   <script data-goatcounter="https://andreasschachner.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var footer = document.querySelector('.site-footer .wrapper');
+    if (!footer) return;
+    var p = document.createElement('p');
+    p.style.cssText = 'color:#8b949e;font-size:0.85rem;margin-top:0.5rem;';
+    p.innerHTML = '<span class="gc-count"></span>';
+    footer.appendChild(p);
+    (function poll() {
+      if (window.goatcounter && goatcounter.visit_count) {
+        goatcounter.visit_count({ append: '.gc-count', type: 'html', no_branding: true, style: '' });
+      } else {
+        setTimeout(poll, 200);
+      }
+    })();
+  });
+  </script>
 </head>

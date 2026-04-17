@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Postdoctoral researcher in theoretical physics at Cornell University and the Arnold
   Sommerfeld Center, LMU Munich. String phenomenology, flux vacua, moduli stabilisation,
   de Sitter constructions, higher-derivative corrections, the axiverse, and JAX-native
-  machine-learning tools for the string landscape.
+  machine-learning tools for high-energy theory.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://andreasschachner.github.io"
 twitter_username: "Andi1707"
