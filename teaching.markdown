@@ -4,57 +4,50 @@ title: Teaching
 permalink: /teaching/
 ---
 
+I have taught and supervised across three institutions (Cambridge,
+Heidelberg, Munich), delivered lecture series at international schools,
+and have a textbook in preparation with Cambridge University Press.
 
-### <b> Lectures at schools and workshops </b>
+### Books and lecture notes
 
-* Lectures on *Machine Learning Techniques in the String Landscape* at [XX AVOGADRO MEETING on Strings, Supergravity and Gauge Theories](https://agenda.infn.it/event/42186/), see the corresponding [GitHub repository](https://github.com/AndreasSchachner/ml-string-landscape)
+- **Lectures on the Standard Model** with Fernando Quevedo (Cambridge
+  University). Part III lectures held 2020–2022; under contract with
+  Cambridge University Press for publication in early 2027.
+  [arXiv:2409.09211](https://arxiv.org/abs/2409.09211)
 
-### Lecture Notes and Reviews:
+- **TASI Lectures on de Sitter Vacua** with Liam McAllister (Cornell
+  University). Lectures held at
+  [TASI 2025](https://sites.google.com/colorado.edu/tasi-2025-hub/home);
+  to be submitted to Physics Reports.
+  [arXiv:2512.17095](https://arxiv.org/abs/2512.17095)
 
-1. "**TASI Lectures on de Sitter Vacua**" in collaboration with Liam McAllister (Cornell University)
+### Lecture series at international schools
 
-    * Lectures held by Liam McAllister at [TASI 2025](https://sites.google.com/colorado.edu/tasi-2025-hub/home). 
-    * To be submitted to Physics Reports.
-    * e-Print: [2512.17095 [hep-th]](https://arxiv.org/abs/2512.17095)
+- **Machine Learning Techniques in the String Landscape** at the
+  [XX Avogadro Meeting on Strings, Supergravity and Gauge Theories](https://agenda.infn.it/event/42186/)
+  (Naples, December 2024). Materials on
+  [GitHub](https://github.com/AndreasSchachner/ml-string-landscape).
 
-    &nbsp;
+### University teaching
 
-2. "**Cambridge Lectures on The Standard Model**" in collaboration with Fernando Quevedo (Cambridge University)
+#### Ludwig-Maximilians-Universität München (2023–2025)
 
-    * Part III lectures on the Standard Model of particle physics held 2020 to 2022
-    * Publisher: under contract with Cambridge University Press for publication in early 2027
-    * e-Print: [2409.09211 [hep-th]](https://arxiv.org/abs/2409.09211)
+- AI Lab Course — supervisor guiding students in applying neural
+  networks to solve PDEs in physics (SoSe 2024, SoSe 2025)
+- String Theory I tutorials (WiSe 2024/25, Lecturer: PD Dr. R. Blumenhagen)
+- String Theory I tutorials (WiSe 2023/24, Lecturer: Dr. R. Helling)
+- Lunch Seminar series (WiSe 2023/24, Group: Prof. Dr. D. Lüst)
 
-    &nbsp;
+#### University of Cambridge (2019–2022)
 
-### <b> Ludwig Maximilian University of Munich </b>
+- Standard Model example classes (Lent 2020–2022, Lecturer: Prof. F. Quevedo)
+- Advanced Quantum Field Theory example classes (Lent 2021–2022, Lecturer: Prof. M. Wingate)
+- Advanced Quantum Field Theory drop-in sessions (Lent 2021)
+- Part III Seminar Series — supervisor and host (Michaelmas 2020)
 
-* Summer terms 2024 and 2025: Supervisor of an experiment in the AI Lab Course, guiding students in applying neural networks to solve partial differential equations in physics.
+#### Ruprecht-Karl University of Heidelberg (2015–2018)
 
-* Winter term 2024/25: String Theory I tutorials (Lecturer: PD Dr. R. Blumenhagen)
-
-* Winter term 2023/24: String Theory I tutorials (Lecturer: Dr. R. Helling) and Lunch Seminar series (Group: Prof. Dr. Lüst).
-
-### <b> Unversity of Cambridge </b>
-
-* Lent terms 2020-2022: Standard Model example classes (Lecturer: Prof. F. Quevedo, co-author of lecture notes, click [https://arxiv.org/abs/2409.09211](https://arxiv.org/abs/2409.09211) (to be published as book with Cambridge University Press in 2026/27))
-
-* Lent term 2021 and 2022: Advanced Quantum Field Theory example classes (Lecturer: Prof. M. Wingate)
-
-* Lent term 2021: Drop in sessions Advanced Quantum Field Theory
-
-* Michaelmas term 2020: Supervisor and Host at the Part III Seminar Series
-
-
-### <b> Ruprecht Karl University of Heidelberg </b>
-
-* Summer term 2018: Quantum Mechanics (Lecturer: Prof. A. Hebecker)
-
-* Winter term 2017/18: Electrodynamics (Lecturer: Prof. B. M. Schäfer)
-
-* Summer term 2016: Mathematical Methods in Physics (Lecturer: Prof. M. Salmhofer)
-
-* Winter term 2015/16: Classical Mechanics (Lecturer: Prof. M. Bartelmann)
-
-
-
+- Quantum Mechanics (SoSe 2018, Lecturer: Prof. A. Hebecker)
+- Electrodynamics (WiSe 2017/18, Lecturer: Prof. B. M. Schäfer)
+- Mathematical Methods in Physics (SoSe 2016, Lecturer: Prof. M. Salmhofer)
+- Classical Mechanics (WiSe 2015/16, Lecturer: Prof. M. Bartelmann)
