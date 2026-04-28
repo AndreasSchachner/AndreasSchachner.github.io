@@ -15,9 +15,9 @@ and have a textbook in preparation with Cambridge University Press.
   Cambridge University Press for publication in early 2027.
   [arXiv:2409.09211](https://arxiv.org/abs/2409.09211)
 
-- **TASI Lectures on de Sitter Vacua** with Liam McAllister (Cornell
-  University). Lectures held at
-  [TASI 2025](https://sites.google.com/colorado.edu/tasi-2025-hub/home);
+- **Lectures on de Sitter Vacua** with Liam McAllister (Cornell
+  University). Based on lectures held at
+  [TASI 2025](https://sites.google.com/colorado.edu/tasi-2025-hub/home) by L. McAllister;
   to be submitted to Physics Reports.
   [arXiv:2512.17095](https://arxiv.org/abs/2512.17095)
 
