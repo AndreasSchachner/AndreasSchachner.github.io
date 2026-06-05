@@ -14,6 +14,57 @@
 # Entries below migrated from talks.pdf (MM/DD/YYYY) and CV (DD/MM/YYYY),
 # normalised to ISO dates. One ambiguity flagged inline.
 
+- date: "2026-08-21"
+  event: Seminar
+  venue: Peking University, Beijing, China
+  type: invited-seminar
+  venue_key: peking_u
+  url: ""
+  slides: ""
+
+- date: "2026-08-20"
+  event: AI and string math workshop
+  venue: BIMSA, Beijing, China
+  type: invited-plenary
+  venue_key: bimsa_beijing
+  url: "https://www.bimsa.cn"
+  slides: ""
+
+- date: "2026-06-22"
+  event: The Unreasonable Effectiveness of Toric Geometry — Bridging Mathematics, Computation, and String Theory
+  title: "How toric geometry is used in string cosmology and phenomenology"
+  venue: Erwin Schrödinger International Institute for Mathematics and Physics (ESI), Vienna, Austria
+  type: lectures
+  venue_key: esi_vienna
+  url: ""
+  slides: ""
+
+- date: "2026-06-08"
+  event: AI reasoning workshop
+  venue: Aspen Center for Physics, Aspen, CO, USA
+  type: invited-plenary
+  venue_key: aspen_center
+  url: ""
+  slides: ""
+
+- date: "2026-05-28"
+  event: String Theory and the Observable Universe
+  venue: Aspen Center for Physics, Aspen, CO, USA
+  type: invited-plenary
+  venue_key: aspen_center
+  url: ""
+  slides: ""
+  papers: ["2405.08871", "2306.06160", "1907.10072"]
+
+- date: "2026-05-19"
+  event: String field theory and flux compactification
+  venue: Centro de Ciencias de Benasque Pedro Pascual, Benasque, Spain
+  type: invited-plenary
+  venue_key: benasque_ccbpp
+  url: "https://www.benasque.org/2026sft/cgi-bin/talks/allprint.pl"
+  slides: ""
+  papers: ["2205.11530", "2507.07934"]
+
 - date: "2026-05-06"
   event: MIT seminar
   title: "One integral to compute them all: α'-corrected D-brane actions from Schwinger time in M-theory"

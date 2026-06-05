@@ -263,3 +263,43 @@ kaist_daejeon:
   lon: 127.3605
   needs-verify: true
 
+benasque_ccbpp:
+  name: Centro de Ciencias de Benasque Pedro Pascual
+  city: Benasque
+  country: Spain
+  lat: 42.6047
+  lon: 0.5286
+  needs-verify: true
+
+aspen_center:
+  name: Aspen Center for Physics
+  city: Aspen, CO
+  country: USA
+  lat: 39.1925
+  lon: -106.8261
+  needs-verify: true
+
+esi_vienna:
+  name: Erwin Schrödinger International Institute for Mathematics and Physics (ESI)
+  city: Vienna
+  country: Austria
+  lat: 48.2227
+  lon: 16.3567
+  needs-verify: true
+
+bimsa_beijing:
+  name: Beijing Institute of Mathematical Sciences and Applications (BIMSA)
+  city: Beijing
+  country: China
+  lat: 40.4072
+  lon: 116.7019
+  needs-verify: true
+
+peking_u:
+  name: Peking University
+  city: Beijing
+  country: China
+  lat: 39.9986
+  lon: 116.3074
+  needs-verify: true
+
