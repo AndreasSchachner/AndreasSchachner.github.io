@@ -36,7 +36,7 @@
   venue: Erwin Schrödinger International Institute for Mathematics and Physics (ESI), Vienna, Austria
   type: lectures
   venue_key: esi_vienna
-  url: ""
+  url: "https://www.esi.ac.at/events/e587/"
   slides: ""
 
 - date: "2026-06-08"
@@ -164,7 +164,8 @@
   papers: ["2405.08871", "2306.06160", "2501.03984"]
 
 - date: "2024-12-18"
-  event: Avogadro Meeting 2024 — Lectures on Machine Learning Techniques in the String Landscape
+  event: Avogadro Meeting 2024
+  title: "Lectures on Machine Learning Techniques in the String Landscape"
   venue: Complesso dei Santi Marcellino e Festo, Napoli, Italy
   type: lectures
   venue_key: naples_smfesto

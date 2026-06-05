@@ -1,12 +1,15 @@
 {%- comment -%}
 Single talk row. `t` is a record from _data/talks.yml. Renders as one
 compact <li>: date — event, venue [optional slides / papers].
-Talk titles are intentionally not shown on the list page.
+Talk titles are intentionally not shown on the list page, except for
+lecture series (type: lectures), where the series title is the primary
+descriptor and is appended after a middot.
 {%- endcomment -%}
 {%- capture event_html -%}
 {% if t.url and t.url != "" %}[**{{ t.event }}**]({{ t.url }}){% else %}**{{ t.event }}**{% endif %}
 {%- endcapture -%}
 {%- capture venue_html -%}{% if t.venue and t.venue != "" %}, {{ t.venue }}{% endif %}{%- endcapture -%}
+{%- capture lecture_html -%}{% if t.type == "lectures" %} &middot; <em>lectures{% if t.title and t.title != "" %}: &ldquo;{{ t.title }}&rdquo;{% endif %}</em>{% endif %}{%- endcapture -%}
 {%- capture papers_html -%}{% if t.papers and t.papers != empty %} &middot; <small>{% for p in t.papers %}[arXiv:{{ p }}](https://arxiv.org/abs/{{ p }}){% unless forloop.last %}, {% endunless %}{% endfor %}</small>{% endif %}{%- endcapture -%}
 {%- capture slides_html -%}{% if t.slides and t.slides != "" %} &middot; [slides]({{ t.slides }}){% endif %}{%- endcapture -%}
-- **{{ t.date | date: "%d/%m/%Y" }}** &mdash; {{ event_html }}{{ venue_html }}{{ slides_html }}{{ papers_html }}
+- **{{ t.date | date: "%d/%m/%Y" }}** &mdash; {{ event_html }}{{ venue_html }}{{ lecture_html }}{{ slides_html }}{{ papers_html }}
