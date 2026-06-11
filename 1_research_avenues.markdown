@@ -272,7 +272,11 @@ In [arXiv:2306.06160](https://arxiv.org/abs/2306.06160) I introduced
 flux-vacuum potentials as smooth, differentiable loss surfaces amenable to
 gradient-based optimisation and ML composition. The same infrastructure
 underpins the large-scale studies in
-[arXiv:2501.03984](https://arxiv.org/abs/2501.03984).
+[arXiv:2501.03984](https://arxiv.org/abs/2501.03984). The codebase is part
+of the [StringJAX](https://github.com/AndreasSchachner/stringjax) ecosystem
+&mdash; [jaxvacua](https://github.com/AndreasSchachner/jaxvacua)
+([docs](https://jaxvacua.readthedocs.io)); see the
+[software page](/software/) for the full stack.
 
 ### Generative and representational approaches
 
@@ -310,8 +314,8 @@ methods for PDEs in physics.
 - Coupling JAX-native physics pipelines to surrogate and generative ML
   models for high-dimensional moduli spaces.
 - Public releases under the
-  [ASchachnerGroup](https://github.com/ASchachnerGroup) GitHub
-  organisation.
+  [StringJAX](https://github.com/AndreasSchachner/stringjax) ecosystem
+  (see the [software page](/software/)).
 
 ---
 
