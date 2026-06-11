@@ -182,10 +182,10 @@
 
 - date: "2024-12-11"
   event: String Data 2024
-  venue: ""
+  venue: Yukawa Institute for Theoretical Physics (YITP), Kyoto University, Japan
   type: contributed
-  venue_key:
-  url: ""
+  venue_key: kyoto_u
+  url: "https://mlphys.scphys.kyoto-u.ac.jp/stringdata2024/"
   slides: ""
 
 - date: "2024-10-23"
@@ -214,7 +214,7 @@
 
 - date: "2024-06-24"
   event: String Phenomenology 2024
-  venue: ""
+  venue: University of Padova, Italy
   type: invited-plenary
   venue_key: padova_uni
   url: ""
@@ -246,7 +246,7 @@
 
 - date: "2023-11-09"
   event: ML4Jets 2023
-  venue: ""
+  venue: DESY, Hamburg, Germany
   type: invited-plenary
   venue_key: desy_hamburg
   url: ""
@@ -262,7 +262,7 @@
 
 - date: "2023-07-06"
   event: String Phenomenology 2023
-  venue: ""
+  venue: KAIST, Daejeon, South Korea
   type: contributed
   venue_key: kaist_daejeon
   url: ""
@@ -286,7 +286,7 @@
 
 - date: "2022-07-18"
   event: Strings 2022
-  venue: ""
+  venue: University of Vienna, Austria
   type: contributed
   venue_key: vienna_uni
   url: ""
@@ -294,7 +294,7 @@
 
 - date: "2022-07-05"
   event: String Phenomenology 2022
-  venue: ""
+  venue: University of Liverpool, UK
   type: contributed
   venue_key: liverpool_uni
   url: ""
@@ -342,9 +342,9 @@
 
 - date: "2021-08-27"
   event: SUSY 2021
-  venue: ""
+  venue: Maynooth University, Ireland (online)
   type: contributed
-  venue_key:
+  venue_key: maynooth_uni
   url: ""
   slides: ""
 
@@ -358,10 +358,10 @@
 
 - date: "2021-05-20"
   event: PPC 2021 — Interconnections between Particle Physics and Cosmology
-  venue: ""
+  venue: University of Oklahoma, Norman, OK, USA (online)
   type: contributed
-  venue_key:
-  url: ""
+  venue_key: ou_norman
+  url: "https://www.ou.edu/cas/physics-astronomy/ppc"
   slides: ""
 
 - date: "2021-05-11"
@@ -374,9 +374,9 @@
 
 - date: "2020-01-07"
   event: String Data 2020
-  venue: ""
+  venue: Simons Center for Geometry and Physics, Stony Brook, NY, USA
   type: contributed
-  venue_key:
+  venue_key: simons_center
   url: ""
   slides: ""
 
@@ -390,7 +390,7 @@
 
 - date: "2019-06-27"
   event: String Phenomenology 2019
-  venue: ""
+  venue: CERN, Geneva, Switzerland
   type: contributed
   venue_key: cern
   url: ""
@@ -405,9 +405,9 @@
   slides: ""
 
 - date: "2016-12-16"
-  event: Gauge Field Dynamics with Ultracold Gas Systems (plenary talk & poster)
-  venue: ""
+  event: Gauge Field Dynamics with Ultracold Gas Systems (WE-Heraeus-Seminar, plenary talk & poster)
+  venue: Physikzentrum Bad Honnef, Germany
   type: invited-plenary
-  venue_key:
-  url: ""
+  venue_key: bad_honnef
+  url: "https://www.thphys.uni-heidelberg.de/~berges/heraeus/index.html"
   slides: ""

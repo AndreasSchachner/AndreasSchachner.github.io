@@ -220,12 +220,11 @@ ihp_paris:
   lon: 2.3438
 
 kyoto_u:
-  name: Kyoto University
+  name: Yukawa Institute for Theoretical Physics (YITP), Kyoto University
   city: Kyoto
   country: Japan
   lat: 35.0262
   lon: 135.7808
-  needs-verify: true
 
 # ---- Entries to confirm before switching on the map -----------------
 # If you can tell me the host city for each, I'll fill the coords and
@@ -301,5 +300,29 @@ peking_u:
   country: China
   lat: 39.9986
   lon: 116.3074
+  needs-verify: true
+
+maynooth_uni:
+  name: Maynooth University (SUSY 2021, online)
+  city: Maynooth
+  country: Ireland
+  lat: 53.3819
+  lon: -6.5995
+  needs-verify: true
+
+ou_norman:
+  name: University of Oklahoma, Department of Physics & Astronomy (PPC 2021, online)
+  city: Norman, OK
+  country: USA
+  lat: 35.2059
+  lon: -97.4458
+  needs-verify: true
+
+bad_honnef:
+  name: Physikzentrum Bad Honnef (WE-Heraeus-Seminar)
+  city: Bad Honnef
+  country: Germany
+  lat: 50.6378
+  lon: 7.2278
   needs-verify: true
 
