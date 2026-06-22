@@ -5,8 +5,9 @@ permalink: /teaching/
 ---
 
 I have taught and supervised across three institutions (Cambridge,
-Heidelberg, Munich), delivered lecture series at international schools,
-and have a textbook in preparation with Cambridge University Press.
+Heidelberg, Munich), delivered lectures at international schools and
+programmes, and have a textbook in preparation with Cambridge University
+Press.
 
 ### Books and lecture notes
 
@@ -21,7 +22,14 @@ and have a textbook in preparation with Cambridge University Press.
   to be submitted to Physics Reports.
   [arXiv:2512.17095](https://arxiv.org/abs/2512.17095)
 
-### Lecture series at international schools
+### Lectures at international schools and programmes
+
+- **Toric methods for Calabi–Yau compactifications and the string
+  landscape** at the programme
+  [The Unreasonable Effectiveness of Toric Geometry — Bridging Mathematics, Computation, and String Theory](https://www.esi.ac.at/events/e587/),
+  Erwin Schrödinger International Institute for Mathematics and Physics
+  (ESI), Vienna (June 2026). Notes on
+  [GitHub](https://github.com/AndreasSchachner/unreasonable-torics).
 
 - **Machine Learning Techniques in the String Landscape** at the
   [XX Avogadro Meeting on Strings, Supergravity and Gauge Theories](https://agenda.infn.it/event/42186/)

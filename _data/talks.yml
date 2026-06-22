@@ -32,12 +32,13 @@
 
 - date: "2026-06-22"
   event: The Unreasonable Effectiveness of Toric Geometry — Bridging Mathematics, Computation, and String Theory
-  title: "How toric geometry is used in string cosmology and phenomenology"
+  title: "Toric methods for Calabi–Yau compactifications and the string landscape"
   venue: Erwin Schrödinger International Institute for Mathematics and Physics (ESI), Vienna, Austria
   type: lectures
   venue_key: esi_vienna
   url: "https://www.esi.ac.at/events/e587/"
   slides: ""
+  notes: "https://github.com/AndreasSchachner/unreasonable-torics"
 
 - date: "2026-06-08"
   event: AI reasoning workshop

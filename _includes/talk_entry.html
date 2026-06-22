@@ -12,4 +12,5 @@ descriptor and is appended after a middot.
 {%- capture lecture_html -%}{% if t.type == "lectures" %} &middot; <em>lectures{% if t.title and t.title != "" %}: &ldquo;{{ t.title }}&rdquo;{% endif %}</em>{% endif %}{%- endcapture -%}
 {%- capture papers_html -%}{% if t.papers and t.papers != empty %} &middot; <small>{% for p in t.papers %}[arXiv:{{ p }}](https://arxiv.org/abs/{{ p }}){% unless forloop.last %}, {% endunless %}{% endfor %}</small>{% endif %}{%- endcapture -%}
 {%- capture slides_html -%}{% if t.slides and t.slides != "" %} &middot; [slides]({{ t.slides }}){% endif %}{%- endcapture -%}
-- **{{ t.date | date: "%d/%m/%Y" }}** &mdash; {{ event_html }}{{ venue_html }}{{ lecture_html }}{{ slides_html }}{{ papers_html }}
+{%- capture notes_html -%}{% if t.notes and t.notes != "" %} &middot; [notes]({{ t.notes }}){% endif %}{%- endcapture -%}
+- **{{ t.date | date: "%d/%m/%Y" }}** &mdash; {{ event_html }}{{ venue_html }}{{ lecture_html }}{{ slides_html }}{{ notes_html }}{{ papers_html }}
