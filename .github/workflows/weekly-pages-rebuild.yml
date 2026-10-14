@@ -1,0 +1,39 @@
+# Weekly rebuild of the GitHub Pages site.
+#
+# The talks page splits talks into "Upcoming" and past sections using the
+# build time (`site.time`), so a talk stays under "Upcoming" until the next
+# build. This workflow asks GitHub Pages to rebuild once a week, so the
+# split stays current without a manual push.
+#
+# It only requests a build of the branch configured under Settings -> Pages;
+# it does not build, commit, or deploy anything itself.
+#
+# Notes:
+# - Scheduled workflows run from the default branch (master), so this file
+#   lives on master even though Pages publishes from another branch.
+# - GitHub disables scheduled workflows in public repositories after 60 days
+#   without repository activity. If that happens, re-enable it under the
+#   Actions tab.
+
+name: Weekly Pages rebuild
+
+on:
+  schedule:
+    - cron: "17 5 * * 1"  # Mondays 05:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/weekly-pages-rebuild.yml
+
+permissions:
+  pages: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request a GitHub Pages build
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
