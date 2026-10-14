@@ -15,6 +15,20 @@
 #   thesis             — PhD/MSc thesis
 #   early-qft          — pre-string-theory / early QFT work
 
+- arxiv: 2609.16117
+  title: An attempt to derive the LVS from a 10d EFT perspective
+  authors:
+    - A. Hebecker
+    - A. Schachner
+    - G. M. Sifo
+  year: 2026
+  published: null
+  doi: ""
+  type: article
+  cluster: flux-moduli
+  also: []
+  citations_inspire: 1
+  earliest_date: "2026-09-14"
 - arxiv: 2603.04941
   title: Parameter compression in the flux landscape
   authors:
@@ -25,7 +39,7 @@
     - P. Piantadosi
     - A. Schachner
   year: 2026
-  published: null
+  published: JHEP
   doi: ""
   type: article
   cluster: ml-computational
@@ -178,7 +192,7 @@
     - A. Schachner
     - S. Schreyer
   year: 2025
-  published: null
+  published: JHEP
   doi: ""
   type: article
   cluster: de-sitter
@@ -208,7 +222,7 @@
     - K. K. Rogers
     - A. Schachner
   year: 2025
-  published: null
+  published: Phys.Rev.D
   doi: ""
   type: article
   cluster: axions-axiverse
@@ -341,14 +355,14 @@
     - A. Schachner
     - E. Sheridan
   year: 2024
-  published: null
+  published: Fortsch.Phys.
   doi: ""
   type: article
   cluster: ml-computational
   also: []
   citations_inspire: 12
   earliest_date: "2024-05-14"
-- arxiv: 2310.06820
+- arxiv: "2310.06820"
   title: Counting Calabi-Yau Threefolds
   authors:
     - N. Gendler
@@ -393,7 +407,7 @@
   also: []
   citations_inspire: 16
   earliest_date: "2023-07-28"
-- arxiv: 2306.06160
+- arxiv: "2306.06160"
   title: JAXVacua — a framework for sampling string vacua
   authors:
     - A. Dubey
@@ -434,7 +448,7 @@
   also: []
   citations_inspire: 1
   earliest_date: "2022-10-21"
-- arxiv: 2205.11530
+- arxiv: "2205.11530"
   title: "Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles"
   authors:
     - J. T. Liu

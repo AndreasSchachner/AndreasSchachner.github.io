@@ -326,3 +326,26 @@ bad_honnef:
   lon: 7.2278
   needs-verify: true
 
+tamu_college_station:
+  name: Texas A&M University
+  city: College Station, TX
+  country: USA
+  lat: 30.6187
+  lon: -96.3365
+  needs-verify: true
+
+stanford_u:
+  name: Stanford University
+  city: Stanford, CA
+  country: USA
+  lat: 37.4275
+  lon: -122.1697
+  needs-verify: true
+
+yonsei_seoul:
+  name: Yonsei University
+  city: Seoul
+  country: South Korea
+  lat: 37.5658
+  lon: 126.9386
+  needs-verify: true

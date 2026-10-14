@@ -14,6 +14,38 @@
 # Entries below migrated from talks.pdf (MM/DD/YYYY) and CV (DD/MM/YYYY),
 # normalised to ISO dates. One ambiguity flagged inline.
 
+- date: "2026-12-10"
+  event: String Data 2026
+  venue: UNIST, Ulsan, South Korea
+  type: invited-plenary
+  venue_key: unist
+  url: "https://rakkyeongseong.github.io/stringdata2026/"
+  slides: ""
+
+- date: "2026-12-08"
+  event: Seminar
+  venue: Yonsei University, Seoul, South Korea
+  type: invited-seminar
+  venue_key: yonsei_seoul
+  url: ""
+  slides: ""
+
+- date: "2026-11-20"
+  event: Seminar
+  venue: Stanford University, Stanford, CA, USA
+  type: invited-seminar
+  venue_key: stanford_u
+  url: ""
+  slides: ""
+
+- date: "2026-11-16"
+  event: Seminar
+  venue: Texas A&M University, College Station, TX, USA
+  type: invited-seminar
+  venue_key: tamu_college_station
+  url: ""
+  slides: ""
+
 - date: "2026-08-21"
   event: Seminar
   venue: Peking University, Beijing, China
