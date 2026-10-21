@@ -304,7 +304,7 @@ String Landscape* at the
 [XX&nbsp;Avogadro&nbsp;Meeting](https://agenda.infn.it/event/42186/) &mdash;
 materials on
 [GitHub](https://github.com/AndreasSchachner/ml-string-landscape) &mdash;
-and I supervise student projects at the LMU AI Lab on neural-network
+and I supervised student projects at the LMU AI Lab on neural-network
 methods for PDEs in physics.
 
 ### Ongoing directions

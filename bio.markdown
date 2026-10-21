@@ -7,19 +7,21 @@ permalink: /bio/
 
 ### Professional Career
 
-- **Since 09/2022**: Four year research associate at the Department of Physics, Cornell University, Ithaca, USA, and the Arnold Sommerfeld Center for Theoretical Physics, Ludwig-Maximilians-University, Munich, Germany
+- **Since 10/2026**: *Akademischer Rat auf Zeit* (postdoctoral researcher and lecturer, 3+3-year appointment) at the Institute for Theoretical Physics, Heidelberg University, Germany
+
+- **09/2022-09/2026**: Four year research associate at the Department of Physics, Cornell University, Ithaca, USA, and the Arnold Sommerfeld Center for Theoretical Physics, Ludwig-Maximilians-University, Munich, Germany
 
 ### Education
 
 - **10/2019-08/2022**: PhD student in Applied Mathematics and Theoretical Physics, DAMTP, University of Cambridge (Supervisor: Prof. Fernando Quevedo, Thesis: [On Vacuum Structures and Quantum Corrections in String Theory](https://www.repository.cam.ac.uk/handle/1810/342316))
 
-- **01/2019-09/2019**: Research visitor funded by Exposé scholarship of the German Academic Scholarship Foundation (GASF) at the University of Wisconsin-Madison (Prof. Gary Shiu), Ruprecht Karl University in Heidelberg (Prof. Arthur Hebecker) and ICTP Trieste (Prof. Fernando Quevedo)
+- **03/2019-09/2019**: Research visitor funded by Exposé scholarship of the German Academic Scholarship Foundation (GASF) at the University of Wisconsin-Madison (Prof. Gary Shiu), Ruprecht Karl University in Heidelberg (Prof. Arthur Hebecker) and ICTP Trieste (Prof. Fernando Quevedo)
 
-- **09/2015 - 12/2018**: Master's degree in Physics at the Ruprecht Karl University in Heidelberg (Thesis supervisor: Prof. Arthur Hebecker, Thesis: [1812.05626](https://arxiv.org/pdf/1812.05626))
+- **08/2015-02/2019**: Master's degree in Physics at the Ruprecht Karl University in Heidelberg (Thesis supervisor: Prof. Arthur Hebecker, Thesis: [1812.05626](https://arxiv.org/pdf/1812.05626))
 
 - **10/2016-07/2017**: Part III of the Mathematical Tripos (Master of Advanced Study in Mathematics) at the University of Cambridge
 
-- **10/2012-8/2015**: Bachelor's degree in Physics at the Ruprecht Karl University in Heidelberg (Thesis supervisor: Prof. Jürgen Berges, Thesis: [1612.03038](https://arxiv.org/pdf/1612.03038))
+- **09/2012-09/2015**: Bachelor's degree in Physics at the Ruprecht Karl University in Heidelberg (Thesis supervisor: Prof. Jürgen Berges, Thesis: [1612.03038](https://arxiv.org/pdf/1612.03038))
 
 &nbsp;
 

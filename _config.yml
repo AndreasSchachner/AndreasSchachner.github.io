@@ -19,10 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Andreas Schachner
-email: as3475@cornell.edu
+email: andreas.schachner@gmx.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Postdoctoral researcher in theoretical physics at Cornell University and the Arnold
-  Sommerfeld Center, LMU Munich. String phenomenology, flux vacua, moduli stabilisation,
+  Postdoctoral researcher and lecturer at the Institute for Theoretical Physics,
+  Heidelberg University. String phenomenology, flux vacua, moduli stabilisation,
   de Sitter constructions, higher-derivative corrections, the axiverse, and JAX-native
   machine-learning tools for high-energy theory.
 baseurl: "" # the subpath of your site, e.g. /blog
