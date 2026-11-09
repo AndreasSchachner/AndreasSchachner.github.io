@@ -14,6 +14,22 @@
 # Entries below migrated from talks.pdf (MM/DD/YYYY) and CV (DD/MM/YYYY),
 # normalised to ISO dates. One ambiguity flagged inline.
 
+- date: "2026-12-16"
+  event: Seminar
+  venue: Hokkaido University, Sapporo, Japan
+  type: invited-seminar
+  venue_key: hokkaido_sapporo
+  url: ""
+  slides: ""
+
+- date: "2026-12-14"
+  event: Seminar
+  venue: RIKEN, Tokyo, Japan
+  type: invited-seminar
+  venue_key: riken_wako
+  url: ""
+  slides: ""
+
 - date: "2026-12-10"
   event: String Data 2026
   venue: UNIST, Ulsan, South Korea

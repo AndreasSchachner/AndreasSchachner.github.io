@@ -349,3 +349,19 @@ yonsei_seoul:
   lat: 37.5658
   lon: 126.9386
   needs-verify: true
+
+riken_wako:
+  name: RIKEN (Wako campus)
+  city: Wako, Saitama (Tokyo area)
+  country: Japan
+  lat: 35.7806
+  lon: 139.6150
+  needs-verify: true
+
+hokkaido_sapporo:
+  name: Hokkaido University
+  city: Sapporo
+  country: Japan
+  lat: 43.0706
+  lon: 141.3477
+  needs-verify: true
