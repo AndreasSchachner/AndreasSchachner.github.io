@@ -46,6 +46,14 @@
   url: ""
   slides: ""
 
+- date: "2026-11-26"
+  event: Hamburg-Heidelberg-Munich Retreat on Quantum Gravity and the Swampland
+  venue: Ringberg Castle, Tegernsee, Germany
+  type: invited-plenary
+  venue_key: ringberg_castle
+  url: "https://wwwth.mpp.mpg.de/members/blumenha/ringberg2026/HH-HD-M-retreat_main.html"
+  slides: ""
+
 - date: "2026-11-20"
   event: Seminar
   venue: Stanford University, Stanford, CA, USA
