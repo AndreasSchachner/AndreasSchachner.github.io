@@ -273,25 +273,36 @@ flux-vacuum potentials as smooth, differentiable loss surfaces amenable to
 gradient-based optimisation and ML composition. The same infrastructure
 underpins the large-scale studies in
 [arXiv:2501.03984](https://arxiv.org/abs/2501.03984). The codebase is part
-of the [StringJAX](https://github.com/AndreasSchachner/stringjax) ecosystem
-&mdash; [jaxvacua](https://github.com/AndreasSchachner/jaxvacua)
+of the [StringJAX](https://github.com/StringJAX/stringjax) ecosystem
+&mdash; [jaxvacua](https://github.com/StringJAX/jaxvacua)
 ([docs](https://jaxvacua.readthedocs.io)); see the
 [software page](/software/) for the full stack.
 
-### Generative and representational approaches
+### Generative models and towards a foundation model
 
 Probing flux-vacuum distributions with generative methods was the subject
 of [arXiv:2307.15749](https://arxiv.org/abs/2307.15749) (*W&#8320;_sample =
 np.random.normal(0,1)?*). More recently,
 [arXiv:2603.04941](https://arxiv.org/abs/2603.04941) studied parameter
 compression in the flux landscape, probing the intrinsic dimensionality of
-the vacuum data.
+the vacuum data. In [arXiv:2611.19950](https://arxiv.org/abs/2611.19950)
+(*Towards a foundation model for Type&nbsp;IIB flux vacua*) we trained
+transformers and diffusion models to generate quantised fluxes, together
+with approximate values of the complex structure moduli and axio-dilaton,
+across several Calabi&ndash;Yau geometries. Pre-training followed by
+post-training via reinforcement learning enables targeted sampling of
+vacua with selected properties, and fine-tuning transfers structure
+learned at smaller h<sup>1,2</sup> to geometries with larger
+h<sup>1,2</sup>.
 
 ### Machine learning meets Calabi&ndash;Yau geometry
 
 On the geometric side,
-[arXiv:2310.06820](https://arxiv.org/abs/2310.06820) addressed counting
-problems for Calabi&ndash;Yau threefolds, and
+[arXiv:2310.06820](https://arxiv.org/abs/2310.06820) enumerated
+topologically inequivalent Calabi&ndash;Yau threefold hypersurfaces, proving
+that triangulations of four-dimensional reflexive polytopes yield 4, 27, 183,
+1,184 and 8,036 distinct simply connected hypersurfaces at
+h<sup>1,1</sup>&nbsp;=&nbsp;1,&nbsp;&hellip;,&nbsp;5, and
 [arXiv:2405.08871](https://arxiv.org/abs/2405.08871) (*The DNA of
 Calabi&ndash;Yau hypersurfaces*) uncovered structural invariants that ML
 methods can exploit for fast classification and navigation of the
@@ -299,7 +310,12 @@ landscape.
 
 ### Teaching and community
 
-I have delivered a lecture series on *Machine Learning Techniques in the
+I gave three lectures on *Toric methods for Calabi&ndash;Yau
+compactifications and the string landscape* at the
+[Erwin Schr&ouml;dinger Institute, Vienna](https://www.esi.ac.at/events/e587/)
+in June 2026 &mdash; notes on
+[GitHub](https://github.com/AndreasSchachner/unreasonable-torics). I have
+also delivered a lecture series on *Machine Learning Techniques in the
 String Landscape* at the
 [XX&nbsp;Avogadro&nbsp;Meeting](https://agenda.infn.it/event/42186/) &mdash;
 materials on
@@ -314,7 +330,7 @@ methods for PDEs in physics.
 - Coupling JAX-native physics pipelines to surrogate and generative ML
   models for high-dimensional moduli spaces.
 - Public releases under the
-  [StringJAX](https://github.com/AndreasSchachner/stringjax) ecosystem
+  [StringJAX](https://github.com/StringJAX/stringjax) ecosystem
   (see the [software page](/software/)).
 
 ---

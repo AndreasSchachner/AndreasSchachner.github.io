@@ -15,6 +15,22 @@
 #   thesis             — PhD/MSc thesis
 #   early-qft          — pre-string-theory / early QFT work
 
+- arxiv: "2611.19950"
+  title: Towards a foundation model for Type IIB flux vacua
+  authors:
+    - S. Krippendorf
+    - M. Larfors
+    - Z. Liu
+    - A. Schachner
+    - M. Walden
+  year: 2026
+  published: null
+  doi: ""
+  type: article
+  cluster: ml-computational
+  also: [flux-moduli]
+  citations_inspire: 0
+  earliest_date: "2026-11-15"
 - arxiv: 2609.16117
   title: An attempt to derive the LVS from a 10d EFT perspective
   authors:
